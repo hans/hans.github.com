@@ -11,25 +11,64 @@
     <link rel="openid2.provider" href="http://www.myopenid.com/server" />
     <link rel="openid2.local_id" href="http://hansengel.myopenid.com" />
 
-	<title>github :: hans engel</title>
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('ul.icons li').hover(
+				function() {
+					$('.icon-name', this)
+						.css({opacity: 0})
+						.animate({opacity: 100}, 1000)
+				},
+				function() {
+					$('.icon-name', this)
+						.animate({opacity: 0}, 500)
+				}
+			)
+		})
+	</script>
+
+	<link href="http://fonts.googleapis.com/css?family=Cabin:regular,bold" rel="stylesheet" type="text/css" />
 	<style type="text/css" media="screen">
-	* { margin: 0; padding: 0; }
-	body { font-family: 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif; background-color: #fff; overflow: auto; color: #ccc; font-size: 16px; }
-	h1 { font-weight: normal; margin-bottom: 30px; color: #222; font-size: 50px; }
-	a { text-decoration: none; color: #777; }
-	a:hover { color: #444; }
-	img#forkme { position: absolute; top: 0; left: 0; border: 0; }
-	#container { width: 100%; text-align: center; margin: 100px 0; }
+		* { margin: 0; padding: 0; }
+		body { font-family: 'Lucida Grande', Verdana, sans-serif; background-color: #f1f1f1; overflow: auto; color: #ccc; font-size: 16px; text-shadow: white 0px 1px 0; }
+		h1, h2 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; }
+		h1 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; font-weight: bold; margin-bottom: 30px; padding-bottom: 20px; color: #222; font-size: 80px; text-shadow: white 0px 1px 0, black 0 -1px 0; letter-spacing: -3px; border-bottom: 1px solid #ccc; }
+		h2 { font-weight: normal; color: #777; font-size: 40px; text-align: center; }
+		a { text-decoration: none; color: #777; }
+		a:hover { color: #444; }
+		ul { list-style: none; }
+		ul.icons { margin: 15px 0; }
+		ul.icons li { float: left; margin: 0px 15px; width: 100px; text-align: center; }
+		ul.icons li .icon-name { color: #aaa; opacity: 0; text-align: center; }
+		img#forkme { position: absolute; top: 0; left: 0; border: 0; }
+		#container { width: 800px; margin: 100px auto; }
 	</style>
+	
+	<title>hans engel</title>
 </head>
 <body>
 	<a href="http://github.com/hans"><img id="forkme" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
 	<div id="container">
-		<h1>oh, hai.</h1>
-		<a href="http://github.com/hans">code</a> | <a href="http://twitter.com/hans_engel">tweet</a>
+		<h1>Hi, I'm Hans.</h1>
+		<p>
+			<h2>I'm a <strong>web developer</strong> obsessed with fun things like <strong>web standards</strong> and <strong>emerging technologies</strong>.</h2>
+			<ul class="icons">
+				<li>
+					<img src="images/ruby.png" width="100" height="100" />
+					<div class="icon-name">Ruby</div>
+				</li>
+				<li>
+					<img src="images/rails.png" width="100" height="100" />
+					<div class="icon-name">Rails</div>
+				</li>
+			</ul>
+		</p>
+		<!--<h2>Side projects keep me goin'! Hurgle Gurgle</h2>
+		ICONS / NAMES / DESCRIPTIONS-->
 	</div>
 </body>
 </html>
 
-<!-- I'm Hans Engel, if you didn't know. Pleased to meet you. :P -->
+<!-- I'm Hans Engel, if you didn't know. Pleased to meet you. :) -->
 
