@@ -34,11 +34,16 @@
 	<style type="text/css" media="screen">
 		* { margin: 0; padding: 0; }
 		body { font-family: 'Lucida Grande', Verdana, sans-serif; background-color: #f1f1f1; overflow: auto; color: #ccc; font-size: 16px; text-shadow: white 0px 1px 0; }
-		h1, h2 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; text-align: center; }
-		h1 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; font-weight: bold; margin-bottom: 30px; padding-bottom: 20px; color: #222; font-size: 80px; text-shadow: white 0px 1px 0, black 0 -1px 0; letter-spacing: -3px; }
+		h1, h2 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; }
+		h1 { font-family: Cabin, 'Myriad Pro', 'Lucida Grande', sans-serif; font-weight: bold; margin-bottom: 30px; padding-bottom: 20px; color: #222; font-size: 80px; text-shadow: white 0px 1px 0, black 0 -1px 0; letter-spacing: -3px; text-align: center; }
 		h2 { font-weight: normal; color: #777; font-size: 40px; }
 		h2 strong { color: #555; }
-		section { margin-bottom: 35px; padding: 30px; background-color: #fefefe; box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+		section, article { margin-bottom: 35px; padding: 30px; background-color: #fefefe; box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+		section h2 { text-align: center; }
+
+		article .content { color: #333; }
+		article .content p { margin: 10px 0; }
+
 		a { text-decoration: none; color: #777; }
 		a:hover { color: #444; }
 		ul { list-style: none; }
@@ -80,9 +85,16 @@
 				</li>
 			</ul>-->
 		</section>
-		<section>
-			<h2>Some <strong>other copy</strong> goes here.</h2>
-		</section>
+		<article id="post-784">
+		    <header>
+			<h2 class="title">This is a sample blog post</h2>
+			<!--<span><time datetime="2011-03-14 12:00:00">14 March 2011, 12:00</time></span>-->
+		    </header>
+		    <div class="content">
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		    </div>
+		</article>
     <section>
       <script src="https://gist.github.com/870942.js"> </script>
     </section>
