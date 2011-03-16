@@ -52,11 +52,15 @@
 		a { text-decoration: none; color: #777; }
 		a:hover { color: #444; }
 		ul { list-style: none; }
-		ul.icons { margin: 15px 0; }
-		ul.icons li { float: left; margin: 0px 15px; width: 100px; text-align: center; }
-		ul.icons li .icon-name { color: #aaa; opacity: 0; text-align: center; }
 		img#forkme { position: absolute; top: 0; left: 0; border: 0; }
 		#container { width: 800px; margin: 100px auto; }
+
+		#projects li { margin-bottom: 20px; }
+		#projects li:last-child { margin-bottom: 0px; }
+		#projects hgroup { position: relative; height: 37px; }
+		#projects h3 { position: absolute; bottom: 0px; left: 0px; font-size: 30px; color: #555; }
+		#projects h4 { position: absolute; bottom: 0px; right: 0px; }
+		#projects p { color: #333; }
     
     .gist-file { border-radius: 10px; }
     .gist-file .gist-data.gist-syntax { border-top-left-radius: 10px; border-top-right-radius: 10px; box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); border-bottom: none !important; }
@@ -80,6 +84,25 @@
 		<section>
 		    <h2>I'm a <strong>developer</strong> obsessed with fun things like <strong>web standards</strong> and <strong>new technologies</strong>.</h2>
 		    <h2>I'm a huge <strong>Ruby</strong> geek and love to use it to create <strong>fast</strong> and <strong>usable</strong> applications.</h2>
+		</section>
+		<section>
+		    <h2>Some of my recent projects:</h2>
+		    <ul id="projects">
+			<li class="project">
+			    <hgroup>
+				<h3>typr</h3>
+				<h4>Ruby on Rails + Redis, CoffeeScript</h4>
+			    </hgroup>
+			    <p>Description goes here.</p>
+			</li>
+			<li class="project">
+			    <hgroup>
+				<h3>jido</h3>
+				<h4>Ruby, Sinatra, Nokogiri</h4>
+			    </hgroup>
+			    <p>Blah blah.</p>
+			</li>
+		    </ul>
 		</section>
 		<article id="post-784">
 		    <header>
