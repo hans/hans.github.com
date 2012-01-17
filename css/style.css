@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Actor);
+
+body {
+  background-color: #f8f8f8;
+  font-size: 15px;
+  color: #222;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: 'Actor';
+  letter-spacing: -1px;
+  margin: 5px 0px;
+}
+
+a {
+  color: #444;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
+pre, blockquote {
+  border-left: 1px solid #ccc;
+  margin-left: 5%;
+  padding-left: 3%;
+  line-height: 22px;
+}
+
+#container {
+  margin: 30px 0px 0px 5.7%;
+  width: 500px;
+}
+
+article header time {
+  color: #888;
+}
+
+article p {
+  line-height: 24px;
+}
