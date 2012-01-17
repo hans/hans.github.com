@@ -6,7 +6,7 @@ layout: default
   <header>
     <h1>{{ page.title }}</h1>
     <time datetime="{{ page.date }}">
-      {{ page.date | format_date }}
+      {{ page.date | date: '%d %B %Y' }}
     </time>
   </header>
 
@@ -21,3 +21,15 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'hansengel';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
