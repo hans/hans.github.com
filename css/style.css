@@ -120,6 +120,10 @@ article {
   margin: 40px 0 20px 0;
 }
 
+article#single {
+  margin-top: 0px;
+}
+
 article:first-child {
   margin-top: 0px;
 }
