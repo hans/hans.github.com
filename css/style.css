@@ -107,6 +107,16 @@ section#container {
   max-width: 50%;
 }
 
+article {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 40px 0 20px 0;
+}
+
+article:first-child {
+  margin-top: 0px;
+}
+
 article header h1 {
   font-weight: bold;
 }
