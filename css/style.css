@@ -61,11 +61,15 @@ aside#sidebar {
   padding: 39px;
   text-shadow: none;
   box-shadow: 0px 0px 5px #3b3c40;
-  color: #ededf3;
+  color: #e4e4ea;
 }
 
 aside#sidebar a {
-  color: #ededf3;
+  color: #e4e4ea;
+}
+
+aside#sidebar a:hover {
+  color: #888;
 }
 
 aside#sidebar h1 {
