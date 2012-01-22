@@ -140,6 +140,15 @@ article header time {
   margin-bottom: 30px;
 }
 
+#pagination {
+  margin: 30px;
+  text-align: center;
+}
+
+#pagination a {
+  padding: 0px 10px;
+}
+
 footer {
   margin-top: 100px;
   text-align: center;

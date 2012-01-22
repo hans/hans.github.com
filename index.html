@@ -4,7 +4,7 @@ title: Hans Engel
 ---
 
 <div id="home">
-  {% for post in site.posts limit: 20 %}
+  {% for post in paginator.posts %}
   <article>
     <header>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -16,4 +16,14 @@ title: Hans Engel
     {{ post.content | split: '<!-- more -->' | first }}
   </article>
   {% endfor %}
+
+  <div id="pagination">
+    {% if paginator.page > 1 %}
+    <a href="/page{{ paginator.previous_page }}">&laquo; previous</a>
+    {% endif %}
+
+    {% if paginator.page < paginator.total_pages %}
+    <a href="/page{{ paginator.next_page }}">next &raquo;</a>
+    {% endif %}
+  </div>
 </div>
