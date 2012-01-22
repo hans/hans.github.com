@@ -138,4 +138,15 @@ article header time {
 
 footer {
   margin-top: 100px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+}
+
+footer a {
+  color: #888;
+}
+
+footer a:hover {
+  color: #aaa;
 }
