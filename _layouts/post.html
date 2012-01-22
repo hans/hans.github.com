@@ -13,6 +13,7 @@ layout: default
   {{ content }}
 </article>
 
+{% if site.related_posts != empty %}
 <div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
@@ -21,6 +22,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% endif %}
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
