@@ -31,22 +31,42 @@
 
 <body>
 
-  <div id="container">
-    <header>
+  <aside id="sidebar">
+    <h1><a href="/">engel</a></h1>
 
-    </header>
+    <p>Hi, I'm Hans Engel. Tagline here. Lorem ipsum dolor sit amet.</p>
 
+    <h2>recent posts</h2>
+    <ul>
+      <li><a href="#">Testing Jekyll</a></li>
+      <li><a href="#">Carbon Emacs, Aquamacs: Not worth your time. Real men build Emacs from source.</a></li>
+    </ul>
+  </aside>
+
+  <section id="container">
     <div id="main" role="main">
+      <header></header>
       {{content}}
     </div>
+
+    <footer>
+      <div id="hcard-Hans-Engel" class="vcard">
+        <a class="email fn n" href="mailto:engel@engel.uk.to">
+          <span class="given-name">Hans</span>
+          <span class="family-name">Engel</span>
+        </a> &mdash; <span class="adr">
+          <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via ant build script-->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <script defer src="/js/plugins.js"></script>
+  <script defer src="/js/script.js"></script>
   <!-- end scripts-->
 </body>
 </html>
