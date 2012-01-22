@@ -107,6 +107,10 @@ section#container {
   max-width: 50%;
 }
 
+article header h1 {
+  font-weight: bold;
+}
+
 article header time {
   color: #888;
 }
