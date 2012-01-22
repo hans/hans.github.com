@@ -53,6 +53,10 @@ pre, blockquote {
   padding-left: 3%;
 }
 
+.align-center {
+  text-align: center;
+}
+
 aside#sidebar {
   float: left;
   width: 18%;
