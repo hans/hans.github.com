@@ -111,7 +111,7 @@ section#container {
   margin-left: 20px;
   padding: 39px;
   background: transparent;
-  max-width: 50%;
+  width: 50%;
 }
 
 article {
@@ -128,7 +128,7 @@ article header h1 {
   font-weight: bold;
 }
 
-article header time {
+article header time, #archive li time {
   color: #888;
 }
 
@@ -162,4 +162,15 @@ footer a {
 
 footer a:hover {
   color: #aaa;
+}
+
+ul#archive {
+  list-style: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 40px 0 20px 0;
+}
+
+ul#archive time {
+  margin-right: 20px;
 }
