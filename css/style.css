@@ -9,7 +9,6 @@ body {
   font-size: 15px;
   color: #222;
   text-shadow: 1px 1px 0px #fff;
-  font-family: Arial;
   line-height: 24px;
 }
 
@@ -57,11 +56,12 @@ pre, blockquote {
   text-align: center;
 }
 
-aside#sidebar {
-  float: left;
-  width: 18%;
-  background-color: #3b3c40;
+.inner {
   padding: 39px;
+}
+
+aside#sidebar {
+  background-color: #3b3c40;
   text-shadow: none;
   box-shadow: 0px 0px 5px #3b3c40;
   color: #e4e4ea;
@@ -107,12 +107,8 @@ aside#sidebar ul li:last-child {
 }
 
 section#container {
-  float: left;
-  margin-left: 20px;
-  padding: 39px;
   background: transparent;
-  width: 50%;
-}
+  }
 
 article {
   padding-bottom: 20px;
@@ -177,4 +173,22 @@ ul#archive {
 
 ul#archive time {
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  aside#sidebar .inner {
+    padding: 10px 30px;
+  }
+
+  aside#sidebar h1 {
+    margin-bottom: 10px;
+  }
+
+  aside#sidebar h2, aside#sidebar #tagline, aside#sidebar #contact-me, aside#sidebar ul#recent-posts {
+    display: none;
+  }
+
+  section#container .inner {
+    padding: 10px;
+  }
 }
