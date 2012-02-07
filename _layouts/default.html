@@ -37,16 +37,20 @@
 
 <body>
 
-  <div class="container">
-    <aside id="sidebar" class="one-third column alpha">
-      <div class="inner">
-        <h1><a href="/">engel</a></h1>
+  <aside id="topbar">
+    <div class="container inner">
+      <h1><a href="/">engel</a></h1>
 
+      <ul id="quick-links">
+	<li><a href="/archives.html">archives</a></li>
+	<li><a href="/rss.xml">rss</a></li>
+	<li><a href="/atom.xml">atom</a></li>
+      </ul>
+
+      <div class="more">
         <p id="tagline">Hi, I'm Hans Engel, a web developer for <a href="http://studiosedition.com">Studio Sedition</a> in Phoenix, AZ.</p>
 
         <p id="contact-me">Need to get in touch? You can contact me <a href="mailto:engel@engel.uk.to">via email</a>.</p>
-
-        <p class="align-center"><a href="/archives.html">archives</a> | <a href="/rss.xml">rss</a> | <a href="/atom.xml">atom</a></p>
 
         {% if site.posts != empty %}
         <h2>recent posts</h2>
@@ -57,28 +61,26 @@
         </ul>
         {% endif %}
       </div>
-    </aside>
+    </div>
+  </aside>
 
-    <section id="container" class="two-thirds column omega">
-      <div class="inner">
-        <div id="main" role="main">
-          <header></header>
-          {{content}}
-        </div>
+  <section id="main" role="main">
+    <div class="container inner">
+      <header></header>
+      {{content}}
 
-        <footer>
-          <div id="hcard-Hans-Engel" class="vcard">
-            <a class="email fn n" href="mailto:engel@engel.uk.to">
-              <span class="given-name">Hans</span>
-              <span class="family-name">Engel</span>
-              </a> &mdash; <span class="adr">
-              <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </section>
-  </div>
+      <footer>
+	<div id="hcard-Hans-Engel" class="vcard">
+          <a class="email fn n" href="mailto:engel@engel.uk.to">
+            <span class="given-name">Hans</span>
+            <span class="family-name">Engel</span>
+          </a> &mdash; <span class="adr">
+            <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
+          </span>
+	</div>
+      </footer>
+    </div>
+  </section>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>

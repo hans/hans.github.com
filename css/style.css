@@ -57,58 +57,79 @@ pre, blockquote {
 }
 
 .inner {
-  padding: 39px;
+  padding: 21px;
 }
 
-aside#sidebar {
+aside#topbar {
   background-color: #3b3c40;
   text-shadow: none;
-  box-shadow: 0px 0px 5px #3b3c40;
+  color: #e4e4ea;
+  box-shadow: 0px 0px 6px #777;
+}
+
+aside#topbar .more {
+  display: none;
+}
+
+aside#topbar ul#quick-links {
+  list-style: none;
+  float: right;
+}
+
+aside#topbar ul#quick-links li {
+  display: inline;
+  border: none;
+}
+
+aside#topbar ul#quick-links li:after {
+  content: " | ";
+  padding: 0px 3px;
+}
+
+aside#topbar ul#quick-links li:last-child:after {
+  content: "";
+}
+
+aside#topbar a {
   color: #e4e4ea;
 }
 
-aside#sidebar a {
-  color: #e4e4ea;
-}
-
-aside#sidebar a:hover {
+aside#topbar a:hover {
   color: #888;
 }
 
-aside#sidebar h1 {
+aside#topbar h1 {
   color: #f2c572;
-  margin-bottom: 40px;
+  margin: 0px;
+  line-height: 24px;
+  float: left;
 }
 
-aside#sidebar h1 a {
+aside#topbar h1 a {
   color: inherit;
   font-weight: inherit;
 }
 
-aside#sidebar h2 {
+aside#topbar h2 {
   color: #ece7d3;
   font-size: 19px;
 }
 
-aside#sidebar ul {
+aside#topbar ul {
   padding-left: 15px;
   list-style: none;
 }
 
-aside#sidebar ul li {
+aside#topbar ul li {
   border-bottom: 1px solid #47484d;
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
 
-aside#sidebar ul li:last-child {
+aside#topbar ul li:last-child {
   border-bottom: none;
   padding-bottom: 0px;
 }
-
-section#container {
-  background: transparent;
-  }
 
 article {
   padding-bottom: 20px;
@@ -126,6 +147,7 @@ article:first-child {
 
 article header h1 {
   font-weight: bold;
+  margin-left: -2px;
 }
 
 article header time, #archive li time {
@@ -176,15 +198,15 @@ ul#archive time {
 }
 
 @media only screen and (max-width: 767px) {
-  aside#sidebar .inner {
+  aside#topbar .inner {
     padding: 10px 30px;
   }
 
-  aside#sidebar h1 {
+  aside#topbar h1 {
     margin-bottom: 10px;
   }
 
-  aside#sidebar h2, aside#sidebar #tagline, aside#sidebar #contact-me, aside#sidebar ul#recent-posts {
+  aside#topbar h2, aside#topbar #tagline, aside#topbar #contact-me, aside#topbar ul#recent-posts {
     display: none;
   }
 
