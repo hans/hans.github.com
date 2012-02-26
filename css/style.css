@@ -48,8 +48,9 @@ a:hover {
 
 pre, blockquote {
   border-left: 1px solid #ccc;
-  margin-left: 5%;
-  padding-left: 3%;
+  margin: 0 0 20px 30px;
+  padding-left: 20px;
+  font-family: Monaco, monospace;
 }
 
 .align-center {
