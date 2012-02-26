@@ -1,4 +1,6 @@
 markdown: rdiscount
 pygments: true
 auto: true
+server: true
+
 paginate: 20
