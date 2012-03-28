@@ -5,19 +5,15 @@ html, body {
 }
 
 body {
-  background-color: #f2f2f2;
-  font-size: 15px;
+  background-color: #fafafa;
+  font: 19px 'Baskerville';
   color: #222;
-  text-shadow: 1px 1px 0px #fff;
-  line-height: 24px;
+  line-height: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font-family: 'Open Sans';
   margin: 5px 0px;
-  text-transform: lowercase;
-  letter-spacing: -1px;
   font-weight: normal;
 }
 
@@ -27,8 +23,8 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
-  line-height: 41px;
+  font-size: 30px;
+  line-height: 48px;
 }
 
 h3 {
@@ -37,20 +33,22 @@ h3 {
 }
 
 a {
-  color: #444;
-  font-weight: bold;
+  color: #840000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #888;
+  color: #aa0000;
 }
 
 pre, blockquote {
   border-left: 1px solid #ccc;
   margin: 0 0 20px 30px;
   padding-left: 20px;
-  font-family: Monaco, monospace;
+}
+
+pre, tt, code {
+  font-family: monospace;
 }
 
 .align-center {
@@ -58,15 +56,17 @@ pre, blockquote {
 }
 
 .inner {
-  padding: 21px;
+  padding: 5px 21px;
+}
+
+#container {
+  max-width: 650px;
+  margin: 25px auto;
 }
 
 aside#topbar {
-  background-color: #3b3c40;
-  text-shadow: none;
-  color: #e4e4ea;
-  box-shadow: 0px 0px 6px #777;
-  padding-bottom: 10px;
+  padding: 16px 0 41px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 aside#topbar .more {
@@ -76,33 +76,16 @@ aside#topbar .more {
 aside#topbar ul#quick-links {
   list-style: none;
   float: right;
-  margin: 5px 0 0 0;
+  margin: 2px 0 0 0;
 }
 
 aside#topbar ul#quick-links li {
-  display: inline;
+  display: inline-block;
+  margin: 0 10px;
   border: none;
 }
 
-aside#topbar ul#quick-links li:after {
-  content: " | ";
-  padding: 0px 3px;
-}
-
-aside#topbar ul#quick-links li:last-child:after {
-  content: "";
-}
-
-aside#topbar a {
-  color: #e4e4ea;
-}
-
-aside#topbar a:hover {
-  color: #888;
-}
-
 aside#topbar h1 {
-  color: #f2c572;
   margin: 0px;
   line-height: 24px;
   float: left;
@@ -149,8 +132,7 @@ article:first-child {
 }
 
 article header h1 {
-  font-weight: bold;
-  margin-left: -2px;
+  margin-bottom: 0px;
 }
 
 article header time, #archive li time {
@@ -175,10 +157,10 @@ article header time, #archive li time {
 }
 
 footer {
-  margin-top: 100px;
+  margin: 100px 0;
   text-align: center;
   color: #666;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 footer a {
@@ -192,28 +174,9 @@ footer a:hover {
 ul#archive {
   list-style: none;
   padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  margin: 40px 0 20px 0;
+  margin: 20px 0;
 }
 
 ul#archive time {
   margin-right: 20px;
-}
-
-@media only screen and (max-width: 767px) {
-  aside#topbar .inner {
-    padding: 10px 30px;
-  }
-
-  aside#topbar h1 {
-    margin-bottom: 10px;
-  }
-
-  aside#topbar h2, aside#topbar #tagline, aside#topbar #contact-me, aside#topbar ul#recent-posts {
-    display: none;
-  }
-
-  section#container .inner {
-    padding: 10px;
-  }
 }

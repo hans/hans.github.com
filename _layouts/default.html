@@ -23,64 +23,59 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <link rel="stylesheet" href="/css/base.css" />
-  <link rel="stylesheet" href="/css/layout.css" />
-  <link rel="stylesheet" href="/css/skeleton.css" />
   <link rel="stylesheet" href="/css/style.css" />
 
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-
-      <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
 
-  <aside id="topbar">
-    <div class="container inner">
-      <h1><a href="/">engel</a></h1>
+  <div id="container">
+    <aside id="topbar">
+      <div class="inner">
+        <h1><a href="/">engel</a></h1>
 
-      <ul id="quick-links">
-	<li><a href="/archives.html">archives</a></li>
-	<li><a href="/rss.xml">rss</a></li>
-	<li><a href="/atom.xml">atom</a></li>
-      </ul>
-
-      <div class="more">
-        <p id="tagline">Hi, I'm Hans Engel, a web developer for <a href="http://studiosedition.com">Studio Sedition</a> in Phoenix, AZ.</p>
-
-        <p id="contact-me">Need to get in touch? You can contact me <a href="mailto:engel@engel.uk.to">via email</a>.</p>
-
-        {% if site.posts != empty %}
-        <h2>recent posts</h2>
-        <ul id="recent-posts">
-          {% for post in site.posts limit: 20 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+        <ul id="quick-links">
+	        <li><a href="/archives.html">archives</a></li>
+	        <li><a href="/rss.xml">rss</a></li>
+	        <li><a href="/atom.xml">atom</a></li>
         </ul>
-        {% endif %}
+
+        <div class="more">
+          <p id="tagline">Hi, I'm Hans Engel, a web developer for <a href="http://studiosedition.com">Studio Sedition</a> in Phoenix, AZ.</p>
+
+          <p id="contact-me">Need to get in touch? You can contact me <a href="mailto:engel@engel.uk.to">via email</a>.</p>
+
+          {% if site.posts != empty %}
+          <h2>recent posts</h2>
+          <ul id="recent-posts">
+            {% for post in site.posts limit: 20 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
       </div>
-    </div>
-  </aside>
+    </aside>
 
-  <section id="main" role="main">
-    <div class="container inner">
-      <header></header>
-      {{content}}
+    <section id="main" role="main">
+      <div class="inner">
+        <header></header>
+        {{content}}
 
-      <footer>
-	<div id="hcard-Hans-Engel" class="vcard">
-          <a class="email fn n" href="mailto:engel@engel.uk.to">
-            <span class="given-name">Hans</span>
-            <span class="family-name">Engel</span>
-          </a> &mdash; <span class="adr">
-            <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
-          </span>
-	</div>
-      </footer>
-    </div>
-  </section>
+        <footer>
+	        <div id="hcard-Hans-Engel" class="vcard">
+            <a class="email fn n" href="mailto:engel@engel.uk.to">
+              <span class="given-name">Hans</span>
+              <span class="family-name">Engel</span>
+            </a> &mdash; <span class="adr">
+              <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
+            </span>
+	        </div>
+        </footer>
+      </div>
+    </section>
+  </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
