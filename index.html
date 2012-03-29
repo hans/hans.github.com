@@ -4,18 +4,23 @@ title: Hans Engel
 ---
 
 <div id="home">
-  {% for post in paginator.posts %}
-  <article>
-    <header>
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <ul id="archive">
+    {% for post in paginator.posts %}
+    <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: '%d %B %Y' }}
+        {{ post.date | date: '%d %b %Y' }}
       </time>
-    </header>
 
-    {{ post.content | split: '<!-- more -->' | first }}
-  </article>
-  {% endfor %}
+      <div class="description">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+
+        {% if post.tagline %}
+        <p class="tagline">{{ post.tagline }}</p>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
   <div id="pagination">
     {% if paginator.page > 1 %}

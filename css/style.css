@@ -177,6 +177,30 @@ ul#archive {
   margin: 20px 0;
 }
 
-ul#archive time {
-  margin-right: 20px;
+ul#archive li {
+  clear: left;
+  margin-bottom: 20px;
+}
+
+ul#archive li:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+ul#archive li time {
+  display: block;
+  float: left;
+  width: 140px;
+}
+
+ul#archive li .description {
+  float: left;
+  max-width: 428px;
+}
+
+ul#archive li .description .tagline {
+  margin: 0;
 }

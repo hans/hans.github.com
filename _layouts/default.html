@@ -24,6 +24,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <link rel="stylesheet" href="/css/style.css" />
+  <!--[if IE]>
+      <link rel="stylesheet" href="/css/ie.css" />
+  <![endif]-->
 
   <script src="/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
@@ -36,7 +39,6 @@
         <h1><a href="/">engel</a></h1>
 
         <ul id="quick-links">
-	        <li><a href="/archives.html">archives</a></li>
 	        <li><a href="/rss.xml">rss</a></li>
 	        <li><a href="/atom.xml">atom</a></li>
         </ul>
@@ -60,7 +62,6 @@
 
     <section id="main" role="main">
       <div class="inner">
-        <header></header>
         {{content}}
 
         <footer>
