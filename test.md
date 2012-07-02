@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
