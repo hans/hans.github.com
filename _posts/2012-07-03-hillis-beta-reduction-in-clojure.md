@@ -12,11 +12,31 @@ Hillis asserted that the everyday [fold / reduce routines][3] that we have all c
 
 Using the positions of each element to match keys and values of the map to be formed, the beta function pulls together data like a zip function. When the duplicate key `Z` is encountered twice, the two values are combined using the `+` function we provided, and the final value corresponding to the key `Z` in the map is `(+ 2 5)`, or `7`.
 
+What is traditional list folding, then? Why, it's just beta reduction with one argument less:
+
+```clojure
+(beta + '(1 2 5) (repeat 1))  ; => {1 8}
+```
+
+When we provide the beta function with the same key for every value (`1`, in this case), all values are combined to the same key using the provided function. This is reduction in a different form!
+
+Below is an implementation of Hillis' beta function in Clojure. I included a shorthand form of the function in which a two-argument call will give the same result as a call to `reduce`:
+
+```clojure
+(beta + '(1 2 5))  ; => 8
+```
+
+Feel free to play around!
+
+```clojure
+
+```
+
 <hr/>
 
 ## Footnotes
 
-1. For simplicity's sake, I deliberately ripped out Hillis' concept of beta reduction from its containing system of parallel processing with xectors. References to the s
+1. For simplicity's sake, I deliberately ripped out Hillis' concept of beta reduction from its containing system of parallel processing with xectors. References to this particular domain have been shamelessly replaced with Clojure-specific terms.
 
 <img src="http://www.assoc-amazon.com/e/ir?t=blog0cbb-20&l=as2&o=1&a=0262580977" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
