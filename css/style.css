@@ -49,6 +49,7 @@ pre, blockquote {
 
 pre, tt, code {
   font-family: monospace;
+  font-size: 17px;
 }
 
 .align-center {
