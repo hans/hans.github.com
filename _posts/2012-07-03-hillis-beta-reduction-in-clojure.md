@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 ---
 Danny Hillis' seminal work [The Connection Machine][1] introduced, among many other things, the concept of "beta reduction" on vectors<sup>1</sup> (I dub this "Hillis beta reduction" so as not to confuse the term with traditional [beta reduction][2] in the lambda calculus). I found this particular idea fascinating and still applicable today, if only as a quick thought experiment.
 
@@ -29,7 +29,21 @@ Below is an implementation of Hillis' beta function in Clojure. I included a sho
 Feel free to play around!
 
 ```clojure
-
+(defn beta
+  ([f c1]
+     (get (beta f c1 (repeat 1)) 1))
+  ([f c1 c2]
+     (loop [acc {}
+            e1 (first c1) c1 (rest c1)
+            e2 (first c2) c2 (rest c2)]
+       (if (or (nil? e1) (nil? e2))
+         acc
+         (let [new-val (if (contains? acc e2)
+                         (f (get acc e2) e1)
+                         e1)]
+           (recur (assoc acc e2 new-val)
+                  (first c1) (rest c1)
+                  (first c2) (rest c2)))))))
 ```
 
 <hr/>
