@@ -1,6 +1,7 @@
 ---
 layout: default
 published: true
+title: Hillis beta reduction in Clojure
 ---
 Danny Hillis' seminal work [The Connection Machine][1] introduced, among many other things, the concept of "beta reduction" on vectors<sup>1</sup> (I dub this "Hillis beta reduction" so as not to confuse the term with traditional [beta reduction][2] in the lambda calculus). I found this particular idea fascinating and still applicable today, if only as a quick thought experiment.
 
