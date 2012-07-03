@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Hillis beta reduction in Clojure
 ---
@@ -58,3 +58,4 @@ Feel free to play around!
 [1]: http://www.amazon.com/gp/product/0262580977/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0262580977&linkCode=as2&tag=blog0cbb-20
 [2]: http://en.wikipedia.org/wiki/Lambda_calculus#Beta_reduction
 [3]: http://en.wikipedia.org/wiki/Fold_(higher-order_function)
+
