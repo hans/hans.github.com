@@ -16,12 +16,12 @@ Perfect! The default value for this variable (as of Emacs 24.0.92.1) is `nil`, s
 
 Enough technoblabber; here's the fix. Add the following code into an Emacs Lisp file that gets run on initialization:
 
-```ruby
+{% highlight common-lisp %}
 (add-hook 'org-mode-hook
           (lambda ()
             (set (make-local-variable 'electric-indent-functions)
                  (list (lambda (arg) 'no-indent)))))
-```
+{% endhighlight %}
 
 You can find the latest version of my Org mode config in my [`dotfiles` repo][3].
 
