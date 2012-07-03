@@ -13,7 +13,7 @@ Hillis asserted that the everyday [fold / reduce routines][3] that we have all c
 
 Using the positions of each element to match keys and values of the map to be formed, the beta function pulls together data like a zip function. When the duplicate key `Z` is encountered twice, the two values are combined using the `+` function we provided, and the final value corresponding to the key `Z` in the map is `(+ 2 5)`, or `7`.
 
-What is traditional list folding, then? Why, it's just beta reduction with one argument less:
+What is traditional list folding, then? Why, it's just beta reduction with a certain constant second argument:
 
 {% highlight clojure %}
 (beta + '(1 2 5) (repeat 1))  ; => {1 8}
@@ -58,3 +58,4 @@ Feel free to play around!
 [1]: http://www.amazon.com/gp/product/0262580977/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0262580977&linkCode=as2&tag=blog0cbb-20
 [2]: http://en.wikipedia.org/wiki/Lambda_calculus#Beta_reduction
 [3]: http://en.wikipedia.org/wiki/Fold_(higher-order_function)
+
