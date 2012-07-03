@@ -52,6 +52,11 @@ pre, tt, code {
   font-size: 17px;
 }
 
+sup {
+  font-size: 14px;
+  line-height: 10px;
+}
+
 .align-center {
   text-align: center;
 }
