@@ -8,7 +8,7 @@ title: Hans Engel
     {% for post in paginator.posts %}
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: '%d %b %Y' }}
+        {{ post.date | date: '%d %b<span class="year"> %Y</span>' }}
       </time>
 
       <div class="description">

@@ -209,14 +209,49 @@ ul#archive li:after {
 ul#archive li time {
   display: block;
   float: left;
-  width: 140px;
+  width: 24%;
+  padding-right: 2%;
+  text-align: right;
 }
 
 ul#archive li .description {
   float: left;
-  max-width: 428px;
+  width: 74%;
 }
 
 ul#archive li .description .tagline {
   margin: 0;
+}
+
+@media all and (max-width: 500px) {
+  .inner {
+    padding: 5px 10px;
+  }
+
+  #home time span.year {
+    display: none;
+  }
+
+  ul#archive {
+    padding-left: 0;
+  }
+}
+
+@media all and (max-width: 360px) {
+  aside#topbar {
+    padding: 0 0 6px 0;
+  }
+
+  aside#topbar h1 {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  aside#topbar ul#quick-links {
+    text-align: center;
+    float: none;
+    padding-left: 0;
+    margin: 17px 0 0 0;
+  }
 }
