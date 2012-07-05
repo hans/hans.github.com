@@ -145,6 +145,16 @@ article header time, #archive li time {
   color: #888;
 }
 
+article .footnotes:before {
+  content: "Footnotes";
+  font-size: 30px;
+  line-height: 38px;
+}
+
+article .footnotes a[rev="footnote"] {
+  padding-left: 0.3em;
+}
+
 #home ul.posts {
   list-style: none;
 }
