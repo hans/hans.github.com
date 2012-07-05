@@ -45,6 +45,7 @@ pre, blockquote {
   border-left: 1px solid #ccc;
   margin: 0 0 20px 30px;
   padding-left: 20px;
+  overflow: scroll;
 }
 
 pre, tt, code {
@@ -226,6 +227,11 @@ ul#archive li .description .tagline {
 @media all and (max-width: 500px) {
   .inner {
     padding: 5px 10px;
+  }
+
+  pre, blockquote {
+    margin-left: 10px;
+    padding-left: 10px;
   }
 
   #home time span.year {
