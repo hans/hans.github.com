@@ -19,7 +19,7 @@ What is traditional list folding, then? Why, it's just beta reduction with a cer
 (beta + '(1 2 5) (repeat 1))  ; => {1 8}
 {% endhighlight %}
 
-When we provide the beta function with the same key for every value (`1`, in this case), all values are combined to the same key using the provided function. This is reduction in a different form!
+When we provide the beta function with the same key for every value (`1`, in this case), all values are combined to the same key using the provided function. This is reduction in a different form![^2]
 
 Below is an implementation of Hillis' beta function in Clojure. I included a shorthand form of the function in which a two-argument call will give the same result as a call to `reduce`:
 
@@ -48,6 +48,7 @@ Feel free to play around!
 {% endhighlight %}
 
 [^1]: For simplicity's sake, I deliberately ripped out Hillis' concept of beta reduction from its containing system of parallel processing with xectors. References to this particular domain have been shamelessly replaced with Clojure-specific terms.
+[^2]: You may notice that this alternate fold returns `{1 8}` rather than a simple `8`. This is due to my somewhat-haphazard readaptation of Hillis' concept for Clojure: the `{1 8}` that is returned is technically correct within Hillis' system of xectors, but is not convenient for those of us living in a von Neumann world. I experimented in using a xector monad as a sort of shim to better integrate beta-reduction into Clojure, but did not develop it far enough to make it merit more than a mention in a footnote.
 
 <img src="http://www.assoc-amazon.com/e/ir?t=blog0cbb-20&l=as2&o=1&a=0262580977" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
