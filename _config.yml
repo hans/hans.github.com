@@ -5,5 +5,5 @@ lsi: true
 auto: true
 server: true
 
-permalink: /:year:/:title:/
+permalink: /:year/:title/
 paginate: 20
