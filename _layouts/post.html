@@ -28,12 +28,18 @@ layout: default
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'hansengel';
+  var disqusLoaded = false;
+  window.onscroll = function() {
+    if ( disqusLoaded ) return;
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    disqusLoaded = true;
+    window.onscroll = null;
+
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://hansengel.disqus.com/embed.js';
+    document.body.appendChild(dsq);
+  };
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
