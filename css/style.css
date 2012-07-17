@@ -32,6 +32,10 @@ h3 {
   line-height: 32px;
 }
 
+dt {
+  margin: 6px 0;
+}
+
 a {
   color: #840000;
   text-decoration: none;
