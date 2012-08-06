@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hillis beta reduction improvements
+excerpt: Resolving some caveats in the &beta;-reduction implementation.
 ---
 
 [Last week][1] I introduced the concept of Hillis beta reduction and provided an example implementation in Clojure. There were a few caveats to this implementation, however, mostly stemming from the fact that I &beta;-reduced with sequences and vectors rather than the native "xectors" of Hillis' system. With the risk of adding even more complexity to the demonstration, I'd like to attempt to rectify some of these problems using a few extra tools to transform our data.

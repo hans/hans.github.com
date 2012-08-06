@@ -2,7 +2,9 @@
 layout: post
 published: true
 title: Hillis beta reduction in Clojure
+excerpt: Implementing Danny Hillis' &beta;-reduction outside of CM Lisp.
 ---
+
 Danny Hillis' seminal work [The Connection Machine][1] introduced, among many other things, the concept of "beta reduction" on vectors[^1] (I dub this "Hillis beta reduction" so as not to confuse the term with traditional [beta reduction][2] in the lambda calculus). I found this particular idea fascinating and still applicable today, if only as a quick thought experiment.
 
 Hillis asserted that the everyday [fold / reduce routines][3] that we have all come to know and love are merely a subset of a larger scheme of operations that can be performed on ordered data structures. The overarching process is named the "beta function," and accepts one function and two vectors as arguments. The result of this function is the combination of the two vectors into a map, using the first vector to form the map's values and the second vector to form the map's keys. When duplicate keys are found, the provided function is used to "combine" the corresponding values. It's an interesting process that's much easier to understand given an example:

@@ -14,9 +14,13 @@ title: foldl.me
       <div class="description">
         <a href="{{ post.url }}">{{ post.title }}</a>
 
-        {% if post.tagline %}
-        <p class="tagline">{{ post.tagline }}</p>
-        {% endif %}
+        <p class="excerpt">
+          {% if post.excerpt %}
+            {{ post.excerpt }}
+          {% else %}
+            {{ post.content | split: '</p>' | first }}</p>
+          {% endif %}
+        </p>
       </div>
     </li>
     {% endfor %}

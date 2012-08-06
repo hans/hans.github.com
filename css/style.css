@@ -224,8 +224,8 @@ ul#archive li .description {
   width: 74%;
 }
 
-ul#archive li .description .tagline {
-  margin: 0;
+ul#archive li .description .excerpt {
+  margin-top: 0.5em;
 }
 
 @media all and (max-width: 500px) {
