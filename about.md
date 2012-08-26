@@ -26,6 +26,9 @@ foldl
 #gr_custom_widget_1345940422 {
 margin-top: 10px;
 }
+#gr_custom_widget_1345940422 center {
+display: none;
+}
 .gr_custom_header_1345940422 {
 display: none;
 border-bottom: 1px solid #CCC;
@@ -45,9 +48,8 @@ overflow: auto;
 .gr_custom_book_container_1345940422 {
 /* customize your book covers here */
 overflow: hidden;
-height: 60px;
 float: left;
-margin-right: 4px;
+margin-right: 10px;
 width: 39px;
 }
 .gr_custom_author_1345940422 {
