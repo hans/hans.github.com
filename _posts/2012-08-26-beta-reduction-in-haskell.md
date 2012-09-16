@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hillis β-reduction in Haskell
-excerpt: Man, I just will <em>not</em> let this go!
+excerpt: Surprisingly much simpler in translation.
 ---
 
 I decided to rewrite my [Hillis β-reduction routine][1] in Haskell. I was very pleased to find that the rewrite yielded code much more concise and less "hacky" than the original Clojure algorithm.[^1]
@@ -33,7 +33,7 @@ beta' map _ _ [] = map
 beta' map f (k:ks) (v:vs) = let map' = alter
                                           (alterer f v)
                                           k map
-                         in beta' map' f ks vs
+                            in beta' map' f ks vs
 {% endhighlight %}
 
 [^1]: [`Data.Map`][2] turned out to be a lifesaver!
