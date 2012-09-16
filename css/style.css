@@ -6,7 +6,7 @@ html, body {
 
 body {
   background-color: #fafafa;
-  font: 19px 'Baskerville';
+  font: 18px 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
   color: #222;
   line-height: 25px;
 }
