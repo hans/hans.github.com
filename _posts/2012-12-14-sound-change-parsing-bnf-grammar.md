@@ -12,9 +12,22 @@ Historical linguists[^1] use a standard grammar to describe a language's
 sound change over time (diachronically) or among different speakers at
 the same time (synchronically). Each individual change can be explained
 by a simple replacement rule, but often requires a certain context to
-occur.
+occur. An example *unconditioned* sound change rule follows:
 
-For example, SOUND CHANGE EXAMPLE
+    r > l
+
+This rule states that, in some language, the /r/ sound becomes /l/ no
+matter the context of the /r/ sound. This rule alone can effectively
+describe the change from a morph /fara/ to /fala/, or from /rata/ to
+/lata/.
+
+Most sound change in natural languages, however, are *conditional*: they
+only occur in certain contexts. We can describe required contexts with
+an additional clause in sound change rules:
+
+    r > l / a_o
+
+This rule states that /r/ changes MORE MORE
 
 We can describe this sound change rule format as a very simple BNF
 grammar:
