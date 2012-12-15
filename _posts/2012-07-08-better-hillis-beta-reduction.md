@@ -92,9 +92,9 @@ Traditional folds can now return the expected values without a wrapping map:
 Now that we have a better-ported version of the beta function, I can present a fascinating application also imagined by Hillis later in his paper. It uses both the one- and two-argument forms of the beta function: it simultaneously folds multiple maps into a single map, and then folds that single map to a single value. As always, the code speaks more clearly than I can:
 
 {% highlight clojure %}
-;; Return the highest arity of the sequence (i.e., the
-;; number of times the most often occurring element
-;; appears).
+
+;; Return the highest arity of the sequence (i.e., the number of times
+;; the most often occurring element appears).
 (defn arity [seq]
   (domonad xector-m
            [a 1
