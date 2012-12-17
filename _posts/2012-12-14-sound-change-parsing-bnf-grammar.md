@@ -59,7 +59,7 @@ Phoneme classes are extremely useful, since most sound changes
 rather than standing as a universal fact. Let's amend our grammar so
 that we can describe an entire sound change collection:
 
-    <file>               ::= (<phoneme-class-defn> <EOL>)* <rule>+
+    <file>               ::= (<phoneme-class-defn> <EOL>)* (<rule> <EOL>)+
     <phoneme-class-defn> ::= <phoneme-class> ":" <phoneme>+
     <rule>               ::= <context> ">" <replacement> ["/" <condition>]
     <condition>          ::= <context>_<context>
