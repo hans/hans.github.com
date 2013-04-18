@@ -12,13 +12,13 @@ invest the time often end up on something like the [Typeclassopedia][1][^1],
 where the combined force of jargon and type signatures kill whatever interest
 they began with.
 
-Thanks to *Clojure Programming*, though, I'm happy to report that this will no
-longer be a problem. This book gives hope to those who have championed Lisp and
-/ or functional programming in vain. Emerick et al. provide not only a thorough
-tour of the language, but also demonstrate the beauty and conciseness of its
-solutions to common problems. The book dedicates an entire section ("Practicum")
-to describing how Clojure is idiomatically used in different application
-domains.
+Thanks to [*Clojure Programming*][2], though, I'm happy to report that this will
+no longer be a problem. This book gives hope to those who have championed Lisp
+and / or functional programming in vain. Emerick et al. provide not only a
+thorough tour of the language, but also demonstrate the beauty and conciseness
+of its solutions to common problems. The book dedicates an entire section
+("Practicum") to describing how Clojure is idiomatically used in different
+application domains.
 
 I was particularly pleased by the stellar coverage of some of Clojure's most
 compelling features:
@@ -36,7 +36,7 @@ nature of traditional Lisp programming.
 This book would fit best any of these three groups:
 
 - **Java refugees.** Give me the JVM, hold the
-    [`AbstractSingletonProxyFactoryBean`][2]. *Clojure Programming* shows you
+    [`AbstractSingletonProxyFactoryBean`][3]. *Clojure Programming* shows you
     how to take advantage of the vast Java ecosystem while avoiding some of the
     pitfalls of having static typing and OOP forced upon you. The authors make a
     good case for interactive programming with the Clojure REPL, which gives you
@@ -62,4 +62,7 @@ a review.)
 [^1]: I've absolutely nothing against this document -- it's a fascinating and wonderfully helpful piece of work -- but when the first few paragraphs include the words "category theory," "monoid," etc., etc., beginners will tend to get spooked!
 
 [1]: http://www.haskell.org/haskellwiki/Typeclassopedia
-[2]: http://static.springsource.org/spring/docs/2.5.x/api/org/springframework/aop/framework/AbstractSingletonProxyFactoryBean.html
+[2]: http://www.amazon.com/gp/product/1449394701/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449394701&linkCode=as2&tag=blog0cbb-20
+[3]: http://static.springsource.org/spring/docs/2.5.x/api/org/springframework/aop/framework/AbstractSingletonProxyFactoryBean.html
+
+<img src="http://www.assoc-amazon.com/e/ir?t=blog0cbb-20&l=as2&o=1&a=1449394701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
