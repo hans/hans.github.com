@@ -50,6 +50,9 @@ the bindings written for my everyday languages.[^3] I'm excited to see how I can
 integrate the library at the core of horizontally scalable systems in the near
 future.
 
+(Disclosure: I received an electronic copy of this book in exchange for writing
+a review.)
+
   [^1]: This is likely something of a rarity, I'd assume, when it comes to guides on message-passing libraries.
   [^2]: To be fair, this would be much less of an issue with a physical book (or in the online guide, where much of the code is held externally and simply referenced by hyperlink). I am still disappointed by O'Reilly's apparent lack of concern for the usability of this work's ebook format.
   [^3]: The book does make reference to the large amount of language bindings available, but keeps all code in C.
