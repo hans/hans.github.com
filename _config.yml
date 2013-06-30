@@ -2,8 +2,5 @@ markdown: kramdown
 pygments: true
 lsi: true
 
-auto: true
-server: true
-
 permalink: /:year/:title/
 paginate: 20
