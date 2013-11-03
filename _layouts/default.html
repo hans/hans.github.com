@@ -23,10 +23,10 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/syntax.css" /><!-- syntax highlighting -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" /><!-- syntax highlighting -->
   <!--[if IE]>
-      <link rel="stylesheet" href="/css/ie.css" />
+      <link rel="stylesheet" type="text/css" href="/css/ie.css" />
   <![endif]-->
 
   <script src="/js/libs/modernizr-2.5.3.min.js"></script>
@@ -44,21 +44,6 @@
 	        <li><a href="/rss.xml">rss</a></li>
 	        <li><a href="/atom.xml">atom</a></li>
         </ul>
-
-        <div class="more">
-          <p id="tagline">Hi, I'm Hans Engel, a web developer for <a href="http://studiosedition.com">Studio Sedition</a> in Phoenix, AZ.</p>
-
-          <p id="contact-me">Need to get in touch? You can contact me <a href="mailto:engel@engel.uk.to">via email</a>.</p>
-
-          {% if site.posts != empty %}
-          <h2>recent posts</h2>
-          <ul id="recent-posts">
-            {% for post in site.posts limit: 20 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
       </div>
     </aside>
 
@@ -72,7 +57,7 @@
               <span class="given-name">Hans</span>
               <span class="family-name">Engel</span>
             </a> &mdash; <span class="adr">
-              <span class="locality">Phoenix</span>, <span class="region">Arizona</span>, <span class="country-name">USA</span>
+              <span class="locality">Stanford</span>, <span class="region">California</span>
             </span>
 	        </div>
         </footer>

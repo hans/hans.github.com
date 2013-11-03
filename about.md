@@ -7,10 +7,13 @@ Hans Engel
 : An old pseudonym used by Jon Gauthier in the tech world.
 
 Jon Gauthier
-: A full-stack web developer currently working on an amazing product with amazing people at [Stremor](http://stremor.com).
+: A student at [Stanford University](http://stanford.edu) studying
+[Symbolic Systems](http://symsys.stanford.edu). A code wrangler, full-stack web
+developer, and wannabe linguist.
 
 foldl
-: Jon's / Hans' blog which hosts musings on functional programming, linguistics, mathematics, philosophy, and all sorts of other fascinating things.
+: Jon's / Hans' blog which hosts musings on functional programming, linguistics,
+mathematics, philosophy, and all sorts of other fascinating things.
 
 ### Around the web
 
