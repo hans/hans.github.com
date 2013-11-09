@@ -1,7 +1,7 @@
 ---
 layout: note
 title: Book notes&#58; Computational Beauty of Nature
-date: 04/11/2012 20:32
+date: 11/04/2012 20:32
 from_org: true
 ---
 

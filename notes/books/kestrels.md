@@ -1,7 +1,7 @@
 ---
 layout: note
 title: Book notes&#58; Kestrels, Quirky Birds and Hopeless Egocentricity
-date: 10/11/2012 19:51
+date: 11/10/2012 19:51
 from_org: true
 ---
 
