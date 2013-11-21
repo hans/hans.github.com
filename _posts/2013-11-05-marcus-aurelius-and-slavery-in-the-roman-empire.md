@@ -50,12 +50,12 @@ in their time, but do make significant comments about how one should best treat
 a slave. In Seneca's famous 47th letter to Lucilius, he skirts around the larger
 question of the norm of slavery and instead attempts to prescribe how they
 should be treated: "But this is the kernel of my advice: Treat your inferiors as
-you would be treated by your betters".[^3] All of the Later Stoic writing on
+you would be treated by your betters."[^3] All of the Later Stoic writing on
 this specific topic stresses the equality of all men in a spiritual or cosmic
 sense. While such a tenet is only implied in Seneca's letter, Marcus Aurelius
 states it more plainly in his Meditations. He asks us to "[c]onsider how [we]
 stand in relation to [our companions], and how we were born to help one
-another".[^4] Though a free Roman and a Roman slave obviously differed in their
+another."[^4] Though a free Roman and a Roman slave obviously differed in their
 social positions, the Stoics thought it important to recognize that both were
 humans and both therefore deserved humane treatment.
 
@@ -81,7 +81,7 @@ Seneca, Marcus Aurelius uses the same metaphor to describe how one's mind may be
 dominated and enslaved by thoughts of an unhappy status quo or an uncertain
 future: "No longer allow [your ruling center] to act as a slave ... no longer
 allow it to be discontented with its present lot or flinch from what will fall
-to it in the future".[^6] This other form of captivity, named "moral slavery" by
+to it in the future."[^6] This other form of captivity, named "moral slavery" by
 later scholars, was of far superior importance to Stoic thinkers. The Stoics
 knew that this servitude to such invisible masters pervaded the minds of
 plebeians and patricians alike, and they saw righting this malady as a more
@@ -91,7 +91,7 @@ not the case with traditional slaves. The Stoics believed, then, that "[b]y
 comparison with the slavery that was a condition of the soul, legal slavery was
 of marginal importance. It was an external---like health and illness, wealth and
 poverty, high and low status---over which we had no control. As such, it was
-neither good nor bad but, rather, indifferent".[^7] The Stoics saw this
+neither good nor bad but, rather, indifferent."[^7] The Stoics saw this
 distinction between fixed external factors and mutable internal factors as
 central to everyday life. They chose to regard the features of their lives not
 under their direct control with a knowing indifference---a relaxed and rational
@@ -108,12 +108,12 @@ life---the rational mind, or the "ruling center" by Aurelius'
 terminology---should be, in the Stoics' view, independent from and unhampered by
 any physical or social circumstance.[^8] Seneca claims that "it is a mistake to
 imagine that slavery pervades a man's whole being," because our rational center
-"cannot be transferred as a chattel".[^9] Once we recognize the independence of
+"cannot be transferred as a chattel."[^9] Once we recognize the independence of
 this ruling rationality in ourselves, suggest the Stoics, we are no longer
 hindered by the emotions that any circumstance may trigger. Epictetus exhibits
 the same sentiment in a more general context in his *Encheiridion*, holding that
 "[m]en are disturbed not by things, but by the views which they take of
-things".[^10] Our happiness, according to the Stoics, can be independent from
+things."[^10] Our happiness, according to the Stoics, can be independent from
 our physical state. Thus in this view life as a well-treated slave could be just
 as tranquil and happy as life as a commoner or an aristocrat.
 
