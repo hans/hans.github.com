@@ -159,6 +159,10 @@ article p > img {
   margin: 0 auto;
 }
 
+article .footnotes {
+  font-size: 16px;
+}
+
 article .footnotes:before {
   content: "Footnotes";
   font-size: 30px;
@@ -167,6 +171,10 @@ article .footnotes:before {
 
 article .footnotes a[rev="footnote"] {
   padding-left: 0.3em;
+}
+
+article .footnotes ol li p {
+  margin: 0;
 }
 
 #home ul.posts {
