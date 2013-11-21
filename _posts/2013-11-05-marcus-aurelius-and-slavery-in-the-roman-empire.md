@@ -154,7 +154,7 @@ Roman counterparts. Late in the *Meditations* he makes an entry, seemingly
 resigned to the unfairness of his post: "You should not hope for Plato's ideal
 state, but be satisfied to make even the smallest advance, and regard such an
 outcome as nothing contemptible. For who can change the convictions of
-others?".[^13] Here we see Marcus as something of a realist, spelling out the
+others?"[^13] Here we see Marcus as something of a realist, spelling out the
 struggle he sees between an ideal government and what his society currently
 regards as an acceptable state. The most groundbreaking changes, he says, must
 be made in the "smallest advance[s]." Surprising legislation or sudden imperial
