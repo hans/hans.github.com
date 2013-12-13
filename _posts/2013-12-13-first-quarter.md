@@ -1,0 +1,105 @@
+---
+layout: post
+date: 13 December 2013
+excerpt: The first of several goals for next year
+---
+
+*I set off to write a practical post about learning Russian, and this came out.
+Oops.*
+
+*Enjoy?*
+
+----
+
+Finals week is coming to a close here at Stanford. Some students have already
+packed off to other climes, while some hold out for a few more days sunning on
+the lawns, basking in the genial warmth of their well-deserved freedom.
+
+So what am I doing sitting inside Green Library, banging on a keyboard? I feel
+some obligation, in truth, to turn inward and think about the long-term.
+Shmong-term, some friends might say. But it's too easy in my mind to otherwise
+fall victim to the rush of social events, of assignments, of hurried
+discussions. It's too easy to remain just a little bit behind, close enough that
+grades turn out okay but far enough that there never seems to be time to just
+*breathe*.
+
+And so this my attempt to do just that. What ensues is an inevitably discursive
+coverage of the events of this past quarter. Brace yourself for inflated
+sentiment and vigorous hand-waving.
+
+### The plunge
+
+Smile. Handshake. Where-are-you-from-what-is-your-major. Repeat.
+
+"New Student Orientation" at Stanford---a week of Guaranteed Fun prescribed and
+orchestrated by the university---was in retrospect just a bit too terribly
+awkward for my liking. We frosh, each decorated with lanyard and a complimentary
+week-long agenda booklet, were carted from auditorium to dormitory and back from
+early morning until far past any sensible bedtime. While I can't deny that some
+of these events were inspiring, motivating, etc. etc., I find looking back that
+I was driven toward what were absolutely the wrong ends. I made too many
+"friends" and not enough friends. Rectified quickly, of course, as shall be
+illustrated. But if I were to do it again I would skip the events and go for the
+people instead.
+
+### Surfacing[^1]
+
+Classes came abruptly, without any sort of warning, much in the same way that my
+bike chain broke on the first day. An ominous start indeed.
+
+But classes turned right soon enough. It was in these classes that I began to
+see more of the Stanford I had dreamed about. A [bare-bones statistics class][1]
+with no prerequisites in which every student turned out to already know
+calculus, followed by a [seminar][2] in which jokes about the Stoics and
+utilitarianism actually got laughs. Every alumnus and student will confirm that
+Stanford's environment is all about the people. But you can't understand until
+you live here and realize just how brilliant your companions are---until you can
+grasp that that hoodied kid on a trick bike is a published author, or that girl
+you just chatted with has been documenting exoplanets for years.
+
+Everyone is a superstar in their own way. And the most fantastic thing is that
+the large majority of them don't even know it. This is not taught modesty. It's
+something more, I think, like a blatant disregard for recognition of any sort,
+perhaps because of a disbelief in the magnitude of their accomplishments. People
+here see their work as part of their life. They carry a different idea of the
+split, that is, between effort and play.
+
+Classes continued. Friend circles formed. After an aberrant week of extroversion
+on my part, I returned to my natural hermit state, accompanied by several
+like-minded companions.
+
+### Lessons
+
+I can't think of anything extremely noteworthy past this period of adjustment.
+In short: fun times were had. Bonds were strengthened. Things were learned.
+
+I didn't truly assimilate what is likely to be my most important lesson, though,
+until very recently. It seems that both a [class][2] and my peers conspired to
+teach me a certain thing about life.[^2] More specifically, about the great
+benefit in living intentionally. Planning, that is, and reflecting often upon
+who I am, who I want to be, and what exactly I need to accomplish to make that
+desired me a reality.
+
+My eyes have been opened to [self-reliance][3] and [self-writing][4], in both of
+which exists tremendous potential for growth and for a truer understanding. I've
+been motivated to pursue---well, heck, I am pursuing at this very moment---a
+life centered around these ideas.
+
+I'm only scratching the surface of the effect which this quarter has had on me.
+It's not feasible to directly express just how much I have changed. I suppose it
+will be visible in the future posts here.
+
+I half-joked with my dad earlier this year[^3] that the best graduation gift
+would be four years at a university. I see now that there's no joke in that at
+all. I am being changed and I am changing. What an outstanding place.
+
+Enough---I'm off to enjoy the sun.
+
+[^1]: Pardon the cheesy extended metaphor. I'm trying a new style here, so different from my normal prose that I am irritating myself as I write it. &hellip; No, it's more than a style. Gosh, am I turning postmodern or something?
+[^2]: Or maybe I am twisting all of my experiences to jive with the lessons that I think I should be learning. Yeah, that might be it.
+[^3]: Feels more like a decade ago.
+
+[1]: http://statweb.stanford.edu/~sabatti/Stat48/
+[2]: https://undergrad.stanford.edu/programs/special-focus-programs/esf
+[3]: https://en.wikipedia.org/wiki/Self-Reliance
+[4]: http://foucault.info/documents/foucault.hypomnemata.en.html
