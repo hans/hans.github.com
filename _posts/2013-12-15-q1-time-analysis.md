@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fall quarter time analysis
-excerpt: A new side of timeboxing revealed
+excerpt: A new side of timeboxing revealed.
 date: 15 December 2013
 ---
 
