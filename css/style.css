@@ -248,6 +248,10 @@ ul#archive li .description .excerpt {
 .qtip {
   font-size: 15px;
   line-height: 19px;
+
+  background-color: #fff;
+  border-color: #bbb;
+  color: #333;
 }
 
 .qtip p:first-child {

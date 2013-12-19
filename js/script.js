@@ -7,9 +7,6 @@ $('a.footnote').each(function() {
   el.qtip({
     content: {
       text: footnotes.find('li' + el.attr('href').replace(':', '\\:') + ' p').clone()
-    },
-    position: {
-      viewport: container
     }
   });
 });
