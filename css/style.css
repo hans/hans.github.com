@@ -245,6 +245,23 @@ ul#archive li .description .excerpt {
   margin-top: 0.5em;
 }
 
+.qtip {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.qtip p:first-child {
+  margin-top: 0.3em;
+}
+
+.qtip p:last-child {
+  margin-bottom: 0.3em;
+}
+
+.qtip a.reversefootnote {
+  display: none;
+}
+
 @media all and (max-width: 500px) {
   .inner {
     padding: 5px 10px;
