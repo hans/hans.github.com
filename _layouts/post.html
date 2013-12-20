@@ -4,7 +4,13 @@ layout: default
 
 <article id="single" class="hentry">
   <header>
-    <h1 class="entry-title">{{ page.title }}</h1>
+    <h1 class="entry-title">
+      {% if page.display_title %}
+        {{ page.display_title }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
     <time datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: '%d %B %Y' }}
     </time>

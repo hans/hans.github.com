@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Imperat aut servit&#58; Managing our knowledge inheritance
+display_title: <em>Imperat aut servit&#58;</em> Managing our knowledge inheritance
 excerpt: How do we manage the weight of our intellectual inheritance? An examination of the historical practice of writing during and after reading, and a suggested answer to that question.
 ---
 
