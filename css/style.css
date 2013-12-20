@@ -56,6 +56,10 @@ blockquote {
   margin-left: 20px;
 }
 
+.entry-content blockquote:first-child {
+  margin-top: 20px;
+}
+
 pre, tt, code {
   font-family: monospace;
   font-size: 14px;
