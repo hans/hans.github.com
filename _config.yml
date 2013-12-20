@@ -1,4 +1,7 @@
 markdown: kramdown
+kramdown:
+    entity_output: symbolic
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
 pygments: true
 lsi: true
 
