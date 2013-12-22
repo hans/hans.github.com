@@ -4,24 +4,24 @@ title: Sunday Links
 excerpt: Week of December 22&#58; In which the unplanned Hayekian immersion program continues
 ---
 
-- [*"I, Pencil"*][1] trumpets the self-organizing wonders of the free market in
-  parable form. Not one single person on this earth, it claims, knows how to
+- [**"I, Pencil"**][1] trumpets the self-organizing wonders of the free market
+  in parable form. Not one single person on this earth, it claims, knows how to
   produce a pencil from scratch. It takes millions of people working together to
   accomplish such a feat. Moreover, all these people working together toil not
   in the interest of global pencil production rates but rather in the interest
   of feeding their families. The output is a mere side effect![^1]
 - Scott Alexander's
-  [*"A Something Sort of Like Left-Libertarianism-ist Manifesto"*][2] details
+  [**"A Something Sort of Like Left-Libertarianism-ist Manifesto"**][2] details
   how free-market solutions can solve real social problems. I'll have to read
   more about this "bleeding-heart libertarianism" that he discusses.
-- [*"The Facebooking of Economics"*][3][^2] gives a view into how modern
+- [**"The Facebooking of Economics"**][3][^2] gives a view into how modern
   economics discourse operates. The bleeding edge debates don't always happen in
   peer-reviewed journals anymore --- they're also present on the blogs of
   economists across the web!
-- [*"On the Folly of Rewarding A, While Hoping for B"*][6] gives some
+- [**"On the Folly of Rewarding A, While Hoping for B"**][6] gives some
   interesting examples of perverse incentives in public policy and management.
-- [*"The Thought Leader"*][4] and (published a day later!)
-  [*"We are nothing (and that is beautiful)"*][5] air troubling concerns about
+- [**"The Thought Leader"**][4] and (published a day later!)
+  [**"We are nothing (and that is beautiful)"**][5] air troubling concerns about
   what our generation has been taught about success (and how our visions
   actually play out in the long run). This topic merits substantial discussion,
   but I'll need to think more before putting forth any ideas on this medium.
