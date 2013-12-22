@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sunday Links
-excerpt: Week of December 22: In which the unplanned Hayekian immersion program continues
+excerpt: Week of December 22&#58; In which the unplanned Hayekian immersion program continues
 ---
 
 - [*"I, Pencil"*][1] trumpets the self-organizing wonders of the free market in
