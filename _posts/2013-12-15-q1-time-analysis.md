@@ -6,8 +6,8 @@ date: 15 December 2013
 ---
 
 As I've [mentioned recently][1], I took up timeboxing late into this fall
-quarter. It's had a tremendous positive effect on my productivity as a student
-during the rush of the quarter. I'd like to take advantage of another
+quarter.[^9] It's had a tremendous positive effect on my productivity as a
+student during the rush of the quarter. I'd like to take advantage of another
 opportunity that timeboxing offers in retrospect: data analysis!
 
 Unfortunately, I only began timeboxing with four weeks of classes left, so I
@@ -18,7 +18,7 @@ adjusted fairly completely to life at Stanford.[^1]
 ## Tracking methodology
 
 I'll provide a quick description now of how I planned and maintained my schedule
-over the past weeks.[^2] Each day would proceed as follows:
+over the past weeks. Each day would proceed as follows:
 
 - After waking, I would **schedule the day**. I examined the tasks for the day
   and allotted nearly every minute to specific items. (These "tasks" were not
@@ -117,8 +117,7 @@ relationship:[^6]
 
 Interesting --- there seems to be a "crossover" of free time and work time on
 the median Friday, a trend which continues into the median Saturday. The two
-categories actually come close to literally swapping places on the early
-weekend!
+categories then literally swap places on the early weekend!
 
 It's too early to conclude whether this is a healthy pattern: that is, to
 sustain a high workload during most of the week and suddenly plunge into free
@@ -152,12 +151,13 @@ data!
 
 [1]: /2013/winter-2014#timeboxing
 [2]: https://github.com/hans/ical2csv/blob/master/ical2csv.py
+[3]: http://everydayutilitarian.com/essays/how-i-am-productive/
 
 [^1]: This is no less valuable, of course. I can tell myself that I've reached some sort of optimum schedule, but this may well be a local optimum. The analysis here should hint at such a situation if so.
-[^2]: This process is pretty nuanced and merits a post of its own (forthcoming!).
 [^3]: I did not track my time over week 48 (Stanford's Thanksgiving break), and so it has been omitted from the analysis.
 [^4]: I think my problem, believe it or not, is that I finish things too early in hopes of avoiding the tendency for procrastination. I distributed the work for a 15-page essay over two weeks, for example, even though we were assigned four weeks to complete it.
 [^5]: The choice of median over average was very important: day-trips (fully free time) and conferences (fully work time) would have otherwise skewed the mean values.
 [^6]: Note that the *proportions* of the times rather than the amounts themselves are graphed.
 [^7]: As I mentioned earlier, my current problem may actually be due to front-loading assignments too much. I might want to continue the practice of starting things the day they are due, but attempt to spread items out more up until the few days before the assignments are due.
 [^8]: I'd sure hope so, given my [quarterly commitment][1].
+[^9]: This timeboxing idea was shamelessly stolen from [Peter Hurford's excellent article on productivity][3].
