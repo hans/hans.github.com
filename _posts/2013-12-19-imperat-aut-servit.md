@@ -5,6 +5,10 @@ display_title: <em>Imperat aut servit&#58;</em> Managing our knowledge inheritan
 excerpt: How do we manage the weight of our intellectual inheritance? An examination of the historical practice of writing during and after reading, and a suggested answer to that question.
 ---
 
+*This was submitted as my final research paper for
+ [Education as Self-Fashioning: The Active, Inquiring, Beautiful Life][1]. See
+ my [Zotero folder][2] documenting my research for this essay.*
+
 > The learning of a Salmasius or a Burman, unless you are its master, will be
 > your tyrant. *'Imperat aut servit';* if you can wield it with a strong arm, it
 > is a great weapon; otherwise, *'Vis consili expers / Mole ruit suâ.'* You will
@@ -344,6 +348,9 @@ his knowledge inheritance---for lodging deeply in his soul those precepts most
 important to him, and thus learning to master the weight of past generations.
 *Imperat aut servit:* with the commonplace book at hand, the reader was finally
 free to choose.
+
+[1]: https://undergrad.stanford.edu/programs/special-focus-programs/esf
+[2]: https://www.zotero.org/jrgauthier/items/collectionKey/I2PBC8RC
 
 [^1]: John Henry Newman, *The Idea of a University: Defined and Illustrated* (Oxford: Clarendon Press, 1976), 125. The Latin phrases translate as "master or slave" and "brute force bereft of wisdom / falls to ruin by its own weight," respectively. Newman's *Idea*, the work on which this essay is based, has had a profound---some might say even revolutionary---effect on our modern view of education. See Cornwell, John. *Newman's Unquiet Grave: The Reluctant Saint*. New York: Continuum, 2010, 128.
 [^2]: *Ibid.*, 120.
