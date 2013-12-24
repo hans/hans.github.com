@@ -128,9 +128,27 @@ days of the week.
 
 ## Conclusion
 
+This sample of my schedule is too small to make any sweeping generalizations or
+decree any kind of absolutely necessary changes in my life. There are some major
+trends that suggest an underlying consistent behavior, though, that I want to
+continue to watch in the future:
+
+- **Late-week spikes in social time.** I'm not certain if this is a healthy
+  thing --- to put work over socializing for most of the week, that is, and
+  then suddenly drop work at the week's end.
+- **Erratic amounts of schoolwork time.** If this pattern continues, I need to
+  think about how to better spread out work over time.[^7]
+
+I'd love to reach a point where the time I need to dedicate to the more everyday
+categories (schoolwork, class, meetings, etc.) is constant. With this time
+allotment under control, I can better reason about where to fit everything else
+in my schedule. More consistent structure would be welcome for sure!
+
 I'm seeing an entire new side of timeboxing now. I've gained several beneficial
 conclusions from this analysis, and see even more advantage in maintaining the
-timeboxing practice come next quarter.[^7]
+timeboxing practice come next quarter.[^8] Come back next quarter for another
+time analysis --- one which will actually be able to cover multiple months of
+data!
 
 [1]: /2013/winter-2014#timeboxing
 [2]: https://github.com/hans/ical2csv/blob/master/ical2csv.py
@@ -141,4 +159,5 @@ timeboxing practice come next quarter.[^7]
 [^4]: I think my problem, believe it or not, is that I finish things too early in hopes of avoiding the tendency for procrastination. I distributed the work for a 15-page essay over two weeks, for example, even though we were assigned four weeks to complete it.
 [^5]: The choice of median over average was very important: day-trips (fully free time) and conferences (fully work time) would have otherwise skewed the mean values.
 [^6]: Note that the *proportions* of the times rather than the amounts themselves are graphed.
-[^7]: I'd sure hope so, given my [quarterly commitment][1].
+[^7]: As I mentioned earlier, my current problem may actually be due to front-loading assignments too much. I might want to continue the practice of starting things the day they are due, but attempt to spread items out more up until the few days before the assignments are due.
+[^8]: I'd sure hope so, given my [quarterly commitment][1].
