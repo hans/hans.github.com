@@ -350,7 +350,7 @@ important to him, and thus learning to master the weight of past generations.
 free to choose.
 
 [1]: https://undergrad.stanford.edu/programs/special-focus-programs/esf
-[2]: https://www.zotero.org/jrgauthier/items/collectionKey/I2PBC8RC
+[2]: https://www.zotero.org/groups/jrgauthiers_public_library/items/collectionKey/2CCDMIRW
 
 [^1]: John Henry Newman, *The Idea of a University: Defined and Illustrated* (Oxford: Clarendon Press, 1976), 125. The Latin phrases translate as "master or slave" and "brute force bereft of wisdom / falls to ruin by its own weight," respectively. Newman's *Idea*, the work on which this essay is based, has had a profound---some might say even revolutionary---effect on our modern view of education. See Cornwell, John. *Newman's Unquiet Grave: The Reluctant Saint*. New York: Continuum, 2010, 128.
 [^2]: *Ibid.*, 120.

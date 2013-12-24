@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marcus Aurelius and Slavery in the Roman Empire
+title: Marcus Aurelius and slavery in the Roman Empire
 excerpt: An analysis of the Stoic ruler's failure to stand up against slavery.
 date: 2013-11-05
 ---
@@ -209,4 +209,4 @@ change.
 [^12]: Arnold Mackay Duff, Freedmen in the Early Roman Empire (Clarendon Press, 1928), 195--196.
 [^13]: Aurelius, *Meditations*, 9.29.
 
-[1]: https://www.zotero.org/jrgauthier/items/collectionKey/CUUMS996
+[1]: https://www.zotero.org/groups/jrgauthiers_public_library/items/collectionKey/TVIFI78M
