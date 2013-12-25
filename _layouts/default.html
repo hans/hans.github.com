@@ -1,8 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="GitHub Pages" />
@@ -21,7 +21,10 @@
 
   {% if page %}
   <meta name="title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title }}" />
   <meta name="description" content="{{ page.excerpt }}" />
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta property="og:site_name" content="foldl" />
   {% endif %}
   <meta name="author" content="Hans Engel" />
 
