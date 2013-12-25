@@ -18,7 +18,11 @@
 	<link rel="openid2.local_id" href="http://hansengel.myopenid.com" />
 
   <title>{{ page.title }} - foldl</title>
-  <meta name="description" content="" />
+
+  {% if page %}
+  <meta name="title" content="{{ page.title }}" />
+  <meta name="description" content="{{ page.excerpt }}" />
+  {% endif %}
   <meta name="author" content="Hans Engel" />
 
   <meta name="viewport" content="width=device-width,initial-scale=1" />
