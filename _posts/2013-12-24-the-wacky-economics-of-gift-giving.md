@@ -107,7 +107,7 @@ grumble to yourself: these costly signals just cost too much!
   special.
 - Read more about [costly signaling][7].[^4]
 
-[^1]: I'm operating under the assumption in this post that the primary purpose of giving a gift is to signal [altruism][8] toward the recipient of the gift.
+[^1]: I'm operating under the assumption in this post that the primary purpose of giving a gift is to signal [altruism][8] toward the recipient of the gift. In other words: we give gifts to let people know that we care about them.
 [^2]: And perhaps most importantly, I have signaled by giving this gift that I care about the giftee. So much so, in fact, that I've prized his/her interest above all in choosing to give a cash gift.
 [^3]: For the record, I have gone through with this strategy several times... albeit with widely varying degrees of success.
 [^4]: As this topic is far out of my field I wasn't able to quickly find a canonical article or book on this subject. If anyone knows a better source, please let me know!
