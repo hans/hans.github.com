@@ -18,12 +18,12 @@ There will likely be an enormous time crunch in these first few weeks as I
 re-adjust to the school environment and "shop" for classes. Expect it to be
 quiet around here for a bit.
 
-- [*Nudge: Improving Decisions About Health, Wealth, and Happiness*][4] is a
+- [***Nudge: Improving Decisions About Health, Wealth, and Happiness***][4] is a
   friendly introduction to "libertarian paternalism," the strategy of
   constructing choice architectures in a way that counters the harmful effects
   of acknowledged cognitive biases and allows individuals to better pursue their
   own aims. The first several chapters are absolutely worth a read.
-- [**The Motivation Hacker**][10] is a fantastic condensed presentation of the
+- [***The Motivation Hacker***][10] is a fantastic condensed presentation of the
   best points of [LessWrong][11]-style instrumental rationality: it is packed
   with useful "hacks" which can be used to ramp up motivation and productivity.
   This is not a self-help book but rather a descriptive work: an image of the
