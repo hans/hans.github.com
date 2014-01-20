@@ -63,12 +63,12 @@ the idea of a *continuation probability* associated with each unigram.
 This probability for a given token \\(w_i\\) is proportional to the **number of
 bigrams which it completes**:
 
-{::nomarkdown}\[P_{\text{continuation}}(w_i) \propto \: \mid \{ w_{i-1} : c(w_{i-1}, w_i) > 0 \} \mid\]{:/}
+{::nomarkdown}\[P_{\text{continuation}}(w_i) \propto \: \left&#124; \{ w_{i-1} : c(w_{i-1}, w_i) > 0 \} \right&#124;\]{:/}
 
 This quantity is normalized by dividing by the total number of bigram types
 (note that \\(j\\) is a free variable):
 
-{::nomarkdown}\[P_{\text{continuation}}(w_i) = \dfrac{\mid \{ w_{i-1} : c(w_{i-1}, w_i) > 0 \} \mid}{\mid \{ w_{j-1} : c(w_{j-1},w_j) > 0\} \mid}\]{:/}
+{::nomarkdown}\[P_{\text{continuation}}(w_i) = \dfrac{\left&#124; \{ w_{i-1} : c(w_{i-1}, w_i) > 0 \} \right&#124;}{\left&#124; \{ w_{j-1} : c(w_{j-1},w_j) > 0\} \right&#124;}\]{:/}
 
 The common example used to demonstrate the efficacy of Kneser-Ney is the phrase
 *San Francisco*. Suppose this phrase is abundant in a given training corpus.
