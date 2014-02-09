@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Sunday Links
 excerpt: Week of February 2
 date: 2 February 2014
