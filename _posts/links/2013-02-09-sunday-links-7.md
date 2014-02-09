@@ -35,8 +35,8 @@ books.
   idea of individualism, a measured and exceedingly humble recognition of any
   individual's fallibility and the consequent need for free interaction and
   group consensus in a political system.
-- [Walter E. Williams responds][3] defends capitalism in the face of Pope
-  Francis' recent harsh critique.
+- [Walter E. Williams defends capitalism][3] in the face of Pope Francis' recent
+  harsh critique.
 
 [1]: /2014/sunday-links-6/
 [2]: http://studiahumana.com/pliki/wydania/In%20Praise%20of%20Passivity.pdf
