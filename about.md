@@ -11,9 +11,9 @@ include
 computer science, linguistics, and economics. I participate in the
 [Stanford NLP Group](http://nlp.stanford.edu).
 
-This blog is a central place for me to publish my musings on NLP, functional
-programming, linguistics, economics, mathematics, philosophy, and all sorts of
-other fascinating things.
+This blog is a central place for me to publish my musings on (computational)
+linguistics, functional programming, economics, mathematics, philosophy, and all
+sorts of other fascinating things.
 
 ### Around the web
 
