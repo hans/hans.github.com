@@ -3,23 +3,23 @@ title: About
 layout: default
 ---
 
-Hans Engel
-: An old pseudonym used by Jon Gauthier in the tech world.
+Hi, I'm **Jon Gauthier**. I'm a student at
+[Stanford University](http://stanford.edu) in the
+[Symbolic Systems](http://symsys.stanford.edu) department, where my studies
+include
+[natural language processing](http://en.wikipedia.org/wiki/Natural_language_processing),
+computer science, linguistics, and economics. I participate in the
+[Stanford NLP Group](http://nlp.stanford.edu).
 
-Jon Gauthier
-: A student at [Stanford University](http://stanford.edu) studying
-[Symbolic Systems](http://symsys.stanford.edu). A code wrangler, full-stack web
-developer, and wannabe linguist.
-
-foldl
-: Jon's / Hans' blog which hosts musings on functional programming, linguistics,
-mathematics, philosophy, and all sorts of other fascinating things.
+This blog is a central place for me to publish my musings on NLP, functional
+programming, linguistics, economics, mathematics, philosophy, and all sorts of
+other fascinating things.
 
 ### Around the web
 
 * [GitHub](https://github.com/hans)
 * [Stack Overflow](http://stackoverflow.com/users/176075/hans-engel)
-* [Goodreads](http://www.goodreads.com/user/show/5092154-hans-engel)
+* [Goodreads](http://www.goodreads.com/user/show/5092154-jon-gauthier)
 * [Google+](https://plus.google.com/103891567423355668079/)
 
 ### Currently reading
