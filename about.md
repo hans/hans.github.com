@@ -8,12 +8,21 @@ Hi, I'm **Jon Gauthier**. I'm a student at
 [Symbolic Systems](http://symsys.stanford.edu) department, where my studies
 include
 [natural language processing](http://en.wikipedia.org/wiki/Natural_language_processing),
-computer science, linguistics, and economics. I participate in the
-[Stanford NLP Group](http://nlp.stanford.edu).
+computer science, linguistics, and economics.
+
+I'm obsessed with language learning, and have engaged on the lifelong trek
+towards [polyglottery](http://en.wikipedia.org/wiki/Polyglotism). I can
+survive[^1] in English, Spanish, French, and Romanian, and my next targets
+include German, Russian, and Norwegian.
 
 This blog is a central place for me to publish my musings on (computational)
 linguistics, functional programming, economics, mathematics, philosophy, and all
-sorts of other fascinating things.
+sorts of other fascinating things. In the unlikely case that the Internet cares
+about my personal development, I also detail my quest to *live intentionally*
+through [periodic](/2013/q1) [reflections](/2014/q2) and
+[goals](/2013/winter-2014) [posts](/2014/spring-2014-goals).
+
+[^1]: i.e., figure out how to find food and shelter, maybe banter about economics or culture, but probably not negotiate a nuclear arms non-proliferation treaty
 
 ### Around the web
 
