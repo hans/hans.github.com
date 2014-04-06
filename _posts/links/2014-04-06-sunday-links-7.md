@@ -17,17 +17,17 @@ myself back into the habit with a varied collection of links today:
   techniques like front-running) help or hinder the stock market. See also
   ["High Speed Trading and Slow-Witted Economic Policy"][3] and
   ["Flash Boys for the People"][4].
-- [*The Alchemists: Three Central Bankers and a World On Fire*][7] revealed to
-  me just how pivotal a role central bankers of the world have had in the recent
-  recession and the subsequent recovery. The amount of engineering that these
-  institutions---most notably, the Federal Reserve, ECB, and Bank of
+- [***The Alchemists: Three Central Bankers and a World On Fire***][7] revealed
+  to me just how pivotal a role central bankers of the world have had in the
+  recent recession and the subsequent recovery. The amount of engineering that
+  these institutions---most notably, the Federal Reserve, ECB, and Bank of
   England---perform in hopes of maintaining stable employment and moderate
   inflation is just astounding.
-- ["No Country for Old Members"][5] models the linguistic change of communities,
-  and reaches some interesting conclusions about how language change tells a
-  story about the "age" or character of a community.
-- ["I'm Sorry Dave, I'm Afraid I Can't Do That"][6] is now my go-to resource for
-  explaining some of the struggles of natural language processing. The paper
+- [**"No Country for Old Members"**][5] models the linguistic change of
+  communities, and reaches some interesting conclusions about how language
+  change tells a story about the "age" or character of a community.
+- [**"I'm Sorry Dave, I'm Afraid I Can't Do That"**][6] is now my go-to resource
+  for explaining some of the struggles of natural language processing. The paper
   gives a brief overview of the history of NLP and the challenges which it has
   faced or has yet to overcome.
 
