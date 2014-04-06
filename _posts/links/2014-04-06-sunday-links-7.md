@@ -23,10 +23,18 @@ myself back into the habit with a varied collection of links today:
   these institutions---most notably, the Federal Reserve, ECB, and Bank of
   England---perform in hopes of maintaining stable employment and moderate
   inflation is just astounding.
-- [**"No Country for Old Members"**][5] models the linguistic change of
+- [**"The value of time as a student"**][8] asks a question that has been
+  bothering me for some time: why do students of extraordinary intellectual
+  aptitude (and no immediate financial burdens) take on menial campus jobs?
+  Katja Grace suggests: "It seems that college students generally treat their
+  time as low value." We trade this time for small immediate returns, perhaps
+  unable to conceive of how spending this same time on more positive engagements
+  (reading, meeting with professors, building things) could yield much greater
+  long-term returns.
+- [**"No country for old members"**][5] models the linguistic change of
   communities, and reaches some interesting conclusions about how language
   change tells a story about the "age" or character of a community.
-- [**"I'm Sorry Dave, I'm Afraid I Can't Do That"**][6] is now my go-to resource
+- [**"I'm sorry Dave, I'm afraid I can't do that"**][6] is now my go-to resource
   for explaining some of the struggles of natural language processing. The paper
   gives a brief overview of the history of NLP and the challenges which it has
   faced or has yet to overcome.
@@ -41,3 +49,4 @@ myself back into the habit with a varied collection of links today:
 [5]: http://www.stanford.edu/~jurafsky/pubs/linguistic_change_lifecycle.pdf
 [6]: http://arxiv.org/abs/cs/0304027
 [7]: http://www.amazon.com/gp/product/0143124994/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143124994&linkCode=as2&tag=blog0cbb-20
+[8]: http://www.overcomingbias.com/2012/10/the-value-of-time-as-a-student.html
