@@ -14,7 +14,7 @@ date: 16 April 2014
   [**Reisinger and Mooney (2010)**][9] show how VSMs can handle polysemy.
 - [**"Shut up and deal"**][4]: Tesla is restricted from selling in New Jersey
   due to a statute which requires manufacturers to sell through dealers.
-- [**"The Enhanced Supplementary Leverage Ratio is your new bicycle"**][1].
+- [**"The Enhanced Supplementary Leverage Ratio is your new bicycle."**][1]
   Leverage ratio requirements are being increased for some of the US's
   systematically important financial institutions. See [Fed press release][2],
   [Reuters coverage][3].
