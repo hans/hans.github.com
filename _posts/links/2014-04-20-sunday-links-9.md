@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sunday Links
-excerpt: Week of April 16
-date: 16 April 2014
+excerpt: Week of 20 April
+date: 20 April 2014
 ---
 
 - Lots of reading for an NLP-themed week
