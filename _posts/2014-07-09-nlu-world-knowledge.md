@@ -17,7 +17,7 @@ It's a bit mind-boggling at times to examine what I hear and say, and to
 acknowledge that this small brain of mine somehow processes these things
 properly.
 
-A point in case: I was eating with friends at a Stanford dining hall recently.
+A case in point: I was eating with friends at a Stanford dining hall recently.
 Aforementioned blurting voice had been quiet all night. A friend returned with
 an empty ice cream cone in hand and said the following:
 
