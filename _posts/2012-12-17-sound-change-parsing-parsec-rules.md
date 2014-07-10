@@ -2,6 +2,7 @@
 layout: post
 title: Parsing sound change rules with Parsec&#58; Part 2
 excerpt: Parsing phoneme class definitions and modifying user state
+main: true
 ---
 
 *This is the second post in a tutorial series on applying Parsec in

@@ -1,12 +1,17 @@
 ---
 layout: default
-title: foldl.me
+title: foldl.me (all, unfiltered)
 ---
 
 <div id="home">
+  <p id="intro">
+    This page lists all posts ever published on this site. It includes more
+    personal posts and off-topic ramblings that I choose to not feature on the
+    home page.
+  </p>
+
   <ul id="archive">
-    {% for post in paginator.posts %}
-    {% if post.main or post.category == 'links' %}
+    {% for post in site.posts %}
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">
         {{ post.date | date: '%d %b<span class="year"> %Y</span>' }}
@@ -30,18 +35,7 @@ title: foldl.me
         </p>
       </div>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 
-  <div id="pagination">
-    <p><a href="/all.html">(view all, unfiltered)</a></p>
-    {% if paginator.page > 1 %}
-    <a href="/page{{ paginator.previous_page }}">&laquo; previous</a>
-    {% endif %}
-
-    {% if paginator.page < paginator.total_pages %}
-    <a href="/page{{ paginator.next_page }}">next &raquo;</a>
-    {% endif %}
-  </div>
 </div>

@@ -3,6 +3,7 @@ title: Sunday Links
 layout: post
 excerpt: Week of 6 April
 date: 6 April 2014
+category: links
 ---
 
 Happy April! I've been slacking on these link posts.. I'm hoping to launch

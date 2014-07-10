@@ -2,6 +2,7 @@
 layout: post
 title: Sunday Links
 excerpt: Week of December 29
+category: links
 ---
 
 - I have just discovered (via [Ben Kuhn][2]) a wonderful blog called

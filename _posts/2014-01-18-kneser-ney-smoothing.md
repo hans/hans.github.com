@@ -2,6 +2,7 @@
 layout: post
 title: Kneser-Ney smoothing explained
 excerpt: I explain a popular smoothing method applied to language models. The post describes Kneser-Ney as it applies to bigram language models and offers some intuition on why it works well.
+main: true
 ---
 
 **Language models** are an essential element of natural language processing,

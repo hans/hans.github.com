@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Review&#58; ZeroMQ&#58; Messaging for Many Applications by Pieter Hintjens
 excerpt: A valuable reference for the increasingly popular technology.
+main: true
 ---
 
 ZeroMQ is one of those technologies today that have sizeable shares of

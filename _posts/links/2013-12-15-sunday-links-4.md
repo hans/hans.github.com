@@ -2,6 +2,7 @@
 layout: post
 title: Sunday Links
 excerpt: Week of December 15, 2013. More economics, with a side of Lisp.
+category: links
 ---
 
 The quarter is over, and I'm back at home with the family. Tomorrow I'll return

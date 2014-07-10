@@ -181,6 +181,10 @@ article .footnotes ol li p {
   margin: 0;
 }
 
+#home p#intro {
+  margin: 50px 40px;
+}
+
 #home ul.posts {
   list-style: none;
 }

@@ -2,6 +2,7 @@
 layout: post
 title: The wacky economics of gift-giving
 excerpt: Why do we give presents rather than cash? What is it that makes some gifts offensive and others lovely?
+main: true
 ---
 
 Christmas, birthdays, graduations, housewarming parties --- all wonderful times

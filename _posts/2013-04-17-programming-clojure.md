@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Review&#58; Clojure Programming by Chas Emerick et al.
 excerpt: A wonderful introduction to my long-time favorite language.
+main: true
 ---
 
 I often run into what you might call *closet functional programmers* -- people

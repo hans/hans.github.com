@@ -2,6 +2,7 @@
 layout: post
 title: Post excerpts in Jekyll
 excerpt: Easy excerpts without a self-hosted install.
+main: true
 ---
 
 There's a [fairly simple method][1] for creating WordPress-like post excerpts in Jekyll using a `<!-- more -->` tag, but unfortunately it requires the installation of a Jekyll plugin, a feature unavailable on a GitHub-hosted Jekyll instance.

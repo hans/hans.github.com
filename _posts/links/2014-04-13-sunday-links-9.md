@@ -3,6 +3,7 @@ layout: post
 title: Sunday Links
 excerpt: Week of 14 April
 date: 14 April 2014
+category: links
 ---
 
 - Preliminary results from Mexico's National Institute of Statistics and

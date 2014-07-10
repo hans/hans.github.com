@@ -2,6 +2,7 @@
 layout: post
 title: Parsing sound change rules with Parsec&#58; Part 1
 excerpt: Establishing a BNF grammar for sound change descriptions
+main: true
 ---
 
 *This is the first post in a tutorial series on applying Parsec in

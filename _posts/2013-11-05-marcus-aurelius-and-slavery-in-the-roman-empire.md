@@ -3,6 +3,7 @@ layout: post
 title: Marcus Aurelius and slavery in the Roman Empire
 excerpt: An analysis of the Stoic ruler's failure to stand up against slavery.
 date: 2013-11-05
+main: true
 ---
 
 *Something of a departure from the usual content today --- what follows is my

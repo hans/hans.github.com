@@ -2,6 +2,7 @@
 layout: post
 title: Disabling electric indenting in Emacs modes
 excerpt: A way to shim in a "mode-local" setting.
+main: true
 ---
 
 I am just getting settled in with [Org Mode][1] for Emacs and am constantly amazed at its versatility and wide feature set. One problem has been bugging me in Org for quite a while now, though: `electric-indent-mode`, which I use for auto-indentation when programming, gets in the way by auto-indenting Org headers.

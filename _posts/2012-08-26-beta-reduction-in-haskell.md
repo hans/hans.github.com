@@ -2,6 +2,7 @@
 layout: post
 title: Hillis β-reduction in Haskell
 excerpt: Surprisingly much simpler in translation.
+main: true
 ---
 
 I decided to rewrite my [Hillis β-reduction routine][1] in Haskell. I

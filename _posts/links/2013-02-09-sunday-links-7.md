@@ -3,6 +3,7 @@ layout: post
 title: Sunday Links
 excerpt: Week of February 2
 date: 2 February 2014
+category: links
 ---
 
 Hello world! Well, [I had a feeling][1] things would get quiet around here in

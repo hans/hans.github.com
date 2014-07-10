@@ -2,6 +2,7 @@
 layout: post
 title: Sunday Links
 excerpt: Week of January 5
+category: links
 ---
 
 Happy New Year! I'm really excited about what 2014 has in store, and interested
