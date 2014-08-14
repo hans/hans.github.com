@@ -39,6 +39,7 @@ through [periodic](/2013/q1) [reflections](/2014/q2) and
 <style type="text/css" media="screen">
 #gr_custom_widget_1345940422 {
 margin-top: 10px;
+line-height: 24px;
 }
 #gr_custom_widget_1345940422 center {
 display: none;
@@ -64,15 +65,15 @@ overflow: auto;
 overflow: hidden;
 float: left;
 margin-right: 10px;
-width: 39px;
+width: 50px;
 }
 .gr_custom_author_1345940422 {
 /* customize your author names here */
-font-size: 18px;
+font-size: 16px;
 }
 .gr_custom_tags_1345940422 {
 /* customize your tags here */
-font-size: 16px;
+font-size: 14px;
 color: gray;
 }
 .gr_custom_rating_1345940422 {
