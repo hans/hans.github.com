@@ -158,9 +158,13 @@ article header time, #archive li time {
   color: #888;
 }
 
-article p > img {
+article p img {
   display: block;
   margin: 0 auto;
+  max-width: 95%;
+
+  padding: 2px;
+  border: 1px solid #ccc;
 }
 
 article .footnotes {
