@@ -3,17 +3,13 @@ title: About
 layout: default
 ---
 
-Hi, I'm **Jon Gauthier**. I'm a student at
-[Stanford University](http://stanford.edu) in the
-[Symbolic Systems](http://symsys.stanford.edu) department, where my studies
-include
-[natural language processing](http://en.wikipedia.org/wiki/Natural_language_processing),
-computer science, linguistics, and economics.
+Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
+[Symbolic Systems][2] program, where my studies include
+[natural language processing][3] computer science, linguistics, and economics.
 
 I'm obsessed with language learning, and have engaged on the lifelong trek
-towards [polyglottery](http://en.wikipedia.org/wiki/Polyglotism). I can
-survive[^1] in English, Spanish, French, and Romanian, and my next targets
-include German, Russian, and Norwegian.
+towards [polyglottery][4]. I can survive[^1] in English, Spanish, French, and
+Romanian, and my next targets include German, Russian, and Norwegian.
 
 This blog is a central place for me to publish my musings on (computational)
 linguistics, functional programming, economics, mathematics, philosophy, and all
@@ -24,9 +20,15 @@ through [periodic](/2013/q1) [reflections](/2014/q2) and
 
 [^1]: i.e., figure out how to find food and shelter, maybe banter about economics or culture, but probably not negotiate a nuclear arms non-proliferation treaty
 
+[1]: http://stanford.edu
+[2]: http://symsys.stanford.edu
+[3]: http://en.wikipedia.org/wiki/Natural_language_processing
+[4]: http://en.wikipedia.org/wiki/Polyglotism
+
 ### Around the web
 
 * [GitHub](https://github.com/hans)
+* [LinkedIn](https://www.linkedin.com/pub/jon-gauthier/29/162/336)
 * [Stack Overflow](http://stackoverflow.com/users/176075/hans-engel)
 * [Goodreads](http://www.goodreads.com/user/show/5092154-jon-gauthier)
 * [Google+](https://plus.google.com/103891567423355668079/)
