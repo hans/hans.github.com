@@ -220,7 +220,7 @@ That's it for the code. You can see the entire class in
 I'll end with a quick unscientific test of the code. I built document-frequency
 counts (using a helper [`DocumentFrequencyCounter` class][4]) from the
 [Spanish Gigaword][6], which contains about 1.5 billion words of Spanish. It
-took several days (running on an 8-core machine) to POS-tag each sentence and
+took several days (running on a 16-core machine) to POS-tag each sentence and
 collect the nouns in a global counter.[^3]
 
 I next tested with a few recent Spanish news articles, requesting a two-sentence
