@@ -7,7 +7,7 @@ Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
 [Symbolic Systems][2] program, where my studies include
 [natural language processing][3], computer science, linguistics, and economics.
 I work in the [Natural Language Processing Group][5], and my research falls
-into the broad category of "deep learning for NLP."
+into the broad category of "[deep learning for NLP][6]."
 
 I'm obsessed with language learning, and have engaged on the lifelong trek
 towards [polyglottery][4]. I can survive[^1] in English, Spanish, French, and
@@ -24,6 +24,7 @@ sorts of other fascinating things.
 [3]: http://en.wikipedia.org/wiki/Natural_language_processing
 [4]: http://en.wikipedia.org/wiki/Polyglotism
 [5]: http://nlp.stanford.edu
+[6]: http://nlp.stanford.edu/courses/NAACL2013/
 
 ### Around the web
 
