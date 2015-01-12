@@ -8,26 +8,26 @@ main: true
 [*Machine Learning: The High Interest Credit Card of Technical Debt*][1] is a
 great non-technical paper from this past NIPS that is being passed around online
 and off among people in my network. For me, the paper centers around the claim
-that machine learning systems are fundamentally different in terms of how they
-are developed and used from traditional software:
+that machine learning systems are fundamentally different from traditional
+software in how they are developed and used:
 
-> Indeed, arguably the most important reason for using a machine learning system
-> is precisely that *the desired behavior cannot be effectively implemented in
-> software logic without dependency on external data.*
+> Arguably the most important reason for using a machine learning system is
+> precisely that *the desired behavior cannot be effectively implemented in
+> software logic without dependency on external data.* (p. 2, italics theirs)
 
 Machine learning models are useful because they can encode complex world
 knowledge that would be near-impossible to handle in a deterministic, rule-based
 setting. But this precise distinction is what makes them enormously brittle in
 the face of change. Repeated throughout the paper is the principle of "Changing
-Anything Chances Everything" (CACE):
+Anything Changes Everything" (CACE):
 
 > To make this concrete, imagine we have a system that uses features
 > <em>x<sub>1</sub>, &hellip; x<sub>n</sub></em> in a model. If we change the
 > input distribution of values in <em>x<sub>1</sub></em>, the importance,
 > weights, or use of the remaining <em>n - 1</em> features may all change
-> &hellip; **No inputs are ever really independent.**
+> &hellip; **No inputs are ever really independent.** (p. 2)
 
-CACE can be a problem in all sorts of settings, and if you've gotten this far in
+CACE can be a problem for all sorts of reasons, and if you've gotten this far in
 my post I strongly suggest you read [the full paper][1] to understand the
 implications of building and depending on software which can often be
 fundamentally opaque and unstable by design.
