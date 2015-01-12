@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine learning and technical debt
-excerpt: The hidden costs of real-world ML
+excerpt: *Machine Learning: The High Interest Credit Card of Technical Debt* is a great non-technical paper from this past NIPS that is being passed around online and off among people in my network. The paper claims that because machine learning systems are fundamentally different from traditional software, there are unique problems in incorporating them in otherwise maintainable, robust architectures. This analysis is useful for both the researcher and the practitioner.
 main: true
 ---
 
