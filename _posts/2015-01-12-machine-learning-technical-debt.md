@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine learning and technical debt
-excerpt: <em>Machine Learning: The High Interest Credit Card of Technical Debt</em> is a great non-technical paper from this past NIPS conference. The paper claims that because machine learning systems are fundamentally different from traditional software, there are unique problems in incorporating them in otherwise maintainable, robust architectures. This analysis is useful for both the researcher and the practitioner.
+excerpt: <em>Machine Learning&#58; The High Interest Credit Card of Technical Debt</em> is a great non-technical paper from this past NIPS conference. The paper claims that because machine learning systems are fundamentally different from traditional software, there are unique problems in incorporating them in otherwise maintainable, robust architectures. This analysis is useful for both the researcher and the practitioner.
 main: true
 ---
 
