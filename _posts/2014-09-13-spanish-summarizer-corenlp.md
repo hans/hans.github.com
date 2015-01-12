@@ -263,7 +263,7 @@ Spanish. Feel free to follow up below in the comments or by email!
 [1]: http://nlp.stanford.edu/software/corenlp.shtml
 [2]: http://en.wikipedia.org/wiki/Tf%E2%80%93idf
 [3]: https://github.com/hans/corenlp-summarizer
-[4]: https://github.com/hans/corenlp-summarizer/blob/master/src/me/foldl/corenlp_summarizer/IDFCounter.java
+[4]: https://github.com/hans/corenlp-summarizer/blob/master/src/me/foldl/corenlp_summarizer/DocumentFrequencyCounter.java
 [5]: https://github.com/hans/corenlp-summarizer/blob/master/src/me/foldl/corenlp_summarizer/Summarizer.java
 [6]: https://catalog.ldc.upenn.edu/LDC2011T12
 [7]: http://www.rtve.es/noticias/20140903/equipo-cientificos-definen-supercumulo-galaxias-esta-via-lactea/1005222.shtml
