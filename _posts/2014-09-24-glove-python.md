@@ -316,12 +316,12 @@ the full cost function.
         # NB: `v_main` is only a view into `W` (not a copy), so our
         # modifications here will affect the global weight matrix;
         # likewise for v_context, biases, etc.
-        grad_main = cost_inner * v_context
-        grad_context = cost_inner * v_main
+        grad_main = weight * cost_inner * v_context
+        grad_context = weight * cost_inner * v_main
 
         # Compute gradients for bias terms
-        grad_bias_main = cost_inner
-        grad_bias_context = cost_inner
+        grad_bias_main = weight * cost_inner
+        grad_bias_context = weight * cost_inner
 {% endhighlight %}
 
 Finally, we update weights with AdaGrad[^7] and add the calculated
