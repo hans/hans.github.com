@@ -303,7 +303,7 @@ relevant parameters \\(w_i\\), \\(w_j\\), \\(b_i\\), and \\(b_j\\).
 (Note that since \\(f(X_{ij})\\) doesn't depend on any of these
 parameters, the derivations are quite simple.)
 
-{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( w_i^T w_j + b_i + b_j - \log X_{ij} \right)^2 \\ \frac{\partial J}{\partial w_i} &= w_j \left( w_i^T w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial w_j} &= w_i \left( w_i^T w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= w_i^T w_j + b_i + b_j - \log X_{ij} \\ \frac{\partial J}{\partial b_j} &= w_i^T w_j + b_i + b_j - \log X_{ij} \end{align*} \]{:/}
+{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( w_i^T w_j + b_i + b_j - \log X_{ij} \right)^2 \\ \frac{\partial J}{\partial w_i} &= f\left(X_{ij}\right) w_j \left( w_i^T w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial w_j} &= f\left(X_{ij}\right) w_i \left( w_i^T w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= f\left(X_{ij}\right) w_i^T w_j + b_i + b_j - \log X_{ij} \\ \frac{\partial J}{\partial b_j} &= f\left(X_{ij}\right) w_i^T w_j + b_i + b_j - \log X_{ij} \end{align*} \]{:/}
 
 Now let's put that in code! We use the earlier-calculated intermediate
 value `cost_inner`, which stores the value being squared and weighted in
