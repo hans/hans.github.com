@@ -167,6 +167,11 @@ article p img {
   border: 1px solid #ccc;
 }
 
+article p.caption {
+  font-size: 80%;
+  margin: 5px 20px 15px 20px;
+}
+
 article .footnotes {
   font-size: 16px;
 }
