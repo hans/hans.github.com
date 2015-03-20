@@ -22,9 +22,10 @@
   {% if page %}
   <meta name="title" content="{{ page.title }}" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta name="description" content="{{ page.excerpt }}" />
-  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta name="description" content="{{ page.excerpt | strip_html }}" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
   <meta property="og:site_name" content="foldl" />
+  <meta property="og:image" content="{{ page.image }}" />
   {% endif %}
   <meta name="author" content="Jon Gauthier" />
 

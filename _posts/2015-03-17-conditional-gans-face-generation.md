@@ -3,6 +3,7 @@ layout: post
 title: Conditional generative adversarial networks for face generation
 excerpt: I describe a recent project using <em>generative adversarial nets</em> to learn to draw human faces.
 main: true
+image: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/axis_incremental.png
 ---
 
 This week marks the end of the winter quarter at Stanford, and with it ends the
