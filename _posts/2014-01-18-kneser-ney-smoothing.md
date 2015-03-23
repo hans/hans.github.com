@@ -42,7 +42,7 @@ reallocating some probability mass from 4-grams or 3-grams to simpler unigram
 models. The formula for absolute-discounting smoothing as applied to a bigram
 language model is presented below:
 
-{::nomarkdown}\[P_{abs}(w_i \mid w_{i}) = \dfrac{\max(c(w_{i-1} w_i) - \delta, 0)}{\sum_{w'} c(w_{i-1} w')} + \alpha\; p_{abs}(w_i)\]{:/}
+{::nomarkdown}\[P_{abs}(w_i \mid w_{i-1}) = \dfrac{\max(c(w_{i-1} w_i) - \delta, 0)}{\sum_{w'} c(w_{i-1} w')} + \alpha\; p_{abs}(w_i)\]{:/}
 
 Here \\(\delta\\) refers to a fixed **discount** value, and \\(\alpha\\) is a
 normalizing constant. The details of this smoothing are covered in
