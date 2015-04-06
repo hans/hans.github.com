@@ -99,9 +99,10 @@ and argument parsing, and focus on the three most meaty functions in the code:
 
 First, our `build_cooccur` function accepts a vocabulary (mapping words to
 integer word IDs), a corpus (a simple iterator over sentences), and some
-optional parameters: a context window size and a minimum count (TODO
-descriptions?). We'll start by building a sparse matrix for collecting
-cooccurrences \\(X_{ij}\\) and some simple helper data.
+optional parameters: a context window size and a minimum count (used to
+drop rare word co-occurrence pairs). We'll start by building a sparse
+matrix for collecting cooccurrences \\(X_{ij}\\) and some simple helper
+data.
 
 {% highlight python %}
 def build_cooccur(vocab, corpus, window_size=10, min_count=None):
