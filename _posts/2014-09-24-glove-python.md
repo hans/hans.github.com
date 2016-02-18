@@ -300,7 +300,7 @@ use in calculating the gradient in the next section.
 
 With the cost calculated, we now need to compute gradients. From our
 original cost function \\(J\\) we derive gradients with respect to the
-relevant parameters {::nomarkdown}\\(\vec{w}_i\\){:/}, \\(\vec{w}_j\\), \\(b_i\\), and \\(b_j\\).
+relevant parameters {::nomarkdown}\(\vec{w}_i\){:/}, \\(\vec{w}_j\\), \\(b_i\\), and \\(b_j\\).
 (Note that since \\(f(X_{ij})\\) doesn't depend on any of these
 parameters, the derivations are quite simple.)
 
