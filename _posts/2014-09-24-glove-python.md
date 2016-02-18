@@ -60,7 +60,7 @@ Once we've prepared \\(X\\), our task is to decide vector values in continuous
 space for each word we observe in the corpus. We will produce vectors with a
 soft constraint that for each word pair of word \\(i\\) and word \\(j\\),[^6]
 
-\\[\begin{equation}w_i^T w_j + b_i + b_j = \log X_{ij}.\end{equation}\\]
+\\[\begin{equation}\vec{w}_i^T \vec{w}_j + b_i + b_j = \log X_{ij}.\end{equation}\\]
 
 where \\(b_i\\) and \\(b_j\\) are scalar bias terms associated with words
 \\(i\\) and \\(j\\), respectively. Intuitively speaking, we want to build word
@@ -71,7 +71,7 @@ We'll do this by minimizing an objective function \\(J\\), which evaluates the
 sum of all squared errors based on the above equation, weighted with a function
 \\(f\\):
 
-{::nomarkdown}\[\begin{equation}J = \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( w_i^T w_j + b_i + b_j - \log X_{ij} \right)^2 \end{equation}\]{:/}
+{::nomarkdown}\[\begin{equation}J = \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \end{equation}\]{:/}
 
 We choose an \\(f\\) that helps prevents common word pairs (i.e., those with
 large \\(X_{ij}\\) values) from skewing our objective too much:
@@ -300,11 +300,11 @@ use in calculating the gradient in the next section.
 
 With the cost calculated, we now need to compute gradients. From our
 original cost function \\(J\\) we derive gradients with respect to the
-relevant parameters \\(\vec{w}_i\\), \\(\vec{w}_j\\), \\(b_i\\), and \\(b_j\\).
+relevant parameters {::nomarkdown}\\(\vec{w}_i\\){:/}, \\(\vec{w}_j\\), \\(b_i\\), and \\(b_j\\).
 (Note that since \\(f(X_{ij})\\) doesn't depend on any of these
 parameters, the derivations are quite simple.)
 
-{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \\ \nabla_{\vec{w}_i} J &= f\left(X_{ij}\right) \vec{w}_j \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \nabla_{\vec{w}_j} J &= f\left(X_{ij}\right) \vec{w}_i \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= f\left(X_{ij}\right) \left(w_i^T w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_j} &= f\left(X_{ij}\right) \left(w_i^T w_j + b_i + b_j - \log X_{ij}\right) \end{align*} \]{:/}
+{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \\ \nabla_{\vec{w}_i} J &= f\left(X_{ij}\right) \vec{w}_j \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \nabla_{\vec{w}_j} J &= f\left(X_{ij}\right) \vec{w}_i \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_j} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \end{align*} \]{:/}
 
 Now let's put that in code! We use the earlier-calculated intermediate
 value `cost_inner`, which stores the value being squared and weighted in
