@@ -300,9 +300,10 @@ use in calculating the gradient in the next section.
 
 With the cost calculated, we now need to compute gradients. From our
 original cost function \\(J\\) we derive gradients with respect to the
-relevant parameters {::nomarkdown}\(\vec{w}_i\){:/}, \\(\vec{w}_j\\), \\(b_i\\), and \\(b_j\\).
+relevant parameters \\(\vec w_i\\), \\(\vec w_j\\), \\(b_i\\), and \\(b_j\\).
 (Note that since \\(f(X_{ij})\\) doesn't depend on any of these
-parameters, the derivations are quite simple.)
+parameters, the derivations are quite simple.) Below we use the operator
+\\(\odot\\) to denote elementwise vector multiplication.
 
 {::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \\ \nabla_{\vec{w}_i} J &= f\left(X_{ij}\right) \vec{w}_j \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \nabla_{\vec{w}_j} J &= f\left(X_{ij}\right) \vec{w}_i \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_j} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \end{align*} \]{:/}
 
