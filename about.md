@@ -41,6 +41,7 @@ sorts of other fascinating things.
 ### Around the web
 
 * [GitHub](https://github.com/hans)
+* [Twitter](https://twitter.com/j_gauthier)
 * [LinkedIn](https://www.linkedin.com/pub/jon-gauthier/29/162/336)
 * [Stack Overflow](http://stackoverflow.com/users/176075/hans-engel)
 * [Goodreads](http://www.goodreads.com/user/show/5092154-jon-gauthier)
