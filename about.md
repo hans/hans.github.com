@@ -5,13 +5,14 @@ layout: default
 
 Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
 [Symbolic Systems][2] program, where my studies include
-[natural language processing][3], computer science, linguistics, and economics.
+[natural language processing][3], computer science, linguistics, and psychology.
 I work in the [Natural Language Processing Group][5], and my research falls
 into the broad category of "[deep learning for NLP][6]."
 
-I'm obsessed with language learning, and have engaged on the lifelong trek
-towards [polyglottery][4]. I can survive[^1] in English, Spanish, French, and
-Romanian, and my next targets include German, Russian, and Norwegian.
+I'm obsessed with language learning, and have engaged on a lifelong trek
+towards [polyglottery][4]. I can survive[^1] in English, German, and Spanish,
+and have dormant ability in French and Romanian. Next targets include Russian
+and Norwegian.
 
 This blog is a central place for me to publish my musings on (computational)
 linguistics, functional programming, economics, mathematics, philosophy, and all
@@ -25,6 +26,17 @@ sorts of other fascinating things.
 [4]: http://en.wikipedia.org/wiki/Polyglotism
 [5]: http://nlp.stanford.edu
 [6]: http://nlp.stanford.edu/courses/NAACL2013/
+
+### Publications
+
+(Find me on [Google Scholar][7] for an up-to-date list.)
+
+- [A fast unified model for parsing and sentence understanding.][9] Sam Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, Christopher Potts. Submitted to ACL 2016.
+- [Conditional generative adversarial networks for convolutional face generation.][8] **Jon Gauthier.** Stanford CS 231N class project. March 2015.
+
+[7]: https://scholar.google.de/citations?user=7dPITbkAAAAJ
+[8]: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/paper.pdf
+[9]: http://arxiv.org/pdf/1603.06021.pdf
 
 ### Around the web
 
