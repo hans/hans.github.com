@@ -60,7 +60,7 @@ Once we've prepared \\(X\\), our task is to decide vector values in continuous
 space for each word we observe in the corpus. We will produce vectors with a
 soft constraint that for each word pair of word \\(i\\) and word \\(j\\),[^6]
 
-\\[\begin{equation}\vec{w}_i^T \vec{w}_j + b_i + b_j = \log X_{ij}.\end{equation}\\]
+{::nomarkdown}\[\begin{equation}\vec{w}_i^T \vec{w}_j + b_i + b_j = \log X_{ij}.\end{equation}\]{:/}
 
 where \\(b_i\\) and \\(b_j\\) are scalar bias terms associated with words
 \\(i\\) and \\(j\\), respectively. Intuitively speaking, we want to build word
