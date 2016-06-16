@@ -3,22 +3,18 @@ title: About
 layout: default
 ---
 
+<img alt="Me in Montreal in December 2015." src="/uploads/me-dec-2015.jpg"
+style="float:right; width: 45%; margin:10px;" />
+
 Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
 [Symbolic Systems][2] program, where my studies include
 [natural language processing][3], computer science, linguistics, and psychology.
 I work in the [Natural Language Processing Group][5], and my research falls
 into the broad category of "[deep learning for NLP][6]."
 
-I'm obsessed with language learning, and have engaged on a lifelong trek
-towards [polyglottery][4]. I can survive[^1] in English, German, and Spanish,
-and have dormant ability in French and Romanian. Next targets include Russian
-and Norwegian.
-
-This blog is a central place for me to publish my musings on (computational)
-linguistics, functional programming, economics, mathematics, philosophy, and all
+This blog is a central place for me to publish somewhat unfiltered musings on
+natural language processing, machine learning, linguistics, economics, and all
 sorts of other fascinating things.
-
-[^1]: i.e., figure out how to find food and shelter, maybe banter about economics or culture, but probably not negotiate a nuclear arms non-proliferation treaty
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
@@ -45,7 +41,6 @@ sorts of other fascinating things.
 * [LinkedIn](https://www.linkedin.com/pub/jon-gauthier/29/162/336)
 * [Stack Overflow](http://stackoverflow.com/users/176075/hans-engel)
 * [Goodreads](http://www.goodreads.com/user/show/5092154-jon-gauthier)
-* [Google+](https://plus.google.com/103891567423355668079/)
 
 ### Currently reading
 
