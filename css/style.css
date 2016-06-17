@@ -74,7 +74,7 @@ sup {
   text-align: center;
 }
 
-.inner, article p {
+.inner, article p, article h1, article h2, article h3, article h4 {
   padding: 5px 21px;
 }
 
@@ -183,7 +183,8 @@ img {
 
 article p.caption, article caption, article figcaption {
   font-size: 80%;
-  margin: 5px 20px 15px 20px;
+  margin: 10px 20px 15px 20px;
+  line-height: 20px;
 }
 
 article caption time, article figcaption time {
@@ -303,7 +304,7 @@ ul#archive li .description .excerpt {
 }
 
 @media all and (max-width: 500px) {
-  .inner, article p {
+  .inner, article p, article h1, article h2, article h3, article h4 {
     padding: 5px 10px;
   }
 

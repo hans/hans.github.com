@@ -3,7 +3,7 @@ layout: post
 title: Conditional generative adversarial networks for face generation
 excerpt: I describe a recent project using <em>generative adversarial nets</em> to learn to draw human faces.
 main: true
-image: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/axis_incremental.png
+image: /uploads/2015/conditional-gans-face-generation/axis_incremental.png
 ---
 
 This week marks the end of the winter quarter at Stanford, and with it ends the
@@ -20,14 +20,7 @@ generation*. For those interested in a technical deep dive, check out
 <p style="text-align:center;font-size:88%">(jump to: <a
 href="#introduction">introduction</a>, <a href="#model">model</a>)</p>
 
-<p>
-<a href="/uploads/2015/conditional-gans-face-generation/axis_incremental.png">
-<img alt="Demonstration of deterministic control of image samples. We tweak conditional information to first make the sampled faces age, then again to make them smile." src="/uploads/2015/conditional-gans-face-generation/axis_incremental.png" />
-</a>
-</p>
-<p class="caption">Example of faces sampled from the generative model. We draw
-random faces in the first row. In the second row we ask the model to "age" the
-faces, and in the third row we ask the model to add a smile.</p>
+{% include img.html href="/uploads/2015/conditional-gans-face-generation/axis_incremental.png" alt="Example of faces sampled from the generative model. We draw random faces in the first row. In the second row we ask the model to 'age' the faces, and in the third row we ask the model to add a smile." url="/uploads/2015/conditional-gans-face-generation/axis_incremental.png" %}
 
 ## Introduction
 
@@ -101,7 +94,7 @@ Good question! Recall that we're learning a *generative* model of faces while we
 do this density modeling. The interesting implication is that we can **sample
 brand-new faces** from the learned density model. Like these ones:
 
-<img src="/uploads/2015/conditional-gans-face-generation/samples_cgan_fixed.png"/>
+{% include img.html url="/uploads/2015/conditional-gans-face-generation/samples_cgan_fixed.png" %}
 
 The faces above are created by the model from scratch. These faces are entirely
 new, and don't resemble faces in the training data provided to the model. That's
@@ -164,9 +157,7 @@ information input \\(\mathbf{y}\\), we might ask the generator *G* to generate a
 face with a smile, and likewise ask the discriminator *D* whether a particular
 image contains a face with a smile.
 
-<a href="/uploads/2015/conditional-gans-face-generation/axis_incremental.png">
-![Demonstration of deterministic control of image samples. We tweak conditional information to first make the sampled faces age, then again to make them smile.](/uploads/2015/conditional-gans-face-generation/axis_incremental.png)
-</a>
+{% include img.html href="/uploads/2015/conditional-gans-face-generation/axis_incremental.png" alt="Demonstration of deterministic control of image samples. We tweak conditional information to first make the sampled faces age, then again to make them smile." url="/uploads/2015/conditional-gans-face-generation/axis_incremental.png" %}
 
 The final consequence of all of this is that we can directly control the output
 of the generator *G*. The image above shows a figure from the paper. We begin

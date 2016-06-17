@@ -20,16 +20,13 @@ Enter [Metacademy][1], an open-source project for creating
 consists of a list of prerequisite concepts and a collection of resources for
 learning the concept itself. A picture is worth many words of explanation:
 
-<a
-href="http://www.metacademy.org/graphs/concepts/sequential_monte_carlo#focus=sequential_monte_carlo&mode=explore">
-<img alt="Metacademy concept graph" src="/uploads/metacademy.png" /></a>
+{% include img.html href="http://www.metacademy.org/graphs/concepts/sequential_monte_carlo#focus=sequential_monte_carlo&mode=explore" alt="Metacademy concept graph" url="/uploads/metacademy.png" %}
 
 This is an exciting way to think about knowledge acquisition, I think. The graph
 itself reminds me of "skill trees" in MMORPGs or of the "technology tree" in the
 game [Civilization][3]:
 
-<a href="/uploads/metacademy-civilization.png"><img alt="Civilization
-technology tree" src="/uploads/metacademy-civilization.png"/></a>
+{% include img.html url="/uploads/metacademy-civilization.png" alt="Civilization technology tree" %}
 
 With this kind of ontology defined, we can now think of learning as a slow and
 deliberate traversal of a massive graph. I've been browsing and tracking my
