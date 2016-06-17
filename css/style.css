@@ -74,7 +74,7 @@ sup {
   text-align: center;
 }
 
-.inner {
+.inner, article p {
   padding: 5px 21px;
 }
 
@@ -136,6 +136,16 @@ aside#topbar ul li:last-child {
   padding-bottom: 0px;
 }
 
+section#single-image {
+  margin: 40px 0 25px;
+}
+
+section#single-image img {
+  width: 100%;
+  padding: 0;
+  border: none;
+}
+
 article {
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
@@ -162,10 +172,10 @@ article figure {
   margin: 0;
 }
 
-section#main img {
+img {
   display: block;
   margin: 0 auto;
-  max-width: 95%;
+  max-width: 100%;
 
   padding: 2px;
   border: 1px solid #ccc;
@@ -293,7 +303,7 @@ ul#archive li .description .excerpt {
 }
 
 @media all and (max-width: 500px) {
-  .inner {
+  .inner, article p {
     padding: 5px 10px;
   }
 
