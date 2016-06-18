@@ -162,6 +162,7 @@ article:first-child {
 
 article header h1 {
   margin-bottom: 0px;
+  padding: 0;
 }
 
 article header time, #archive li time {
@@ -183,7 +184,7 @@ img {
 
 article p.caption, article caption, article figcaption {
   font-size: 80%;
-  margin: 10px 20px 15px 20px;
+  margin: 10px 5px 15px 5px;
   line-height: 20px;
 }
 
