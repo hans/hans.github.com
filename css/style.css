@@ -78,6 +78,11 @@ sup {
   padding: 5px 21px;
 }
 
+article ul p {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #container {
   max-width: 650px;
   margin: 25px auto;
@@ -180,6 +185,10 @@ img {
 
   padding: 2px;
   border: 1px solid #ccc;
+}
+
+img.noborder {
+ border: none;
 }
 
 article p.caption, article caption, article figcaption {
