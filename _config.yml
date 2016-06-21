@@ -2,7 +2,7 @@ markdown: kramdown
 kramdown:
     entity_output: symbolic
     smart_quotes: lsquo,rsquo,ldquo,rdquo
-pygments: true
+highlighter: rouge
 lsi: true
 
 permalink: /:year/:title/
