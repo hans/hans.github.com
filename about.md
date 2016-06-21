@@ -23,11 +23,25 @@ sorts of other fascinating things.
 [5]: http://nlp.stanford.edu
 [6]: http://nlp.stanford.edu/courses/NAACL2013/
 
+### Recent personal news
+
+- I will give a talk on the [SPINN project][9] at [Google DeepMind][13] in
+August 2016.
+- Our [paper on SPINN][9], a deep learning model for natural language
+understanding, has been accepted to [ACL 2016][11]. I will present it at the
+conference in Berlin with [Sam Bowman][12] in August 2016.
+- I will join [OpenAI][10] in June 2016.
+
+[10]: https://openai.com/
+[11]: http://acl2016.org/
+[12]: https://www.nyu.edu/projects/bowman/
+[13]: https://deepmind.com/
+
 ### Publications
 
 (Find me on [Google Scholar][7] for an up-to-date list.)
 
-- [A fast unified model for parsing and sentence understanding.][9] Sam Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, Christopher Potts. Submitted to ACL 2016.
+- [A fast unified model for parsing and sentence understanding.][9] Sam Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, Christopher Potts. ACL 2016.
 - [Conditional generative adversarial networks for convolutional face generation.][8] **Jon Gauthier.** Stanford CS 231N class project. March 2015.
 
 [7]: https://scholar.google.de/citations?user=7dPITbkAAAAJ
