@@ -55,7 +55,7 @@ networks are impressive, but there is still plenty of room for more cross-talk.
 I am now convinced that we do have much more to learn from cognitive
 neuroscience.[^1]
 
-{% include img.html datetime="August 2015" alt="A summer at Google. I did some work, too &mdash; not pictured here." url="https://lh3.googleusercontent.com/hWUZzjbHILPjDVnt8KndEyDjSs337qEq4H177kLnwQCdkeGZk7WX9-oiw-tKHf6EPGncgAyCnRduTP4bSqpls9-g42C5tr0DafESa-Xg1hxPUOn4f2nWjQwDxYOjTGP2rApeMXKByzhNWYDcWumTSPXckjzzczrRmRr297Tyhvod35wi-BuEOSj8mn4oZxPk8LIGKLd94vlVJYRTlIZz95nkRgjt06cHSx3uRxJajq90b0hVCKPwJVW1FySHH5MdhPU4Dq5vQQ3m-hZLHHUnoHxPC-4-mJV93wuinci5z9wcRLgs3SJBd064g3pVbPKAF6RMO4JzZ5ZpauV6vwdox-RAyIuX-pdgLxB63f3x7MsPF0Pq7AJ2-q9lkgBjtBg_NwHGH13nRM-uLXOI4cLQY7a_iIHMBX3udWlO8gntmB-hXpdSgNPJB2IHJ7jaw80CriUC7khCngNzdQvIjLb7yPSki_bRu3ZenMO0JBTDcjvPwuhF-7j3oRyXOXfsZJDkErrWENwFku8xZEevcKwN0ngK-3v1f42NLDRu0tcjHZWtREVc3FoLLSBP6Y5yGZoKS6HfaZtYZy0m5jQUlzpmIkt1sUA_XMs=w693-h923-no" %}
+{% include img.html datetime="August 2015" alt="A summer at Google. I did some work, too &mdash; not pictured here." url="/uploads/2016/google.jpg" %}
 
 I spent my summer as a research intern at [Google Brain][7], co-advised by [Ilya
 Sutskever][8] and [Oriol Vinyals][9].[^2] The Brain team was an outstanding place
@@ -69,7 +69,7 @@ Googlers riding [Waves to Wine][10] and trained with them for the whole summer.
 I learned to climb mountains and speed down descents, leveling up from
 newbie-cyclist to slightly-less-newbie cyclist.
 
-{% include img.html datetime="October 2015 / July 2015" alt="Yay, bikes!" url="https://lh3.googleusercontent.com/xtpDXoPy1-OP0V950aMG_A82PgcArAEjuu8UDoPCVfFqTgcbx_eLliFOv-NscV0HCqu7cejZhBzaSNBGk3cUgwYC5HWG7dGgiuD8jAakD7rMSg2hl9F7kmbTMh9oHd_SPce0FGzb1MDjGw-Y1Wj_yzOIVe7KjZ2_GF9gXI7W450uAVxRg6PQ3tv0KnG53h-EzIXw_q9lmNyaaoXBgNRWotX1IXkqDIhUCYVDGdJOAd6mkF5o-TCXysgJZjIRkw7yytMu_PIoaqY7llAGiULhhC7TvDz3rxPQEpRvPoJI7vOvJcYm1YXKi51eLyKykED9NjeLfnBCztGgNnMc54wL1eHaJJayWjQ82kohfFW2COGvepgcs6pCFAPhqh9uW0BhjYvmCMAPxJic13zrTrd6SWpdULihZbpfQgkbdlxRZMvnoRXci7KBAJWKzbfojExnrV9CrQjow497MsQkE5LFzUUu3pF97fnh48VJ8fe0ofKn2UVO5KiZmhmQr2UZmmjaksjdpOemNMX92gBXbRY8zea4piE4J846JpiKK86AS1TF4azRJ2gZqWYjVZc1je1h0X1ALW5hIRgJo7bumUDpn3260n3VPcs=w1231-h923-no" %}
+{% include img.html datetime="October 2015 / July 2015" alt="Yay, bikes!" url="/uploads/2016/bikes.jpg" %}
 
 Cycling was a great release for me. While I loved working on the Brain team, I
 found the work environment on the Google campus rather stifling. It's truly a
@@ -82,7 +82,7 @@ way for me to escape the messy, mathy world of artificial intelligence.  The
 Stanford cycling community is very supportive of motivated beginners, and I was
 able to level up again with some very impressive skilled riders.
 
-{% include img.html datetime="January 2016" alt="A fraction of the Stanford group on <a href=\"https://www.strava.com/activities/471935405\">a ride in Southern California</a>." url="https://lh3.googleusercontent.com/pHIAk3SrdgV-ZqG0V_doSSpVcGWDrVAvT6CdxN4jQ9fJX2e-O2Bbzik_26jc0OG7u1qz2WBSkjIElInzWLyE31gEyLpIP95iNVCAmGAJpO6ltB_vz72L1B7AmM4_VaDRf9B9SKQXplCQSlCwaWrrwRhOXWZuYzXvtSh_PtsnYZQVaBIbBNwn4xOFaOuMEA7LRa3Z9TL-HkcHD5UQ-EguBh6ZQXkX3HGe8sB2QSRmwrvXb5QIqUK3qqyCHELspdG47meM-EtWkxFXy_UUMDjiYzn3zrsgEF4K_R2cl4R1QR3FqJixsYz9Q8KBYKLXCTKV2Btj4z4zVS77dBwVGGVyUPVdBKYoTbUi_p-uC0byA7z_CCnE8oUQ31dLVfSz0Wa3l24PpI85Zx0TbSsKsW5wwGs-Ag_7u1--jTEMN3ouWEslVL6mXiP_qztYOCO2FebInjNH7LscP7tMhpa2XpZaItd0MTi-jvBamgPnNkRHnJg6VyVmo4K9gxq9Fm7dhhVHlFxhg8vjAAdtuU9rGu3mr6XziJefoDD1RD3A6JLwFyFJ2DCE4Z8IEX4KfKCD-3LTluO3xcSVYUAX8mQNsWGvb6J3qDdN40o=w1231-h923-no" %}
+{% include img.html datetime="January 2016" alt="A fraction of the Stanford group on <a href=\"https://www.strava.com/activities/471935405\">a ride in Southern California</a>." url="/uploads/2016/stanford-cycling.jpg" %}
 
 In the fall, [Sam][2] and I started working seriously on what would later be
 called SPINN (the **S**tack-augmented **P**arser-**I**nterpreter **N**eural
@@ -111,7 +111,7 @@ Theano-hacking, and writing CUDA code taught us a good lesson: if you're doing
 anything remotely unusual in terms of neural network structure, you probably
 should ditch abstractions like Theano and work down at the layer of the metal.
 
-{% include img.html datetime="December 2015" alt="Keenon Werling and I in Montréal during NIPS 2015." url="https://lh3.googleusercontent.com/7fy5x8CICXIF9d8NruMbOuiNADOdlKisS3PRzsJdCtzDPcLwVuHSg9GKXDETMi4dGHLUuIY53zuf-XWBpO3FALzQCfrmX57EQgpyI0EBjZos6XAl4l0xCzzzffUCmmie6ot_pNR3D6i8WHHZTRekAMAxT_eT4xT0DCXxQOPGf1Yh4W1VrIaw7lWvzM4UHOMEb06D-UMFHAsHnASfRDe5q2JTtCcryAStDvHjl-BndqlMN7w3oNo4o-eCmVnA5-YmUAZ2oQH0-y9GtjQNgjv24tBo7p36DPQjV5Dq42BmMMqR_gcu0MFRtwCthFcblrie4yKdznRplXRbqWHyh4dd9MzbMvg0kq-1wWeke3SmtMAaS_0tX5T5xKaD1CdlLnk-tSMCEc2Z_svdqOlgWcPu1MQBCJHvz5PfAd38u-w1lby0LThDrrUjJd0Jh-mnMJP8hg3MdfEjm9eDTyIKeGUFB_vRylIOVrhmcPd-tq3eBtsBJBHmjeRAlVtjxt0EGk3fHp8WJZEque7PTWAixAPqT76DHYMd9oVqf--OjA9nGF-zsa_Daswt1i7Ot_U07B8UHT0jJL3g_4bZBtktlFeZfg64GmF2G8U=w1236-h927-no" %}
+{% include img.html datetime="December 2015" alt="Keenon Werling and I in Montréal during NIPS 2015." url="/uploads/2016/nips-keenon.jpg" %}
 
 I escaped Stanford for a bit in the winter to attend NIPS 2015. This was my
 my first machine learning conference, and I really enjoyed socializing and
@@ -126,7 +126,7 @@ bike heaven / ridiculous economic bubble / home of an artificial intelligence
 renaissance that is the San Francisco Bay Area. I made a big life decision that
 had been sitting around in the queue for a while and **became a vegetarian**.
 
-{% include img.html datetime="February 2016" alt="A yummy vegetarian meal from Ricker, a Stanford dining hall near the Gates CS building. Stanford has been voted the <a href='http://www.stanforddaily.com/2015/04/28/stanford-voted-most-vegan-friendly-campus/'>'Favorite Vegan-Friendly Large College'</a> by <a href='http://www.peta2.com/'>peta2</a>." url="https://lh3.googleusercontent.com/krv_0WtqUS9OOkUEweqHCUOuWMOrp2YZ7GItiAOMzxuQVh0IwcFGQT4lWWjGfMRepNUILikuIfFQ-xzXuzzqV4hCfgqoErc0LWvYXgv4dP5hegZmRl8-1cnWQVGbPakRyFILmRbPHuEhW3BGBpmpoxu2tk4hNc7kdiiw1pNGF-rjYPf_W2kzF0YzL6fvdRtQR5bpNO59Jna9tIU9C68TTMoHginRjvZLeMoLw0O1krysL4a9Gofm7VyLqjIxoYa-LXSxb79124RASmEnkti5WUzhM4qpPCXKf-DGy_mFo0yo8oLJ4hTo6zyTg77UoOSmiKmxKKgzYgTFWQqPsJ4whywYgLKMxc62aPsnavmdTHgjufeBqpyfSnQs8gdcm12CpPTBmLcs842aCXEn8di9w1HuZQOz9lGv9I9Ii631kvbjNfQolY-BVoetleJ7x8mtSAuMksO428KriYr1Bp8pXdgfalITsdd10s8lVrzbHIYxHDA5yZqZoOFBHZXkOiEtemOb7YbsGWgaq3FUOQGB9PKo2NM6vd3xKqWpQgHFdNFxC4CrrbGI1CK-TWRYukYtb3d61gJ9T4Orakc8XVUuyjLQtvXTbR0=w1231-h923-no" %}
+{% include img.html datetime="February 2016" alt="A yummy vegetarian meal from Ricker, a Stanford dining hall near the Gates CS building. Stanford has been voted the <a href='http://www.stanforddaily.com/2015/04/28/stanford-voted-most-vegan-friendly-campus/'>'Favorite Vegan-Friendly Large College'</a> by <a href='http://www.peta2.com/'>peta2</a>." url="/uploads/2016/veggies.jpg" %}
 
 This isn't the place for me to wage an anti-meat campaign --- interested readers
 can just take a good look at e.g. [the report of the Pew Commission on
@@ -153,7 +153,7 @@ summer.
 
 And then I was off to Berlin!
 
-{% include img.html alt="Riding a vintage roadie in central Berlin." datetime="April 2016" url="https://lh3.googleusercontent.com/CHT7vqzMZfF1ljvxae6BD26Z9AfmY4kX9qVmY7UcKll_M8fSpjjMoSo9Lw61v5l3JHHtU8JrmSryyMGGpR_Kh-Ro6fuBCEhqgyOZ5ToAPY9LZqmvY5vhf_8X98xx_VSdSwWDEV8EzKk3Uo_-9RYcqWTl8-scxCMwJF75hmmr63pt_ZCf0iLK5zDQ60cI5lO3WfCDrotsTHhwkwAru8O0O5A2qdVME2eDZ3MTwn69qcaDg4axh3yALENH_rpmJH3jZjxi1cnBWhrgr8Pqnr6Ja3Lcj6-I7HGGDs0knBDougkoIeGAKJBTVzizdaqe0wnbpybeHa4KjVqlLv7zNfGvSDLhHCE7CcYzpILHGyG1z6np1d0SRoesWQMyTzIytK-qZC6pChd1dP0nHUOhqZhWWDDBhmAS9zbRpjqRxTKi9NDKI-XY_14AYtzhGTatg9wK1dtshN07IqWKPQ7ViTLQXTZISKhjSsX2GmwbROYq1kXIsDlyJbP44klL8fpHK6BIuL6WBFZHs-UW7uAXpn96gch-0v4s6JuX-17WaHohbDXYGL8J0jbmMkcbYJkVq1_X5q7z3V7BP70aRZ37afFLkUMovQnUE08=w1231-h923-no" %}
+{% include img.html alt="Riding a vintage roadie in central Berlin." datetime="April 2016" url="/uploads/2016/berlin.jpg" %}
 
 I had long ago applied to the Stanford overseas study [program in Berlin][17].
 After several years of mostly tunnel-vision intellectual focus on artificial
