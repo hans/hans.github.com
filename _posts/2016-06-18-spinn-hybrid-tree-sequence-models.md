@@ -50,7 +50,7 @@ classifier weights \\(w_y\\) and our computed representation of the sentence
 \\(f(\mathbf x)\\). The remaining task (the one that people have been working on
 for decades) is how best to encode this representation. We want a compact,
 sufficient[^2] value that can powerfully predict answers to questions we care
-about. Since this is a deep learning project, \\f(\mathbf x)\\) is of course
+about. Since this is a deep learning project, \\(f(\mathbf{x})\\) is of course
 parameterized by a neural network of some sort.
 
 Voices from Stanford have been suggesting for a long time that basic linguistic
@@ -98,7 +98,7 @@ The fix comes from the change in representation foreshadowed earlier. To make
 that change, I need to introduce a parsing formalism popular in natural
 language processing, originally stolen from the compiler/PL crowd.
 
-**Shift-reduce parsing** is a method for building parse structures from
+[**Shift-reduce parsing**][19] is a method for building parse structures from
 sequence inputs in linear time. It works by exploiting an auxiliary *stack*
 structure, which stores partially-parsed subtrees, and a *buffer*, which stores
 input tokens which have yet to be parsed.
@@ -121,7 +121,9 @@ the entire parse tree for our example sentence.[^4]
 
 Rather than running a standard bottom-up recursive computation, then, we can
 execute this table-based method on transition sequences. Here's the transition
-sequence we followed for the sentence above:
+sequence we followed for the sentence above. `S(token)` denotes that we shift a
+particular token value from the buffer to the stack,[^5] and `R` denotes that we
+combine the top two elements of the stack.
 
     S(The) S(man) R S(picked) S(the) S(vegetables) R R R
 
@@ -131,7 +133,7 @@ shift-reduce parser in exactly \\(2n - 1\\) transitions.
 
 All we need to do is build a shift-reduce parser that combines **vector
 representations** rather than subtrees. This system is a pretty simple
-extension to the original shift-reduce setup:
+extension of the original shift-reduce setup:
 
 - **Shift** pulls the next *word embedding* from the buffer and pushes it onto
   the stack.
@@ -145,7 +147,7 @@ This is really cool for several reasons. The first is that this shift-reduce
 recurrence **computes the exact same function** as the recursive neural network
 we formulated above. Rather than making the awkward bottom-up tree-structured
 computation, then, we can just run a recurrent neural network over these
-shift-reduce transition sequences.[^5]
+shift-reduce transition sequences.[^6]
 
 If we're back in recurrent neural network land, that means we can make use of
 all the batching goodness that we were excited about earlier. It gains us quite
@@ -180,23 +182,27 @@ This is a [post-order][11] tree traversal, where for a given parent node we
 recurse through the left subtree, then the right, and then finally visit the
 parent.
 
-We had a simple idea with a big consequence after looking at this diagram: why
-not have a **recurrent** neural network follow along this path of arrows?
+We had a simple idea with a big result after looking at this diagram: why not
+have a **recurrent** neural network follow along this path of arrows?
 
 Concretely, that means that at every timestep, we update some RNN memory
 regardless of the shift-reduce transition. We call this the **tracking
-memory**. We can write out the algorithm mathematically for clarity. At any given timestep \\(t\\), we compute a new tracking value \\(h_t\\) by combining the top two elements of the stack \\(\vec c_1, \vec c_2\\), the top of the buffer \\(\vec b_1\\), and the previous tracking memory \\(\vec h_{t-1}\\):
+memory**. We can write out the algorithm mathematically for clarity. At any
+given timestep \\(t\\), we compute a new tracking value \\(\vec m_t\\) by
+combining the top two elements of the stack \\(\vec c_1, \vec c_2\\), the top
+of the buffer \\(\vec b_1\\), and the previous tracking memory \\(\vec
+m_{t-1}\\):
 {::nomarkdown}\begin{equation}
-\vec h_t = \text{Track}(\vec h_{t-1}, \vec c_1, \vec c_2, \vec b_1) \\
+\vec m_t = \text{Track}(\vec m_{t-1}, \vec c_1, \vec c_2, \vec b_1) \\
 \end{equation}{:/}
 We can then pass this tracking memory onto the recursive composition function,
 via a simple extension like this:
 {::nomarkdown}\begin{equation}
-\vec p = \sigma(W [\vec c_1; \vec c_2; \vec h_t]) \\
+\vec p = \sigma(W [\vec c_1; \vec c_2; \vec m_t]) \\
 \end{equation}{:/}
 What have we done? We've just interwoven a recurrent neural network into a
 recursive neural network computation. The recurrent memories are used to
-augment the recursive computation (\\(h_t\\) is passed to the recursive
+augment the recursive computation (\\(m_t\\) is passed to the recursive
 composition function) and vice versa (the recurrent memories are a function of
 the recursively computed values on the stack).
 
@@ -205,9 +211,25 @@ We show in [our paper][8] how these two paradigms turn out to have
 recursive models into a single feedforward, we get a model that is more
 powerful than the sum of its parts.
 
+What we've built is a new way to build a representation \\(f(\mathbf x)\\) for
+an input sentence \\(\mathbf x\\), like we discussed at the beginning of this
+post. In our paper, we use this representation to reach a high-accuracy result
+on the [Stanford Natural Language Inference dataset][12].
+
 This post managed to cover about one section of our full paper. If you're
-interested in the gritty details and expanded or more formal coverage of what
-we discussed here, [take a read][8].
+interested in more details about how we implemented and applied this model,
+related work, or a more formal description of the algorithm discussed here,
+[take a read][8].
+
+## Acknowledgements
+
+This project has been supported by a Google Faculty Research Award, the
+Stanford Data Science Initiative, and the National Science Foundation under
+grant numbers [BCS 1456077][13] and [IIS 1514268][14]. Some of the Tesla K40s
+used for this research were donated to Stanford by the NVIDIA Corporation.
+[Kelvin Gu][15], [Noah Goodman][16], and many others in the [Stanford NLP
+Group][17] contributed helpful comments during development. [Craig Quiter][18]
+helped review this blog post.
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
@@ -218,7 +240,8 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 [^2]: I mean *sufficient* here in a formal sense --- i.e., powerful enough to answer questions of interest in isolation, without looking back at the original input value.
 [^3]: A non-naïve approach might involve maintaining a queue of triples from an input batch and rapidly dequeuing them, batching together all of these dequeued values. This has already been pursued (of course) by colleagues at Stanford, and it shows some promising speed improvements on a CPU. I doubt, though, that the gains from this method will offset the losses on the GPU, since this method sacrifices all data locality that a *recurrent* neural network enjoys on the GPU.
 [^4]: For a more formal and thorough definition of shift-reduce parsing, I'll refer the interested reader to [our paper][8].
-[^5]: The catch is that the recurrent neural network must maintain the per-example stack data. This is simple to implement in principle.
+[^5]: Note that I include the tokens in the transition sequence for readability. They're actually redundant, as we only ever pop from the top of the buffer when executing a shift transition.
+[^6]: The catch is that the recurrent neural network must maintain the per-example stack data. This is simple to implement in principle. We had quite a bit of trouble writing an efficient implementation in Theano, though, which is not really built to support complex data structure manipulation.
 
 [1]: https://www.nyu.edu/projects/bowman/
 [2]: http://nlp.stanford.edu/manning/
@@ -231,3 +254,11 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 [9]: https://en.wikipedia.org/wiki/Parse_tree#Constituency-based_parse_trees
 [10]: https://docs.google.com/spreadsheets/d/17BRX32FQjP2Blk3zNSZyGpUWYAr4h0xhwec23dnQaCM/pubhtml
 [11]: https://en.wikipedia.org/wiki/Tree_traversal#Post-order
+[12]: http://nlp.stanford.edu/projects/snli/
+[13]: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1456077
+[14]: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1514268
+[15]: http://kelvinguu.com/
+[16]: http://cocolab.stanford.edu/ndg.html
+[17]: http://nlp.stanford.edu
+[18]: https://twitter.com/crizcraig
+[19]: https://en.wikipedia.org/wiki/Shift-reduce_parser
