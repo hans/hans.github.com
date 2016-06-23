@@ -165,7 +165,7 @@ really just a recurrent neural network computation. To be clear, here's the
 "sequence" that the recurrent neural network traverses when it reads in our
 example tree:
 
-{% include img.html url="/uploads/2016/tree-shift-reduce.gif" noborder="true" alt="Visualization of the post-order tree traversal performed by a shift-reduce parser." %}
+{% include img.html url="/uploads/2016/tree-shift-reduce-with-trace.gif" noborder="true" alt="Visualization of the post-order tree traversal performed by a shift-reduce parser." %}
 
 This is a [post-order][11] tree traversal, where for a given parent node we
 recurse through the left subtree, then the right, and then finally visit the
