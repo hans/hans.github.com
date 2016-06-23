@@ -41,12 +41,14 @@ conference in Berlin with [Sam Bowman][12] in August 2016.
 
 (Find me on [Google Scholar][7] for an up-to-date list.)
 
-- [A fast unified model for parsing and sentence understanding.][9] Sam Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, Christopher Potts. ACL 2016.
+- [A fast unified model for parsing and sentence understanding.][9] Sam Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, and Christopher Potts. ACL 2016.
 - [Conditional generative adversarial networks for convolutional face generation.][8] **Jon Gauthier.** Stanford CS 231N class project. March 2015.
+- [Exploiting long-distance context in transition-based dependency parsing with recurrent neural networks.][14] **Jon Gauthier**, Danqi Chen, and Christopher D. Manning. Preprint. 2014.
 
 [7]: https://scholar.google.de/citations?user=7dPITbkAAAAJ
 [8]: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/paper.pdf
 [9]: http://arxiv.org/pdf/1603.06021.pdf
+[14]: http://www.foldl.me/uploads/papers/iclr2015_draft.pdf
 
 ### Around the web
 
