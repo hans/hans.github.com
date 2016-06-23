@@ -3,6 +3,7 @@ layout: post
 title: Hybrid tree-sequence neural networks with SPINN
 excerpt: An introduction to the SPINN model family described in our ACL 2016 paper. SPINN enables a novel hybrid tree-sequence (recursive-recurrent) neural network architecture.
 date: 22 June 2016
+main: true
 ---
 
 We've finally published a neural network model which has been under development
@@ -218,9 +219,9 @@ the comment section below.
 
 ## Acknowledgements
 
-I have to first thank my collaborators, of course --- this was a team of people
-with nicely complementary skills, and I look forward to pushing this further
-together in the future.
+I have to first thank my collaborators, of course --- this was a team of strong
+researchers with nicely complementary skills, and I look forward to pushing
+this further together with them in the future.
 
 The SPINN project has been supported by a Google Faculty Research Award, the
 Stanford Data Science Initiative, and the National Science Foundation under
