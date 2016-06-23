@@ -106,7 +106,7 @@ transitions in the parser transition sequence.
 The animation below shows how these two transitions can be used to construct
 the entire parse tree for our example sentence.[^4]
 
-{% include img.html url="/uploads/2016/tree-shift-reduce-detailed.gif" noborder="true" alt="A shift-reduce parser produces the pictured constituency tree. Each timestep is visualized before and then after the transition is taken. The text at the top right shows the transition at each timestep, and yellow highlights indicate the data involved in the transition. The table at the right displays the stack contents before and after each transition." %}
+{% include img.html url="/uploads/2016/tree-shift-reduce.gif" noborder="true" alt="A shift-reduce parser produces the pictured constituency tree. Each timestep is visualized before and then after the transition is taken. The text at the top right shows the transition at each timestep, and yellow highlights indicate the data involved in the transition. The table at the right displays the stack contents before and after each transition." %}
 
 Rather than running a standard bottom-up recursive computation, then, we can
 execute this table-based method on transition sequences. Here's the buffer and
