@@ -1,5 +1,5 @@
 ---
-title: About
+title: Jon Gauthier's homepage
 layout: default
 ---
 

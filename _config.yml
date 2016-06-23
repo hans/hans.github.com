@@ -7,3 +7,4 @@ lsi: true
 
 permalink: /:year/:title/
 paginate: 20
+paginate_path: /posts/page:num

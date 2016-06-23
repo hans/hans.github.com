@@ -35,13 +35,12 @@ title: foldl.me
   </ul>
 
   <div id="pagination">
-    <p><a href="/all.html">(view all, unfiltered)</a></p>
     {% if paginator.page > 1 %}
-    <a href="/page{{ paginator.previous_page }}">&laquo; previous</a>
+    <a href="/posts/page{{ paginator.previous_page }}">&laquo; previous</a>
     {% endif %}
 
     {% if paginator.page < paginator.total_pages %}
-    <a href="/page{{ paginator.next_page }}">next &raquo;</a>
+    <a href="/posts/page{{ paginator.next_page }}">next &raquo;</a>
     {% endif %}
   </div>
 </div>
