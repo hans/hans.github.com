@@ -21,44 +21,27 @@ NLP world. I'll focus here on the core SPINN theory and how it enables a
 separate paradigms of [recursive][5] and [recurrent][7] neural networks into a
 structure that is stronger than the sum of its parts.
 
-## Motivation
+<p style="text-align:center;font-size:88%">(quick links: <a
+href="#model">model description</a>,
+<a href="/uploads/papers/acl2016-spinn.pdf">full paper</a>,
+<a href="https://github.com/stanfordnlp/spinn">code</a>)</p>
 
-Human language is complex. The sentences we speak contain nuanced recursive
-interactions between individual words, which can be interpreted by listeners in
-exponentially many different ways. Our task as researchers in natural language
-processing is to construct practical, manageable models for understanding this
-mess of meaning.
-
-The SPINN project addresses the core task of **representation** in the language
-understanding problem. Suppose we have some downstream task of interest which
-requires to categorize an input sentence into one of several classes. We need
-some system which will accept such a sentence and produce a class prediction. In
-a standard discriminative probabilistic framework, that means we need to
-calculate a quantity \\(p(y \mid \mathbf{x})\\) --- the probability that an
-input sentence \\(\mathbf{x}\\) should be classified into class \\(y\\).
-
-I think it's interesting to view the SPINN model --- and most discriminative
-neural network models, for that matter --- as a function which converts a
-complex input \\(\mathbf{x}\\) into a more manageable representation which can
-be input into a [log-linear model][4]. In this sort of model our predictions are
-calculated as follows:
-{::nomarkdown}\begin{equation}
-p(y \mid \mathbf{x}) \propto \exp(w_y^T \, f(\mathbf x)) \\
-\end{equation}{:/}
-Our prediction for any input sentence is related to the dot product of some
-classifier weights \\(w_y\\) and our computed representation of the sentence
-\\(f(\mathbf x)\\). The remaining task (the one that people have been working on
-for decades) is how best to encode this representation. We want a compact,
-sufficient[^2] value that can powerfully predict answers to questions we care
-about. Since this is a deep learning project, \\(f(\mathbf{x})\\) is of course
-parameterized by a neural network of some sort.
+Our task, broadly stated, is to build a model which outputs compact,
+sufficient[^2] representations of natural language. We will use these
+representations in downstream language applications that we care about.[^7]
+Concretely, for an input sentence \\(\mathbf x\\), we want to learn a powerful
+representation function \\(f(\mathbf x)\\) which maps to a vector-valued
+representation of the sentence. Since this is a deep learning project,
+\\(f(\mathbf{x})\\) is of course parameterized by a neural network of some
+sort.
 
 Voices from Stanford have been suggesting for a long time that basic linguistic
-theory might help solve this problem. [Recursive neural networks][5], which
-combine simple grammatical analysis with the power of [recurrent neural
-networks][7], were strongly supported here by [Richard Socher][6], [Chris][2],
-and colleagues. SPINN has been developed in this same spirit of merging basic
-linguistic facts with powerful neural network tools.
+theory might help to solve this representation problem. [Recursive neural
+networks][5], which combine simple grammatical analysis with the power of
+[recurrent neural networks][7], were strongly supported here by [Richard
+Socher][6], [Chris Manning][2], and colleagues. SPINN has been developed in
+this same spirit of merging basic linguistic facts with powerful neural network
+tools.
 
 ## Model
 
@@ -70,9 +53,14 @@ like the following:
 
 In a standard recursive neural network implementation, we compute the
 representation of a sentence (equivalently, the root node *S*) as a recursive
-function of its two children, and so on down the tree. The recursive function is specified like this, for a parent representation \\(\vec p\\) with child representations \\(\vec c_1, \vec c_2\\):
+function of its two children, and so on down the tree. The recursive function
+is specified like this, for a parent representation \\(\vec p\\) with child
+representations \\(\vec c_1, \vec c_2\\):
 \\[\vec p = \sigma(W [\vec c_1, \vec c_2])\\]
-where \\(\sigma\\) is some nonlinearity such as the \\(\tanh\\) or sigmoid function. The obvious way to implement this recurrence is to visit each triple of a parent and two children, and compute the representations bottom-up. The graphic below demonstrates this computation order.
+where \\(\sigma\\) is some nonlinearity such as the \\(\tanh\\) or sigmoid
+function. The obvious way to implement this recurrence is to visit each triple
+of a parent and two children, and compute the representations bottom-up.  The
+graphic below demonstrates this computation order.
 
 {% include img.html url="/uploads/2016/tree-recursive.gif" noborder="true" alt="The computation defined by a standard recursive neural network. We compute representations bottom-up, starting at the leaves and moving to nonterminals." %}
 
@@ -120,12 +108,12 @@ the entire parse tree for our example sentence.[^4]
 {% include img.html url="/uploads/2016/tree-shift-reduce-detailed.gif" noborder="true" alt="A shift-reduce parser produces the pictured constituency tree. Each timestep is visualized before and then after the transition is taken. The text at the top right shows the transition at each timestep, and yellow highlights indicate the data involved in the transition. The table at the right displays the stack contents before and after each transition." %}
 
 Rather than running a standard bottom-up recursive computation, then, we can
-execute this table-based method on transition sequences. Here's the transition
-sequence we followed for the sentence above. `S(token)` denotes that we shift a
-particular token value from the buffer to the stack,[^5] and `R` denotes that we
-combine the top two elements of the stack.
+execute this table-based method on transition sequences. Here's the buffer and
+accompanying transition sequence we used for the sentence above. `S` denotes a
+shift transition and `R` denotes a reduce transition.
 
-    S(The) S(man) R S(picked) S(the) S(vegetables) R R R
+    Buffer: The, man, picked, the, vegetables
+    Transitions: S, S, R, S, S, S, R, R, R
 
 Every binary tree has a unique corresponding shift-reduce transition sequence.
 For a sentence with \\(n\\) tokens, we can produce its parse with a
@@ -219,17 +207,28 @@ on the [Stanford Natural Language Inference dataset][12].
 This post managed to cover about one section of our full paper. If you're
 interested in more details about how we implemented and applied this model,
 related work, or a more formal description of the algorithm discussed here,
-[take a read][8].
+[take a read][8]. You can also check out [our code repository][20], which has
+several implementations of the SPINN model and models which you can run to
+reproduce or extend our results.
+
+We're continuing active work on this project in order to learn better
+end-to-end models for natural language processing. I always enjoy hearing ideas
+from my readers --- if this project interests you, get in touch via email or in
+the comment section below.
 
 ## Acknowledgements
 
-This project has been supported by a Google Faculty Research Award, the
+I have to first thank my collaborators, of course --- this was a team of people
+with nicely complementary skills, and I look forward to pushing this further
+together in the future.
+
+The SPINN project has been supported by a Google Faculty Research Award, the
 Stanford Data Science Initiative, and the National Science Foundation under
 grant numbers [BCS 1456077][13] and [IIS 1514268][14]. Some of the Tesla K40s
 used for this research were donated to Stanford by the NVIDIA Corporation.
 [Kelvin Gu][15], [Noah Goodman][16], and many others in the [Stanford NLP
 Group][17] contributed helpful comments during development. [Craig Quiter][18]
-helped review this blog post.
+and [Sam Bowman][1] helped review this blog post.
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
@@ -242,6 +241,7 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 [^4]: For a more formal and thorough definition of shift-reduce parsing, I'll refer the interested reader to [our paper][8].
 [^5]: Note that I include the tokens in the transition sequence for readability. They're actually redundant, as we only ever pop from the top of the buffer when executing a shift transition.
 [^6]: The catch is that the recurrent neural network must maintain the per-example stack data. This is simple to implement in principle. We had quite a bit of trouble writing an efficient implementation in Theano, though, which is not really built to support complex data structure manipulation.
+[^7]: In this first paper, we use the model to answer questions from the [Stanford Natural Language Inference dataset][12].)
 
 [1]: https://www.nyu.edu/projects/bowman/
 [2]: http://nlp.stanford.edu/manning/
@@ -262,3 +262,4 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 [17]: http://nlp.stanford.edu
 [18]: https://twitter.com/crizcraig
 [19]: https://en.wikipedia.org/wiki/Shift-reduce_parser
+[20]: https://github.com/stanfordnlp/spinn
