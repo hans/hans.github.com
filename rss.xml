@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -16,7 +16,7 @@ layout: nil
       <title>{{ post.title }}</title>
       <link>http://foldl.me{{ post.url }}</link>
       <pubDate>{{ post.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
-      <author>engel@engel.uk.to (Hans Engel)</author>
+      <author>Jon Gauthier</author>
       <guid>http://foldl.me{{ post.url }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
