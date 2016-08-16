@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solving language"
-excerpt: Stop telling me language is about to be "solved": We haven't even found the right tasks yet.
+excerpt: Stop telling me language is about to be "solved"&#58; We haven't even found the right tasks yet.
 date: 16 August 2016
 ---
 
