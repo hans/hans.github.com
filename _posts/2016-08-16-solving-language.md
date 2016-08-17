@@ -146,12 +146,12 @@ comments below or via email.
 I've been mulling these ideas over for most of the summer, and a whole lot of
 people from several institutions have helped me to sharpen my thinking: Gabor
 Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Kevin Clark, Prafulla
-Dhariwal, Chris Dyer, Jonathan Ho, Nal Kalchbrenner, Alireza Makhzani,
-Christopher Manning, Igor Mordatch, Alec Radford, Zain Shah, Ilya
-Sutskever, Sida Wang, and Keenon Werling.
+Dhariwal, Chris Dyer, Jonathan Ho, Nal Kalchbrenner, Andrej Karpathy,
+Alireza Makhzani, Christopher Manning, Igor Mordatch, Alec Radford, Zain Shah,
+Ilya Sutskever, Sida Wang, and Keenon Werling.
 
-Special thanks to Gabor Angeli, ........... for reviewing early drafts of this
-post.
+Special thanks to Gabor Angeli, Sam Bowman, and the OpenAI team for reviewing
+early drafts of this post.
 </small>
 
 <!--
