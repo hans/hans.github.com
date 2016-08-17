@@ -84,7 +84,7 @@ utterance \(\pi(o_i \mid u_t)\). Since Bill doesn't know any of Alexa's words
 in the first round, we would expect his distribution then to be roughly
 uniform:[^5]
 
-<!-- TODO XKCD-style uniform distribution over referents -->
+{% include img.html url="/uploads/2016/reference-game/round1-policy.png" noborder="true" %}
 
 Let's say he randomly chooses the cup, and the two are informed that they have
 succeeded. That means Alexa used *BLOOP* to refer to the cup. Both internalize
@@ -103,7 +103,7 @@ Think about what you would do in Bill's place before reading the next paragraph.
 I would argue that, despite the fact that **both objects are novel** (at least
 at a perceptual level), Bill's probabilities would look something like this:
 
-<!-- TODO XKCD-style distribution favoring mug referent -->
+{% include img.html url="/uploads/2016/reference-game/round2-policy.png" noborder="true" %}
 
 What happened? Bill learned something about Alexa's language in round 1: that
 her word *BLOOP* can refer to a cup. In round 2, he was forced to
