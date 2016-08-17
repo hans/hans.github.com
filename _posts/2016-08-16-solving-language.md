@@ -74,7 +74,7 @@ that Bill knows that she is cooperating, and so on.
 Alexa selects some object in the environment and speaks a word to Bill, say,
 *BLOOP*. Here's what Bill has observed in this first round of the game:
 
-<!-- TODO XKCD-style pic: "ALEXA SAID: 'BLOOP'"; POSSIBLE REFERENTS: drawing of cup, pen -->
+[picture here: "ALEXA SAID: 'BLOOP'"; POSSIBLE REFERENTS: drawing of cup, pen ]
 
 Now Bill has to select the object he thinks Alexa was referring to. The
 dialogue is a "success" if Alexa and Bill pick the same object.
@@ -96,7 +96,7 @@ Now suppose we begin round 2 with different objects. Alexa, still trying to
 maximize the chance that Bill understands what she is referring to, makes
 **the same utterance**: *BLOOP*.
 
-<!-- TODO XKCD-style pic: "ALEXA SAID: 'BLOOP'"; POSSIBLE REFERENTS: drawing of mug, ruler -->
+[picture here: "ALEXA SAID: 'BLOOP'"; POSSIBLE REFERENTS: drawing of mug, ruler]
 
 Think about what you would do in Bill's place before reading the next paragraph.
 
@@ -153,13 +153,6 @@ Ilya Sutskever, Sida Wang, and Keenon Werling.
 Special thanks to Gabor Angeli, Sam Bowman, and the OpenAI team for reviewing
 early drafts of this post.
 </small>
-
-<!--
-Reviewers (TODO contact):
-Sam Bowman
-Nal Kalchbrenner
-Oriol Vinyals
--->
 
 [1]: TODO
 [2]: http://www.nytimes.com/2015/08/04/science/for-sympathetic-ear-more-chinese-turn-to-smartphone-program.html
