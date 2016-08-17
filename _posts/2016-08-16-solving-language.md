@@ -21,21 +21,27 @@ start working to actively counter it.
 
 ## What does it mean to "solve language?"
 
-I'm not even sure what people are trying to say when they talk about "solving
-language." It's as vague and underspecified as the quest to "solve vision."[^2]
-We already have [systems that read the news to build investment strategies][1],
-[chatbots so realistic that people are falling in love with them][2], and
-[automated psychologists which aid the clinically depressed][3]. Are we done?
+Frankly, I'm not even sure what people are trying to say when they talk about
+"solving language." It's as vague and underspecified as the quest to "solve
+vision."[^2] We already have [systems that read the news to build investment
+strategies][1], [chatbots so realistic that people are falling in love with
+them][2], and [automated psychologists which aid the clinically depressed][3].
+Are we done?
 
 It depends on your measure of done-ness, I suppose. I'm partial to a
 utilitarian stopping criterion here. That is, we've "solved language" --- we've
 built an agent which "understands language" --- when the agent can embed itself
-into **real-world** environments and interact with us humans via language to
+into any **real-world** environment and interact with us humans via language to
 make us more productive.[^3]
 
 On that measure we've actually made some good progress, as shown by the linked
 examples above.[^4] But there's plenty of room for improvement which will
 likely amount to decades of collaborative work, if not more.
+
+If you can show me how your favorite NLP/NLU task connects directly to this
+measure of progress, then that's great. I unfortunately don't think this is the
+case for a large amount of current work, including quite a few of the tasks
+popular in deep learning for NLP.
 
 ## Situated language use
 
@@ -45,7 +51,7 @@ are influencing or being influenced by real humans through language. I know: on
 a map of artificial intelligence research, this sort of thing would be labeled
 with a big "THERE BE DRAGONS." I frankly think we spar too seldom with dragons
 at present in this field. Hill-climbing is unfortunately highly rewarded even
-when the marginal return has long gone to near zero. (See MNIST.)
+in cases where the marginal return has long gone to near zero. (See MNIST.)
 
 Besides, this setting seems extremely fertile for new language problems that we
 haven't really seriously considered yet. I'll end this post with a simple
@@ -106,14 +112,21 @@ among the referents.
 
 ### What just happened?
 
-How do we model this? There's a lot going on. Here are the two highest-order
-bits I see:
+How do we model this? There's a lot going on. Here are the three most important
+properties I can recognize.
 
 1. As is often the case in reference game examples, Bill had to reason
    **pragmatically** in round 2 in order to understand what Alexa might mean.
-2. This pragmatic reasoning relies on a **model of the world**. Bill had to
+2. This pragmatic reasoning relied on a **model of the world**. Bill had to
    reason that the mug was similar to the cup, not because they look alike but
-   because they are both used for drinking.
+   because they are both used for drinking.[^6]
+3. Bill learned **from a single example**, mostly exploiting his model of the
+   world in order to generalize as opposed to an enormous dataset of examples.
+
+These are three basic properties of Bill the language agent. These are three
+properties that we haven't come anywhere close to solving in a general way.
+<!-- TODO: honorable mention for Goodman/Frank pragmatics work, one-shot
+concept learning -->
 
 ## Conclusion
 
@@ -131,13 +144,15 @@ experiences, feel free to get in touch via the comments below or via email.
 #### Acknowledgements
 
 <small>
-I've been mulling these ideas over for most of the summer, and a lot of people
-from several institutions have helped me to sharpen my thinking: Gabor Angeli,
-Phil Blunsom, Sam Bowman, Arun Chaganty, Kevin Clark, Prafulla Dhariwal, Chris
-Dyer, Jonathan Ho, Nal Kalchbrenner, Alireza Makhzani, Christopher Manning,
-Igor Mordatch, Zain Shah, Ilya Sutskever, Sida Wang, and Keenon Werling.
+I've been mulling these ideas over for most of the summer, and a whole lot of
+people from several institutions have helped me to sharpen my thinking: Gabor
+Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Kevin Clark, Prafulla
+Dhariwal, Chris Dyer, Jonathan Ho, Nal Kalchbrenner, Alireza Makhzani,
+Christopher Manning, Igor Mordatch, Alec Radford, Zain Shah, Ilya
+Sutskever, Sida Wang, and Keenon Werling.
 
-Special thanks to ........... for reviewing early drafts of this post.
+Special thanks to Gabor Angeli, ........... for reviewing early drafts of this
+post.
 </small>
 
 <!--
@@ -152,9 +167,11 @@ Oriol Vinyals
 [3]: TODO
 [4]:
 [5]: https://openai.com
+[6]: https://lilt.com/
 
 [^1]: It's a view that's quite hard to escape in Silicon Valley for sure. I actually wasn't able to find the clarity to write this post until now, after a week of travel and late-night conference discussions in Europe.
 [^2]: I am just as grumpy about this catchphrase, by the way. This one has happily already been heavily scorned by the rest of the community, so I don't need to elaborate here.
 [^3]: I'm aware this is not only a utilitarian aim but also an *anthropocentric* one. I'm not sure it's totally right, and am open to belief updates for sure.
-[^4]: To be fair, much of this progress has come from *outside of* deep learning!
+[^4]: A less flashy but really valuable utilitarian result worth mentioning is [Lilt][6], a translation system in which a machine aids a human translator to do fast, high-quality collaborative work.
 [^5]: Interestingly, if both Alexa and Bill have English as a native language, I would guess that phonaesthetic effects would lead Bill to prefer the round object over the long, pointy one. That's how I would behave, anyway. Don't ask me how to model that.
+[^6]: Importantly, this is more than a linguistic model. The facts which Bill exploits are nonlinguistic properties learned from embodied experience.
