@@ -51,7 +51,7 @@ are influencing or being influenced by real humans through language. I know: on
 a map of artificial intelligence research, this sort of thing would be labeled
 with a big "THERE BE DRAGONS." I frankly think we spar too seldom with dragons
 at present in this field. Hill-climbing is unfortunately highly rewarded even
-in cases where the marginal return has long gone to near zero. (See MNIST.)
+in cases where the marginal return has long gone to near zero.
 
 Besides, this setting seems extremely fertile for new language problems that we
 haven't really seriously considered yet. I'll end this post with a simple
