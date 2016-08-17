@@ -163,9 +163,9 @@ Oriol Vinyals
 -->
 
 [1]: TODO
-[2]: TODO xiao ice
-[3]: TODO
-[4]:
+[2]: http://www.nytimes.com/2015/08/04/science/for-sympathetic-ear-more-chinese-turn-to-smartphone-program.html
+[3]: https://x2.ai/
+[4]: https://en.wikipedia.org/wiki/Language-game_(philosophy)
 [5]: https://openai.com
 [6]: https://lilt.com/
 
