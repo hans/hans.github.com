@@ -124,9 +124,7 @@ properties I can recognize.
    world in order to generalize as opposed to an enormous dataset of examples.
 
 These are three basic properties of Bill the language agent. These are three
-properties that we haven't come anywhere close to solving in a general way.
-<!-- TODO: honorable mention for Goodman/Frank pragmatics work, one-shot
-concept learning -->
+properties that we haven't come anywhere close to solving in a general way.[^7]
 
 ## Conclusion
 
@@ -138,8 +136,9 @@ demonstrate the language capabilities our agents learn actually have a real
 influence on the world.
 
 Keep posted for updates on experiments like this --- I'm working hard every day
-on this stuff at [OpenAI][5]. If you're interested in collaborating or sharing
-experiences, feel free to get in touch via the comments below or via email.
+on projects related to this goal at [OpenAI][5]. If you're interested in
+collaborating or sharing experiences, feel free to get in touch via the
+comments below or via email.
 
 #### Acknowledgements
 
@@ -175,3 +174,4 @@ Oriol Vinyals
 [^4]: A less flashy but really valuable utilitarian result worth mentioning is [Lilt][6], a translation system in which a machine aids a human translator to do fast, high-quality collaborative work.
 [^5]: Interestingly, if both Alexa and Bill have English as a native language, I would guess that phonaesthetic effects would lead Bill to prefer the round object over the long, pointy one. That's how I would behave, anyway. Don't ask me how to model that.
 [^6]: Importantly, this is more than a linguistic model. The facts which Bill exploits are nonlinguistic properties learned from embodied experience.
+[^7]: There is plenty of work on computational pragmatic reasoning and fast concept learning in isolated settings, but I'm not aware of integrated / situated applications.
