@@ -80,7 +80,7 @@ Now Bill has to select the object he thinks Alexa was referring to. The
 dialogue is a "success" if Alexa and Bill pick the same object.
 
 Suppose Bill has to predict some distribution over the objects given Alexa's
-utterance \(\pi(o_i \mid u_t)\). Since Bill doesn't know any of Alexa's words
+utterance \\(\pi(o_i \mid u_t)\\). Since Bill doesn't know any of Alexa's words
 in the first round, we would expect his distribution then to be roughly
 uniform:[^5]
 
