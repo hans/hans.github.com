@@ -157,7 +157,7 @@ Special thanks to Gabor Angeli, Sam Bowman, and the OpenAI team for reviewing
 early drafts of this post.
 </small>
 
-#### Addenda
+### Addenda
 
 Many of my trusted colleagues who reviewed this post made extremely interesting
 relevant points which are worth mentioning. I've included them in a separate
