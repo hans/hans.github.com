@@ -152,7 +152,9 @@ Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Kevin Clark, Prafulla
 Dhariwal, Chris Dyer, Jonathan Ho, Nal Kalchbrenner, Andrej Karpathy,
 Alireza Makhzani, Christopher Manning, Igor Mordatch, Alec Radford, Zain Shah,
 Ilya Sutskever, Sida Wang, and Keenon Werling.
+</small>
 
+<small>
 Special thanks to Gabor Angeli, Sam Bowman, and the OpenAI team for reviewing
 early drafts of this post.
 </small>
