@@ -20,10 +20,10 @@
   <title>{{ page.title }} - foldl</title>
 
   {% if page %}
-  <meta name="title" content="{{ page.title }}" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta name="description" content="{{ page.excerpt | strip_html }}" />
-  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  <meta name="title" content="{{ page.title | xml_escape }}" />
+  <meta property="og:title" content="{{ page.title | xml_escape }}" />
+  <meta name="description" content="{{ page.excerpt | strip_html | xml_escape }}" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html | xml_escape }}" />
   <meta property="og:site_name" content="foldl" />
   <meta property="og:image" content="{{ page.image }}" />
   {% endif %}
