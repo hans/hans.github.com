@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solving language"
+title: On "solving language"
 excerpt: Stop telling me language is about to be "solved"&#58; We haven't even found the right tasks yet.
 date: 16 August 2016
 ---
@@ -42,6 +42,9 @@ If you can show me how your favorite NLP/NLU task connects directly to this
 measure of progress, then that's great. I unfortunately don't think this is the
 case for a large amount of current work, including quite a few of the tasks
 popular in deep learning for NLP.
+
+<small>(See the [addenda](#addenda) to this post for some juicy follow-up to
+        the claims in this section.)</small>
 
 ## Situated language use
 
@@ -153,6 +156,29 @@ Ilya Sutskever, Sida Wang, and Keenon Werling.
 Special thanks to Gabor Angeli, Sam Bowman, and the OpenAI team for reviewing
 early drafts of this post.
 </small>
+
+#### Addenda
+
+Many of my trusted colleagues who reviewed this post made extremely interesting
+relevant points which are worth mentioning. I've included them in a separate
+section in order to prevent the main post from getting too long.
+
+1. I claimed in this post that work in natural language understanding often
+   seems too disconnected from the real downstream utilitarian goal---in the
+   case of our field, to actually **use language** in order to cooperate with
+   human beings. [Roger][TODO] and [Sam][TODO] pointed out that many people in
+   the field do feel this to be true: after many decades of divergence between
+   linguistics and computational linguistics/NLP, people are starting to search
+   for a unification of the two paths. What we really need now are creative
+   researchers who can design new tasks closer to this downstream goal, and a
+   community which can be receptive of this sort of work.
+2. [Andrej][TODO] pointed out that a similar "soul searching" process is
+   underway in the computer vision community, which has likewise been swept by
+   the force of large-scale machine learning. The field circa 2012 was focused
+   on intermediate API-like tasks such as object detection, pose extraction,
+   attribute classification, and so on. End-to-end vision systems have caused
+   this structure to disintegrate, and researchers are likewise asking what
+   should be done next.
 
 [1]: TODO
 [2]: http://www.nytimes.com/2015/08/04/science/for-sympathetic-ear-more-chinese-turn-to-smartphone-program.html
