@@ -4,6 +4,7 @@ kramdown:
     smart_quotes: lsquo,rsquo,ldquo,rdquo
 highlighter: rouge
 lsi: true
+url: http://www.foldl.me
 
 permalink: /:year/:title/
 paginate: 20

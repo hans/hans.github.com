@@ -78,8 +78,8 @@ Alexa selects some object in the environment and speaks a word to Bill, say,
 <div style="text-align:center">
 <h4>Possible referents:</h4>
 <div style="margin-top:10px">
-<div style="width:50%;float:left;"><img src="/uploads/2016/reference-game/glass.png" style="border:none" /></div>
-<div style="width:50%;float:left;"><img src="/uploads/2016/reference-game/pen.png" style="border:none;" /></div>
+<div style="width:50%;float:left;"><img src="{{site.url}}/uploads/2016/reference-game/glass.png" style="border:none" /></div>
+<div style="width:50%;float:left;"><img src="{{site.url}}/uploads/2016/reference-game/pen.png" style="border:none;" /></div>
 </div>
 <br style="clear:left"/>
 <h4>Alexa said: <em>BLOOP</em></h4>
