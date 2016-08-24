@@ -21,7 +21,7 @@ start working to actively counter it.
 
 ## What does it mean to "solve language?"
 
-Frankly, I'm not even sure what people are trying to say when they talk about
+I'm not even sure what people are trying to say when they talk about
 "solving language." It's as vague and underspecified as the quest to "solve
 AI" as a whole. We already have [systems that build investment strategies by
 reading the news][1], [intelligent personal assistants][2], and [automated
@@ -34,31 +34,29 @@ into any **real-world** environment and interact with us humans via language to
 make us more productive.[^3]
 
 On that measure we've actually made some good progress, as shown by the linked
-examples above.[^4] But there's plenty of room for improvement which will
-likely amount to decades of collaborative work.
+examples above. But there's plenty of room for improvement which will likely
+amount to decades of collaborative work.
 
 If you can show me how your favorite NLP/NLU task connects directly to this
 measure of progress, then that's great. I unfortunately don't think this is the
-case for a large amount of current work, including a few of the tasks popular
-in deep learning for NLP.
+case for much current work, including a few of the tasks popular in deep
+learning for NLP.
 
 <small>(See the [addenda](#addenda) to the post for some juicy follow-up to
         the claims in this section.)</small>
 
 ## Situated language use
 
-If I believe in the definition of "solving language" given above, I'm basically
-forced to focus on tasks of **situated language use**: cases where agents are
-influencing or being influenced by real humans through language. I know: on
-a map of artificial intelligence research, this sort of thing would be labeled
-with a big "THERE BE DRAGONS." I frankly think we spar too seldom with dragons
-at present in this field. Hill-climbing is unfortunately highly rewarded even
-in cases where the marginal return has long gone to near zero.
+If I believe in the definition of "solving language" given above, I am led to
+focus on tasks of **situated language use**: cases where agents are
+influencing or being influenced by other actors in grounded scenarios through
+language.
 
-Besides, this setting seems extremely fertile for new language problems that we
-haven't really seriously considered yet. I'll end this post with a simple
-thought experiment demonstrating how far behind we are on real situated tasks
---- or rather, how much exciting work there still is to be done!
+This setting seems extremely fertile for new language problems that aren't
+currently seriously considered as major tasks of understanding. I'll end this
+post with a simple thought experiment demonstrating how far behind we are on
+real situated tasks --- or rather, how much exciting work there still is to be
+done!
 
 ## Generalization in reference games
 
@@ -116,15 +114,13 @@ maximize the chance that Bill understands what she is referring to, makes
 <h4>Alexa said: <em>BLOOP</em></h4>
 </div>
 
-Think about what you would do in Bill's place before reading the next paragraph.
-
 I would argue that, despite the fact that **both objects are novel** (at least
 at a perceptual level), Bill's probabilities would look something like this:
 
 {% include img.html url="/uploads/2016/reference-game/round2-policy.png" noborder="true" %}
 
 What happened? Bill learned something about Alexa's language in round 1: that
-her word *BLOOP* can refer to a cup. In round 2, he was forced to
+her word *BLOOP* can refer to a glass. In round 2, he was forced to
 **generalize** that information and use it to pick the most cup-like object
 among the referents.
 
@@ -169,11 +165,11 @@ comments below or via email.
 <small>
 I've been mulling these ideas over for most of the summer, and a whole lot of
 people from several institutions have helped me to sharpen my thinking: Gabor
-Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Kevin Clark, Prafulla
-Dhariwal, Chris Dyer, Jonathan Ho, Rafal Jozefowicz, Nal Kalchbrenner,
-Andrej Karpathy, Percy Liang, Alireza Makhzani, Christopher Manning, Igor
-Mordatch, Allen Nie, Craig Quiter, Alec Radford, Zain Shah, Ilya Sutskever,
-Sida Wang, and Keenon Werling.
+Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Danqi Chen, Kevin Clark,
+    Prafulla Dhariwal, Chris Dyer, Jonathan Ho, Rafal Jozefowicz, Nal
+    Kalchbrenner, Andrej Karpathy, Percy Liang, Alireza Makhzani, Christopher
+    Manning, Igor Mordatch, Allen Nie, Craig Quiter, Alec Radford, Zain Shah,
+    Ilya Sutskever, Sida Wang, and Keenon Werling.
 </small>
 
 <small>
@@ -202,7 +198,7 @@ hedging clauses.
    linguistics and computational linguistics/NLP, people are starting to search
    for a unification of the two paths. What we really need now are creative
    researchers who can design new tasks closer to this downstream goal, and a
-   community which can be receptive of this sort of work.
+   community which remains receptive of this sort of work.
 2. [Chris][TODO] pointed out that there are other uses of language which could
    be used to likewise argue for different lines of research. For example,
    language also functions as an information storage mechanism, and my
@@ -228,7 +224,6 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 
 [^1]: It's a view that's quite hard to escape in Silicon Valley for sure. I actually wasn't able to find the clarity to write this post until now, after a week of travel and late-night conference discussions in Europe.
 [^3]: I'm aware this is not only a utilitarian aim but also an *anthropocentric* one. I'm not sure it's totally right, and am certainly open to belief updates from my readers.
-[^4]: A less flashy but really valuable utilitarian result worth mentioning is [Lilt][6], a translation system in which a machine aids a human translator to do fast, high-quality collaborative work.
 [^5]: Interestingly, if both Alexa and Bill have English as a native language, I would guess that phonaesthetic effects would lead Bill to prefer the round object over the long, pointy one. That's how I would behave, anyway. Don't ask me how to model that.
 [^6]: Importantly, this is more than a linguistic model. The facts which Bill exploits are nonlinguistic properties learned from embodied experience.
 [^7]: There is plenty of work on computational pragmatic reasoning and fast concept learning in isolated settings, but I'm not aware of integrated / situated applications.
