@@ -3,6 +3,7 @@ layout: post
 title: On "solving language"
 excerpt: Stop telling me language is about to be "solved"&#58; We haven't even found the right tasks yet.
 date: 16 August 2016
+main: true
 ---
 
 Some of my more ambitious machine-learning colleagues often have a tendency to
