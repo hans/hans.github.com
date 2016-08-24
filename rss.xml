@@ -12,6 +12,7 @@ layout: null
     <lastBuildDate>{{ site.time | date: '%a, %d %b %Y %H:%M:%S %z' }}</lastBuildDate>
 
     {% for post in site.posts %}
+    {% if post.main or post.category == 'links' %}
     <item>
       <title>{{ post.title }}</title>
       <link>http://foldl.me{{ post.url }}</link>
@@ -20,6 +21,7 @@ layout: null
       <guid>http://foldl.me{{ post.url }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
+    {% endif %}
     {% endfor %}
 
   </channel>
