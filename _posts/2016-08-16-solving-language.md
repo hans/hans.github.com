@@ -108,8 +108,8 @@ maximize the chance that Bill understands what she is referring to, makes
 <div style="text-align:center">
 <h4>Possible referents:</h4>
 <div style="margin-top:10px">
-<div style="width:50%;float:left;"><img src="/uploads/2016/reference-game/mug.png" style="border:none" /></div>
-<div style="width:50%;float:left;"><img src="/uploads/2016/reference-game/rabbit.png" style="border:none;" /></div>
+<div style="width:50%;float:left;"><img src="{{site.url}}/uploads/2016/reference-game/mug.png" style="border:none" /></div>
+<div style="width:50%;float:left;"><img src="{{site.url}}/uploads/2016/reference-game/rabbit.png" style="border:none;" /></div>
 </div>
 <br style="clear:left"/>
 <h4>Alexa said: <em>BLOOP</em></h4>
