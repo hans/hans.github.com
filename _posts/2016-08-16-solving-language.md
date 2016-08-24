@@ -142,7 +142,7 @@ properties I can recognize.
 These are three basic properties of Bill the language agent. These are three
 properties that we haven't come anywhere close to solving in a general way.
 
-(These goals have been recognized in the past, in the course; there's been some
+(These goals have been recognized in the past, of course; there's been some
  [good][7] [recent][8] [work][9] on the specific problems above. But I think
  these objectives should get much more focus under the utilitarian motivation
  underlying this post.)
