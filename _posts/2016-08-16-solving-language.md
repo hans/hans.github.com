@@ -40,7 +40,7 @@ amount to decades of collaborative work.
 
 If you can show me how your favorite NLP/NLU task connects directly to this
 measure of progress, then that's great. I unfortunately don't think this is the
-case for much current work, including a few of the tasks popular in deep
+case for much current work, including several of the tasks popular in deep
 learning for NLP.
 
 <small>(See the [addenda](#addenda) to the post for some juicy follow-up to
