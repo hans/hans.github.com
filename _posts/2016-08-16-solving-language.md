@@ -193,13 +193,11 @@ hedging clauses.
 1. I claimed in this post that work in natural language understanding often
    seems too disconnected from the real downstream utilitarian goal---in the
    case of our field, to actually **use language** in order to cooperate with
-   human beings. [Roger][TODO] and [Sam][TODO] pointed out that many people in
-   the field do feel this to be true: after many decades of divergence between
-   linguistics and computational linguistics/NLP, people are starting to search
-   for a unification of the two paths. What we really need now are creative
-   researchers who can design new tasks closer to this downstream goal, and a
-   community which remains receptive of this sort of work.
-2. [Chris][TODO] pointed out that there are other uses of language which could
+   human beings. [Roger][11] and [Sam][12] pointed out that many people in
+   the field do feel this to be true at a broader scale --- that is, there are
+   several such related divergences (e.g. the divergence between modern NLP and
+   its computational linguistics roots) that ought to be unified.
+2. [Chris][13] pointed out that there are other uses of language which could
    be used to likewise argue for different lines of research. For example,
    language also functions as an information storage mechanism, and my
    situated approach doesn't capture this. We can actually use this
@@ -211,7 +209,7 @@ hedging clauses.
 MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 </script>
 
-[1]: TODO
+[1]: https://www.rebellionresearch.com/
 [2]: http://www.apple.com/ios/siri/
 [3]: https://x2.ai/
 [4]: https://en.wikipedia.org/wiki/Language-game_(philosophy)
@@ -221,6 +219,9 @@ MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } } });
 [8]: http://www.mit.edu/~rplevy/papers/potts-levy-2015-bls.pdf
 [9]: https://papers.nips.cc/paper/4929-learning-and-using-language-via-recursive-pragmatic-reasoning-about-other-agents
 [10]: http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/
+[11]: http://www.mit.edu/~rplevy/
+[12]: https://www.nyu.edu/projects/bowman/
+[13]: http://nlp.stanford.edu/manning/
 
 [^1]: It's a view that's quite hard to escape in Silicon Valley for sure. I actually wasn't able to find the clarity to write this post until now, after a week of travel and late-night conference discussions in Europe.
 [^3]: I'm aware this is not only a utilitarian aim but also an *anthropocentric* one. I'm not sure it's totally right, and am certainly open to belief updates from my readers.
