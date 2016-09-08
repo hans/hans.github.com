@@ -175,7 +175,7 @@ Angeli, Phil Blunsom, Sam Bowman, Arun Chaganty, Danqi Chen, Kevin Clark,
 
 <small>
 Special thanks to Gabor Angeli, Sam Bowman, Roger Levy, Christopher Manning,
-Sida Wang, and the majority of the OpenAI team for reviewing early drafts of
+Sida Wang, and a majority of the OpenAI team for reviewing early drafts of
 this post.
 </small>
 
