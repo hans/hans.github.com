@@ -7,13 +7,16 @@ layout: default
 style="float:right; width: 38.2%; margin:10px 10px 10px 20px;" />
 
 Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
-[Symbolic Systems][2] program.  I work in the [Natural Language Processing
+[Symbolic Systems][2] program. I work in the [Natural Language Processing
 Group][3], where my research involves developing computational models of
 language understanding and production. My recent work has focused on
 [deep learning for NLP][4].
 
 I am advised by [Christopher Manning][5] in the Stanford NLP Group. I am
 currently interning at [OpenAI][10].
+
+As a young researcher, I'm interested in helping ambitious fellow undergraduate
+students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
