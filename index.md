@@ -4,7 +4,7 @@ layout: default
 ---
 
 <img alt="Me in Montreal in December 2015." src="/uploads/me-dec-2015.jpg"
-style="float:right; width: 38.2%; margin:10px 10px 10px 20px;" />
+style="float:right; width: 38.2%; margin:10px 0 10px 20px;" />
 
 Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
 [Symbolic Systems][2] program. I work in the [Natural Language Processing
