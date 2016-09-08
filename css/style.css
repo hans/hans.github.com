@@ -141,6 +141,10 @@ aside#topbar ul li:last-child {
   padding-bottom: 0px;
 }
 
+section#main {
+  padding-top: 1em;
+}
+
 section#single-image {
   margin: 40px 0 25px;
 }
