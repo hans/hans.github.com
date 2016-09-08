@@ -4,24 +4,22 @@ layout: default
 ---
 
 <img alt="Me in Montreal in December 2015." src="/uploads/me-dec-2015.jpg"
-style="float:right; width: 38.2%; margin:10px;" />
+style="float:right; width: 38.2%; margin:10px 10px 10px 20px;" />
 
 Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
-[Symbolic Systems][2] program, where my studies include
-[natural language processing][3], computer science, linguistics, and psychology.
-I work in the [Natural Language Processing Group][5], and my research falls
-into the broad category of "[deep learning for NLP][6]."
+[Symbolic Systems][2] program.  I work in the [Natural Language Processing
+Group][3], where my research involves developing computational models of
+language understanding and production. My recent work has focused on
+[deep learning for NLP][4].
 
-This blog is a central place for me to publish somewhat unfiltered musings on
-natural language processing, machine learning, linguistics, economics, and all
-sorts of other fascinating things.
+I am advised by [Christopher Manning][5] in the Stanford NLP Group. I am
+currently interning at [OpenAI][10].
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
-[3]: http://en.wikipedia.org/wiki/Natural_language_processing
-[4]: http://en.wikipedia.org/wiki/Polyglotism
-[5]: http://nlp.stanford.edu
-[6]: http://nlp.stanford.edu/courses/NAACL2013/
+[3]: http://nlp.stanford.edu
+[4]: http://nlp.stanford.edu/courses/NAACL2013/
+[5]: http://nlp.stanford.edu/manning/
 
 ### Recent personal news
 
