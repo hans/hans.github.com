@@ -43,7 +43,7 @@ currently interning at [OpenAI][10].
   Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D.
   Manning, and Christopher Potts. ACL 2016.
 - [Conditional generative adversarial networks for convolutional face
-  generation.][8] **Jon Gauthier.** Stanford CS 231N class project. March 2015.
+  generation.][8] **Jon Gauthier.** Technical report. March 2015.
 - [Exploiting long-distance context in transition-based dependency parsing with
   recurrent neural networks.][14] **Jon Gauthier**, Danqi Chen, and Christopher
   D. Manning. Preprint. 2014.
