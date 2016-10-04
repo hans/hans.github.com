@@ -12,11 +12,12 @@ does seem that I managed to capture some very common sentiment floating around
 in the AI community today. Indeed, the post was partly inspired by a workshop
 panel at ACL this summer, where several panelists proclaimed that situated and
 interactive language tasks were the way forward. I think the post has served as
-a clear checkpoint for me and for people with similar interests.
+a clear checkpoint for me and for people with similar interests: it's time to go
+interactive!
 
 Since that time in mid-August, I've been working on a paradigm for simulating
 situated language acquisition. This post will give a brief overview of the
-motivating ideas, and I'll follow up shortly with more details on some concrete
+motivating ideas, and I'll follow up shortly with more concrete details on some
 experiments I've been doing recently.
 
 <small>(Before I get started: this space is rapidly increasing in activity,
@@ -27,12 +28,12 @@ experiments I've been doing recently.
 
 ## The paradigm
 
-One of the key points of [*"Solving language"*][1] was that dialogue is
-necessarily situated in some grounded context. Our language agents need to be
-likewise situated in order to reproduce human linguistic behavior. The
-reference-game example in that post gave one instance of linguistic behavior
-that was strongly tied to nonlinguistic world knowledge --- something we can't
-solve as a language problem in isolation.
+One of the key points of [*"Solving language"*][1] was that natural language 
+dialogue is necessarily situated in some grounded context. Our language agents 
+need to be likewise situated in order to eventually be able to cooperate with
+humans in grounded contexts. The reference-game example in that post gave one
+instance of linguistic behavior that was strongly tied to nonlinguistic world
+knowledge — something we can't solve as a language problem in isolation.
 
 I've followed this idea through to design a general paradigm for situated
 language acquisition. In a sentence: in this paradigm, cooperative agents teach
@@ -54,14 +55,27 @@ its own; it must employ the help of its parent. The child acquires language
 **as a side effect of accomplishing its grounded goal**: it is the most
 efficient (or perhaps the only efficient) mechanism for doing so.
 
+## Philosophizing
+
 To clearly restate: a critical and distinguishing factor of this framework is
 that the child acquires language only as a side effect of striving for some
-grounded, nonlinguistic goal.[^1] Indeed, without this distinction, the above
-paradigm would accommodate tasks like (next-word prediction) language modeling.
+grounded, nonlinguistic goal.
 
-[^1]: We too often make the dangerous mistake of reifying "language" as some sort of unitary *thing* to be solved. I suppose this is what I was addressing in my last post as well, though I didn't spell it out so clearly there.
+The environment is designed in particular to avoid **reifying** "language." As
+stated indirectly in my last post, I think it is dangerous to see language as
+some sort of unitary *thing* to be solved — as one of a few tools in the toolbox
+of cognition that need to be picked up on the way to artificial intelligence.
 
+[Language is defined by its use.][3] Language-enabled agents are not identified
+their language model perplexity or their part-of-speech tag confusion matrix,
+but by their ability to cooperate with other agents through language.
 
+As I'll show in my next post, it's within our reach to design simple environments
+that let us directly hill-climb on this objective of cooperation through language.
+Stay tuned![^1]
 
-[1]: TODO
+[^1]: And please get in touch! I always enjoy hearing new ideas from my readers. (All four of you. ;) )
+
+[1]: http://www.foldl.me/2016/solving-language/
 [2]: https://github.com/facebookresearch/CommAI-env
+[3]: https://en.wikipedia.org/wiki/Language-game_(philosophy)
