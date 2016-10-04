@@ -28,8 +28,8 @@ experiments I've been doing recently.
 
 ## The paradigm
 
-One of the key points of [*"Solving language"*][1] was that natural language 
-dialogue is necessarily situated in some grounded context. Our language agents 
+One of the key points of [*"Solving language"*][1] was that natural language
+dialogue is necessarily situated in some grounded context. Our language agents
 need to be likewise situated in order to eventually be able to cooperate with
 humans in grounded contexts. The reference-game example in that post gave one
 instance of linguistic behavior that was strongly tied to nonlinguistic world
@@ -66,7 +66,7 @@ stated indirectly in my last post, I think it is dangerous to see language as
 some sort of unitary *thing* to be solved — as one of a few tools in the toolbox
 of cognition that need to be picked up on the way to artificial intelligence.
 
-[Language is defined by its use.][3] Language-enabled agents are not identified
+[**Language is defined by its use.**][3] Language-enabled agents are not identified
 their language model perplexity or their part-of-speech tag confusion matrix,
 but by their ability to cooperate with other agents through language.
 
