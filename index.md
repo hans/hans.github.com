@@ -42,6 +42,8 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 (Find me on [Google Scholar][7] for an up-to-date list.)
 
+- [A paradigm for situated and goal-driven language learning.][15] **Jon
+  Gauthier** and Igor Mordatch. Submitted to [MAIN@NIPS 2016][16].
 - [A fast unified model for parsing and sentence understanding.][9] Sam
   Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D.
   Manning, and Christopher Potts. ACL 2016.
@@ -55,6 +57,8 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 [8]: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/paper.pdf
 [9]: http://arxiv.org/pdf/1603.06021.pdf
 [14]: http://www.foldl.me/uploads/papers/iclr2015_draft.pdf
+[15]: http://www.foldl.me/uploads/papers/nips-main2016.pdf
+[16]: https://mainatnips.github.io/
 
 ### Around the web
 
