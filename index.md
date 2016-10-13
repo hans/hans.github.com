@@ -12,8 +12,8 @@ Group][3], where my research involves developing computational models of
 language understanding and production. My recent work has focused on
 [deep learning for NLP][4].
 
-I am advised by [Christopher Manning][5] in the Stanford NLP Group. I am
-currently interning at [OpenAI][10].
+I am advised by [Christopher Manning][5] in the Stanford NLP Group and
+collaborate with colleagues at [OpenAI][10].
 
 As a young researcher, I'm interested in helping ambitious fellow undergraduate
 students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
@@ -42,23 +42,30 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 (Find me on [Google Scholar][7] for an up-to-date list.)
 
-- [A paradigm for situated and goal-driven language learning.][15] **Jon
-  Gauthier** and Igor Mordatch. Submitted to [MAIN@NIPS 2016][16].
-- [A fast unified model for parsing and sentence understanding.][9] Sam
-  Bowman\*, **Jon Gauthier**\*, Raghav Gupta, Abhinav Rastogi, Christopher D.
-  Manning, and Christopher Potts. ACL 2016.
-- [Conditional generative adversarial networks for convolutional face
-  generation.][8] **Jon Gauthier.** Technical report. March 2015.
-- [Exploiting long-distance context in transition-based dependency parsing with
-  recurrent neural networks.][14] **Jon Gauthier**, Danqi Chen, and Christopher
-  D. Manning. Preprint. 2014.
+{% for paper in site.papers %}
+{% capture local_url %}{{site.url}}/uploads/papers/{{paper.id}}.pdf{% endcapture %}
+<div class="paper" id="paper-{{paper.id}}">
+<a class="paper-title" href="{% if paper.url %}{{paper.url}}{% else %}{{local_url}}{% endif %}">{{paper.title}}</a>.
+<div class="paper-byline">
+<span class="paper-authors">{{paper.authors | replace: "Jon Gauthier", "<strong>Jon Gauthier</strong>"}}.</span>
+<span class="paper-venue">{{paper.venue}}.</span>
+</div>
+<div class="paper-links">
+{% for link in paper.links %}
+{% if (link.href | slice: 0) == "/" %}
+[<a href="{{site.url}}{{link.href}}">{{link.title}}</a>]
+{% else %}
+[<a href="{{link.href}}">{{link.title}}</a>]
+{% endif %}
+{% endfor %}
+{% if paper.bibtex %}[<a href="{{site.url}}/uploads/papers/{{paper.id}}.bib">bibtex</a>]{% endif %}
+{% if paper.code %}[<a href="{{paper.code}}">code</a>]{% endif %}
+{% if paper.url %}[<a href="{{local_url}}">local mirror</a>]{% endif %}
+</div>
+</div>
+{% endfor %}
 
 [7]: https://scholar.google.de/citations?user=7dPITbkAAAAJ
-[8]: http://www.foldl.me/uploads/2015/conditional-gans-face-generation/paper.pdf
-[9]: http://arxiv.org/pdf/1603.06021.pdf
-[14]: http://www.foldl.me/uploads/papers/iclr2015_draft.pdf
-[15]: http://www.foldl.me/uploads/papers/nips-main2016.pdf
-[16]: https://mainatnips.github.io/
 
 ### Around the web
 

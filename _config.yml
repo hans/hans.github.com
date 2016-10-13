@@ -6,6 +6,36 @@ highlighter: rouge
 lsi: true
 url: http://www.foldl.me
 
+papers:
+    - id: nips-main2016
+      title: A paradigm for situated and goal-driven language learning
+      authors: Jon Gauthier and Igor Mordatch
+      date: October 2016
+      venue: Submitted to MAIN@NIPS 2016
+      links:
+          - href: /2016/situated-language-learning
+            title: related blog post
+    - id: acl2016
+      title: A fast unified model for parsing and sentence understanding
+      authors: "{Sam Bowman, Jon Gauthier}, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, and Christopher Potts"
+      date: 2016
+      venue: ACL 2016
+      url: http://arxiv.org/pdf/1603.06021.pdf
+      code: https://github.com/stanfordnlp/spinn
+      bibtex: true
+    - id: tr-cgans
+      title: Conditional generative adversarial networks for convolutional face generation
+      authors: Jon Gauthier
+      date: March 2015
+      venue: Technical report, March 2015
+      code: https://github.com/hans/adversarial
+      bibtex: true
+    - id: iclr2015_draft
+      title: Exploiting long-distance context in transition-based dependency parsing with recurrent neural networks
+      authors: Jon Gauthier, Danqi Chen, and Christopher D. Manning
+      date: 2014
+      venue: Preprint, 2014
+
 permalink: /:year/:title/
 paginate: 20
 paginate_path: /posts/page:num
