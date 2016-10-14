@@ -12,6 +12,7 @@ papers:
       authors: Jon Gauthier and Igor Mordatch
       date: October 2016
       venue: Submitted to MAIN@NIPS 2016
+      bibtex: true
       links:
           - href: /2016/situated-language-learning
             title: related blog post
