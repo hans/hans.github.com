@@ -33,6 +33,7 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
   presented the work at the conference in Berlin in August 2016.
 - I joined [OpenAI][10] as a research intern in June 2016.
 
+[9]: {{site.url}}/uploads/papers/acl2016.pdf
 [10]: https://openai.com/
 [11]: http://acl2016.org/
 [12]: https://www.nyu.edu/projects/bowman/
