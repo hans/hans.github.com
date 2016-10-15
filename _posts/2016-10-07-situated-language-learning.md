@@ -6,6 +6,9 @@ date: 7 October 2016
 main: true
 ---
 
+*Update: this content (and more) is now available as [a more thorough abstract
+on arXiv][4], co-authored with my OpenAI colleague Igor Mordatch*.
+
 I've been really pleased with the response to my last post, [*On "solving
 language."*][1] While I certainly wasn't saying anything revolutionary, it
 does seem that I managed to capture some very common sentiment floating around
@@ -82,3 +85,4 @@ Stay tuned![^1]
 [1]: http://www.foldl.me/2016/solving-language/
 [2]: https://github.com/facebookresearch/CommAI-env
 [3]: https://en.wikipedia.org/wiki/Language-game_(philosophy)
+[4]: https://arxiv.org/abs/1610.03585
