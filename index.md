@@ -26,6 +26,8 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 ### Recent personal news
 
+- I will visit [NIPS 2016][14] in December 2016 and give a talk on [situated
+  language learning][15] at the [Machine Intelligence Workshop][16].
 - I gave a talk on the [SPINN project][9] at [Google DeepMind][13] in August
   2016.
 - Our [paper on SPINN][9], a deep learning model for natural language
@@ -38,6 +40,9 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 [11]: http://acl2016.org/
 [12]: https://www.nyu.edu/projects/bowman/
 [13]: https://deepmind.com/
+[14]: https://nips.cc/
+[15]: {{site.url}}/uploads/papers/nips-main2016.pdf
+[16]: https://mainatnips.github.io/
 
 ### Publications
 
