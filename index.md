@@ -44,7 +44,7 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 [15]: {{site.url}}/uploads/papers/nips-main2016.pdf
 [16]: https://mainatnips.github.io/
 
-### Publications
+### Research
 
 (Find me on [Google Scholar][7] for an up-to-date list.)
 
