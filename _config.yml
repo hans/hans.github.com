@@ -11,7 +11,8 @@ papers:
       title: A paradigm for situated and goal-driven language learning
       authors: Jon Gauthier and Igor Mordatch
       date: October 2016
-      venue: Submitted to MAIN@NIPS 2016
+      venue: NIPS 2016 Machine Intelligence Workshop
+      url: https://arxiv.org/pdf/1610.03585v1.pdf
       bibtex: true
       links:
           - href: /2016/situated-language-learning
