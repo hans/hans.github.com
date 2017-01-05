@@ -17,6 +17,8 @@ papers:
       links:
           - href: /2016/situated-language-learning
             title: related blog post
+          - href: https://docs.google.com/presentation/d/1PqMCUdqz3-GU5V_Cj6afD05-BtF2KMRyTlPyuOw2xCc/edit?usp=sharing
+            title: slides
     - id: acl2016
       title: A fast unified model for parsing and sentence understanding
       authors: "{Sam Bowman, Jon Gauthier}, Raghav Gupta, Abhinav Rastogi, Christopher D. Manning, and Christopher Potts"
