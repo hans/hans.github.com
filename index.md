@@ -26,7 +26,7 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 ### Recent personal news
 
-- I will visit [NIPS 2016][14] in December 2016 and give a talk on [situated
+- I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
   language learning][15] at the [Machine Intelligence Workshop][16].
 - I gave a talk on the [SPINN project][9] at [Google DeepMind][13] in August
   2016.
