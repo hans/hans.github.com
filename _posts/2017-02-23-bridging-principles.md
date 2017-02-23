@@ -3,7 +3,7 @@ layout: post
 title: Bridging principles
 date: 23 February 2017
 main: true
-excerpt: I think it's necessary that linguistic meaning be derived from things that are *nonlinguistic*. I call this claim a "bridging principle," and demonstrate parallel bridging principles in several subfields of philosophy.
+excerpt: I think it's necessary that linguistic meaning be derived from things that are <em>nonlinguistic</em>. I call this claim a "bridging principle," and demonstrate parallel bridging principles in several subfields of philosophy.
 ---
 
 It's been quiet here for a while! I have a new series of posts coming up soon, in which I'll try to specify some desiderata for agents which *understand* language. That word *understand* gets thrown around a lot in my circles, with too little critical thought about it's meaning.
