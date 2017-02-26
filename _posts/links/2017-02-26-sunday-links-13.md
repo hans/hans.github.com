@@ -1,5 +1,9 @@
 ---
+layout: post
 title: Sunday links
+excerpt: Week of 26 February
+date: 26 February 2017
+category: links
 ---
 
 1. I like plants. Plants are nice. But are they conscious? Do they think?
