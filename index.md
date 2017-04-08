@@ -46,6 +46,8 @@ young graduate students succeed. Please
 [14]: https://nips.cc/
 [15]: {{site.url}}/uploads/papers/nips-main2016.pdf
 [16]: https://mainatnips.github.io/
+[17]: https://bcs.mit.edu/
+[18]: http://web.mit.edu/
 
 ### Research
 
