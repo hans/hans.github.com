@@ -15,8 +15,9 @@ language understanding and production. My recent work has focused on
 I am advised by [Christopher Manning][5] in the Stanford NLP Group and
 collaborate with colleagues at [OpenAI][10].
 
-As a young researcher, I'm interested in helping ambitious fellow undergraduate
-students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
+As a young researcher, I'm interested in helping ambitious undergraduate and
+young graduate students succeed. Please
+[get in touch](mailto:jon@gauthiers.net)!
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
@@ -26,6 +27,8 @@ students succeed. Please [get in touch](mailto:jon@gauthiers.net)!
 
 ### Recent personal news
 
+- Moving time! I will join the [Department of Brain and Cognitive Sciences][17]
+  at the [Massachusetts Institute of Technology][18] in fall 2017.
 - I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
   language learning][15] at the [Machine Intelligence Workshop][16].
 - I gave a talk on the [SPINN project][9] at [Google DeepMind][13] in August
