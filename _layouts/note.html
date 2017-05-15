@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: default
 ---
 
 {% if page.from_org %}
@@ -172,7 +172,7 @@ for the JavaScript code in this tag.
 {% endif %}
 
 <article id="single" class="hentry">
-  <header>
+  <header class="inner">
     <h1 class="entry-title">{{ page.title }}</h1>
     <time datetime="{{ page.date | date_to_xmlschema }}">
       Last updated: {{ page.date | date: '%d %B %Y' }}
