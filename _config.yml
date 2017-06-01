@@ -7,6 +7,13 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: acl-robonlp2017
+      title: Are distributional representations ready for the real world? Evaluating word vectors for grounded perceptual meaning
+      authors: Li Lucy and Jon Gauthier
+      date: May 2016
+      venue: ACL 2017 Workshop on Language Grounding for Robotics
+      url: https://arxiv.org/pdf/1705.11168.pdf
+      bibtex: true
     - id: nips-main2016
       title: A paradigm for situated and goal-driven language learning
       authors: Jon Gauthier and Igor Mordatch
