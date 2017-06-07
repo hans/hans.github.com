@@ -27,6 +27,8 @@ young graduate students succeed. Please
 
 ### Recent personal news
 
+- [Lucy Li][19] and I will be visiting [ACL 2017][20] to present our work
+  on assessing distributional representations. See you in Vancouver!
 - Moving time! I will join the [Department of Brain and Cognitive Sciences][17]
   at the [Massachusetts Institute of Technology][18] in fall 2017.
 - I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
@@ -48,6 +50,8 @@ young graduate students succeed. Please
 [16]: https://mainatnips.github.io/
 [17]: https://bcs.mit.edu/
 [18]: http://web.mit.edu/
+[19]: http://stanford.edu/~lucy3/
+[20]: http://acl2017.org/
 
 ### Research
 
