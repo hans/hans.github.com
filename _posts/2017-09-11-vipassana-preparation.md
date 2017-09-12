@@ -58,7 +58,7 @@ Buddha. It's quite fun to study Buddhist notions of [suffering][6],
 So go sit down and listen for yourself! Retreats organized by the international
 [Dhamma][9] organization are free of charge.
 
-### But am I prepared?
+## But am I prepared?
 
 Good question. I was anxiously asking this question as my own retreat
 approached. By this point, I had a daily meditation practice but had never
@@ -74,7 +74,7 @@ you ought to settle for less.
 That being said, I would like to end the post with some actual advice on how to
 be ready for your own retreat.
 
-#### Physical preparation
+### Physical preparation
 
 First: resign yourself to the fact that **you are not—and will not
 be—physically prepared**.
@@ -96,7 +96,7 @@ order to minimize your risk of injury.
    comfortable sitting in some position -- whichever works for you -- for at
    least 20 or 30 minutes.
 
-#### Mental preparation
+### Mental preparation
 
 Again: resign yourself to the fact that **you are not—and will not
 be—mentally prepared**. But you can do your best with the following:
