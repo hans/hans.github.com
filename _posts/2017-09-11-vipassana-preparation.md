@@ -5,7 +5,7 @@ title: How to prepare for a Vipassana retreat
 date: 11 September 2017
 ---
 
-{% include img.html datetime="August 2017" alt="The meditation hall at Dhamma Suttama in Montebello, Québec." url="/uplods/2017/vipassana/meditation-hall.jpg" %}
+{% include img.html datetime="August 2017" alt="The meditation hall at Dhamma Suttama in Montebello, Québec." url="/uploads/2017/vipassana/meditation-hall.jpg" %}
 
 Several weeks ago I sat a 10-day Vipassana meditation retreat at the [Dhamma
 Suttama][1] in Montebello, Québec. In an explicitly secular setting, a team of
