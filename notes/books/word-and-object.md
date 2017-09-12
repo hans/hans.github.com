@@ -1,8 +1,8 @@
 ---
 layout: note
 title: Book notes&#58; Word and Object
-date: Spring 2017
---- 
+date: May 2017
+---
 
 *Word and Object.* W. V. O. Quine, first edition 1960. 2013 MIT Press edition, ISBN 978-0-262-51831-4.
 

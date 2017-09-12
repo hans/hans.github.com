@@ -1,8 +1,8 @@
 ---
 layout: note
 title: Book notes&#58; Verbal Behavior
-date: Spring 2017
---- 
+date: May 2017
+---
 
 *Verbal Behavior.* B. F. Skinner. Originally published 1957 Prentice-Hall; this version 2014 B. F. Skinner Foundation (free PDF, horribly typeset, available for free online).
 
@@ -30,9 +30,9 @@ Success conditions are something like reducing verbal behavior to a deterministi
 pp. 38–39:
 
 > It has generally been assumed that to explain behavior, or any aspect of it, one must attribute it to *events taking place inside the organism*. In the field of verbal behavior this practice was once represented by the doctrine of the expression of ideas. An utterance was felt to be explained by setting forth the ideas which it expressed. …
-> 
+>
 > Such a practice obviously has the same goal as a causal analysis, but ithas by no means the same results. The difficulty is that the ideas for which sounds are said to stand as signs cannot be independently observed. …
-> 
+>
 > There is obviously something suspicious in the ease with which we discover in a set of ideas precisely those properties needed to account for the behavior which expresses them. W e evidently construct the ideas at will from the behavior to be explained. There is, of course, no real explanation.
 
 This talk sounds a bit straw-man-y so far. But replace "idea" with "meaning" and Skinner suggests this is basically modern semantics.. (p. 40):
