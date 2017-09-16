@@ -3,6 +3,7 @@ layout: post
 main: true
 title: How to prepare for a Vipassana retreat
 date: 11 September 2017
+excerpt: I'm not going to talk about my Vipassana experience, and here's why.
 ---
 
 {% include img.html datetime="August 2017" alt="The meditation hall at Dhamma Suttama in Montebello, Québec." url="/uploads/2017/vipassana/meditation-hall.jpg" %}
