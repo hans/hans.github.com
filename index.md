@@ -6,31 +6,40 @@ layout: default
 <img alt="Me in Montreal in December 2015." src="/uploads/me-dec-2015.jpg"
 style="float:right; width: 38.2%; margin:10px 0 10px 20px;" />
 
-Hi, I'm **Jon Gauthier**. I'm a student at [Stanford University][1] in the
-[Symbolic Systems][2] program. I work in the [Natural Language Processing
-Group][3], where my research involves developing computational models of
-language understanding and production. My recent work has focused on
-[deep learning for NLP][4].
+Hi, I'm **Jon Gauthier**. I'm a Ph.D. student in the [Department of Brain and
+Cognitive Sciences][17] at the [Massachusetts Institute of Technology][18].
+I build computational models of how people learn, understand, and produce
+language. I collaborate with members of the [Computational Psycholinguistics
+Laboratory][21] and the [Computational Cognitive Science Group][22].
 
-I am advised by [Christopher Manning][5] in the Stanford NLP Group and
-collaborate with colleagues at [OpenAI][10].
+In a past life, I did research in natural language processing and machine
+learning at [Stanford University][1] in the [Natural Language Processing
+Group][3], where I was advised by [Christopher Manning][5]. I also spent time
+as a researcher at [OpenAI][10] and [Google Brain][23], where I mainly
+collaborated with [Ilya Sutskever][24] and [Oriol Vinyals][25].
 
-As a young researcher, I'm interested in helping ambitious undergraduate and
-young graduate students succeed. Please
-[get in touch](mailto:jon@gauthiers.net)!
+I had the good fortune to begin research at a young age, thanks to the
+generosity and support of my advisors and academic community. I'm interested
+in helping ambitious undergraduate students likewise break into the world of
+academia. Please [get in touch](mailto:jon@gauthiers.net)!
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
 [3]: http://nlp.stanford.edu
 [4]: http://nlp.stanford.edu/courses/NAACL2013/
 [5]: http://nlp.stanford.edu/manning/
+[21]: http://cpl.mit.edu
+[22]: http://cocosci.mit.edu
+[23]: https://research.google.com/teams/brain/
+[24]: http://www.cs.toronto.edu/~ilya/
+[25]: https://research.google.com/pubs/OriolVinyals.html
 
 ### Recent personal news
 
-- [Lucy Li][19] and I will be visiting [ACL 2017][20] to present our work
-  on assessing distributional representations. See you in Vancouver!
-- Moving time! I will join the [Department of Brain and Cognitive Sciences][17]
-  at the [Massachusetts Institute of Technology][18] in fall 2017.
+- I joined the [Department of Brain and Cognitive Sciences][17] at the
+  [Massachusetts Institute of Technology][18] in September 2017.
+- [Lucy Li][19] and presented our work on assessing distributional
+  representations at [ACL 2017][20] in August 2017.
 - I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
   language learning][15] at the [Machine Intelligence Workshop][16].
 - I gave a talk on the [SPINN project][9] at [Google DeepMind][13] in August
@@ -38,7 +47,7 @@ young graduate students succeed. Please
 - Our [paper on SPINN][9], a deep learning model for natural language
   understanding, has been accepted to [ACL 2016][11]. [Sam Bowman][12] and I
   presented the work at the conference in Berlin in August 2016.
-- I joined [OpenAI][10] as a research intern in June 2016.
+<!--- I joined [OpenAI][10] as a research intern in June 2016.-->
 
 [9]: {{site.url}}/uploads/papers/acl2016.pdf
 [10]: https://openai.com/
