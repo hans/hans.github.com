@@ -36,8 +36,8 @@ academia. Please [get in touch](mailto:jon@gauthiers.net)!
 
 ### Recent personal news
 
-- I joined the [Department of Brain and Cognitive Sciences][17] at the
-  [Massachusetts Institute of Technology][18] in September 2017.
+- I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
+  September 2017.
 - [Lucy Li][19] and presented our work on assessing distributional
   representations at [ACL 2017][20] in August 2017.
 - I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
