@@ -1,6 +1,5 @@
 ---
 layout: post
-main: false
 title: How to prepare for a Vipassana retreat
 date: 11 September 2017
 ---
