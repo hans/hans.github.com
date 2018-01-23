@@ -89,7 +89,7 @@ academia. Please [get in touch](mailto:jon@gauthiers.net)!
 </div>
 {% endfor %}
 
-[7]: https://scholar.google.de/citations?user=7dPITbkAAAAJ
+[7]: https://scholar.google.com/citations?user=n7Z2vI4AAAAJ
 
 ### Around the web
 
