@@ -1,10 +1,21 @@
 ---
 layout: note
 title: Book notes&#58; How Children Learn the Meanings of Words
-
+date: 14 February 2018
 ---
 
 *How Children Learn the Meanings of Words.* Paul Bloom.
+
+Read December 2017--January 2018, on recommendation from JBT.
+
+My brief review, cross-posted from [Goodreads](https://www.goodreads.com/review/show/2222804856):
+
+> A very useful review of our understanding of child language acquisition circa 2000, still relevant today. (That it's still relevant today says as much about Bloom's presentation and writing style as it does about how enormously difficult it is to make progress in this field.)
+The contents of the book are about what you'd expect from an undergraduate introduction to language acquisition.
+>
+> For non-specialists, it's worth knowing that Bloom stakes out an unconventional view — or at least a non-consensus view — in this book, attributing many different observed phenomena in language acquisition to a single underlying faculty of domain-general social reasoning. This view has gained strength in the 18 years since this book's publication, but can not yet be called a consensus.
+>
+> In some chapters, the book goes into a perfect amount of detail — presenting a coherent narrative punctuated by bits of interesting and convincing evidence. Other chapters are practically evidence-free, leaning more toward philosophy than science. We can't exactly fault Bloom for this fact: we just don't have a clear understanding as a research field, for example, on how language and conceptual knowledge relate to one another in the first years of a child's life. I only wish Bloom would have done a bit more epistemic signaling here — explicitly marking those places where the text contains far more opinion than fact.
 
 # Table of contents
 {:.no_toc}

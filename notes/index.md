@@ -20,6 +20,7 @@ on all other reading, see my
 #### 2017
 
 - [W.V.O. Quine: *Word and Object*](/notes/books/word-and-object)
+- [Paul Bloom: How Children Learn the Meanings of Words](/notes/books/how-children-learn-the-meanings-of-words)
 
 ### Miscellaneous
 
