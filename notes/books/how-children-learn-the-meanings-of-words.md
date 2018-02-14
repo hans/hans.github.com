@@ -6,6 +6,12 @@ title: Book notes&#58; How Children Learn the Meanings of Words
 
 *How Children Learn the Meanings of Words.* Paul Bloom.
 
+# Table of contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
 # Fast mapping and the course of word learning
 
 Main questions:
