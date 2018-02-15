@@ -21,7 +21,7 @@ collaborated with [Ilya Sutskever][24] and [Oriol Vinyals][25].
 I had the good fortune to begin research at a young age, thanks to the
 generosity and support of my advisors and academic community. I'm interested
 in helping ambitious undergraduate students likewise break into the world of
-academia. Please [get in touch](mailto:jon@gauthiers.net)!
+academia. Please [get in touch](/contact/)!
 
 [1]: http://stanford.edu
 [2]: http://symsys.stanford.edu
