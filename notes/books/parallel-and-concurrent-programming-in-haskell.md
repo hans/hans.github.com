@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: note
 title: Book notes &#58; Parallel and Concurrent Programming in Haskell
 date: January 2014
 from_org: true

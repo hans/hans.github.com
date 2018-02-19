@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: note
 title: Book notes &#58; Self University
 date: May 2012
 from_org: true

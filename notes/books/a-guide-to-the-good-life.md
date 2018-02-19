@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: note
 title: Book notes &#58; A Guide to the Good Life
 date: May 2012
 ---
