@@ -33,8 +33,8 @@ ambitiously titled preprint called ["Text Understanding from Scratch."][10]
 (No, they didn't solve "text understanding.")
 
 Yann seems to have had a change of heart since those brave words. I think the
-natural language processing community as a whole is ready to brush off the deep
-learning hype, too.
+natural language processing community as a whole has begun to brush off the
+deep learning hype, too.
 
 One can hope.
 
