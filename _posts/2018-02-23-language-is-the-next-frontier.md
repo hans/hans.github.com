@@ -7,9 +7,9 @@ main: true
 ---
 
 [Abi See][1] recently hosted a debate between Yann LeCun (Facebook/NYU) and
-Chris Manning (Stanford) on the importance of structure and innate priors in
-systems for natural language understanding. The video, and a nice write-up from
-Abi herself, are available [here][2].
+Chris Manning (Stanford) on the importance of linguistic structure and innate
+priors in systems for natural language understanding. The video, along with a
+nice write-up from Abi herself, are available [here][2].
 
 I used to have strong opinions on the use of linguistic structure in NLP
 systems.[^1] I'm no longer so passionate about that debate, but I still found
