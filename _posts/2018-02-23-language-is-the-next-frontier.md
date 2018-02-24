@@ -2,6 +2,7 @@
 layout: post
 title: LeCun&#58; Language is the next frontier for AI—or not
 date: 23 February 2018
+excerpt: A change of opinion hints at a change of fortune in the NLP community.
 main: true
 ---
 
