@@ -28,9 +28,9 @@ Wow. Those words come from the man who regularly claimed a few years ago (circa
 Four years is quite a long time in the world of AI — enough to legitimately
 change your mind in the light of evidence (or lack thereof). Recall that NLP in
 2014 was awash in the first exciting results in neural machine translation.[^4]
-In 2015 LeCun and one of his students put up a rather ambitiously titled
-preprint called ["Text Understanding from Scratch"][10]. (No, they didn't solve
-"text understanding.")
+LeCun rode the wave, too: in 2015 he and one of his students put up a rather
+ambitiously titled preprint called ["Text Understanding from Scratch"][10].
+(No, they didn't solve "text understanding.")
 
 Yann seems to have had a change of heart since those brave words. I think the
 natural language processing community as a whole is ready to brush off the deep
