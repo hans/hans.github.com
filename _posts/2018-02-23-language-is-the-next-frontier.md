@@ -2,7 +2,7 @@
 layout: post
 title: LeCun&#58; Language is the next frontier for AI—or not
 date: 23 February 2018
-excerpt: A change of opinion hints at a change of fortune in the NLP community.
+excerpt: A change of opinion hints at a change of fortune in the NLP community?
 main: true
 ---
 
@@ -29,7 +29,7 @@ Four years is quite a long time in the world of AI — enough to legitimately
 change your mind in the light of evidence (or lack thereof). Recall that NLP in
 2014 was awash in the first exciting results in neural machine translation.[^4]
 LeCun rode the wave, too: in 2015 he and one of his students put up a rather
-ambitiously titled preprint called ["Text Understanding from Scratch"][10].
+ambitiously titled preprint called ["Text Understanding from Scratch."][10]
 (No, they didn't solve "text understanding.")
 
 Yann seems to have had a change of heart since those brave words. I think the
