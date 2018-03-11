@@ -1,0 +1,55 @@
+---
+title: I saw a dog
+layout: post
+main: false
+date: 13 February 2018
+---
+
+—as I walked down a quiet side-street in Cambridge, not far from Central
+Square. I was glued to my phone and couldn't make out so many details without
+looking up, but I could see that it was middle-sized and black, facing me and angled to the north-east.
+
+I could tell this was a dog not only from its shape, but also from that
+primitive *thwang* that dogs trigger in my bones. I'm not afraid of dogs – I've spent most of my life around them – but I'm still wary around arbitrary canines on the street, leashed or not.
+
+I felt that *thwang* as I registered the dog's basic features. Black, medium size – maybe a black labrador. I raised my head, ready to step out of the way, smile at the owner, follow the basic program. But there was no dog in front of me.
+
+What was in front of me was not a black labrador, but a commuter bike locked to
+a slightly oblique street sign. The bike had a thin black seat and narrow road
+tires, with a rusty pannier rack framing its back wheel. Its handlebars – drop
+bars, taped black – were angled away from me. No dog in sight.
+
+How could my own experience of the world be so *wrong?*
+
+---
+
+Am I pathological? I don't think so. I've been noticing more of these
+experiences over the past few months. Sights, sounds, and sensations occasionally reveal themselves to be little fibs: reasonable, but ultimately inaccurate, pictures of what is *actually* out there in the real world.
+
+There are at least two pictures of perception that such fib-experiences might suggest. In one picture, my brain takes in an [**abundant**][1] amount of detail about the visual world at all times. On top of that abundant stream of information, some higher-level system sprinkles on the conceptual details: *that cube is a cardboard box*, *that wiggling object is dangerous*, and so on. Mistakes in those higher-level attributions – like the dog-percept presented above – can temporarily lead me astray and cause me to "see" things that aren't there.
+
+A second picture suggests that the sensory information reaching my brain at any moment is actually quite **sparse**. On top of this sparse stream, most of the work of perception is performed at higher levels, with the brain "filling in" all of the gaps in my sensory data.
+
+To further develop these two pictures, I'll turn to some details on the human eye.
+
+---
+
+The human retina contains two major types of [light-sensitive cells](https://en.wikipedia.org/wiki/Photoreceptor_cell):[^1] rods and cones. Rods are responsible for vision in low light, and are not sensitive to color. Cones respond only in high light, and uniquely support color vision.
+
+It turns out that these two types of cells are distributed unequally in the retina. Cones cluster around the area of the retina which maps to the center of our visual field (the [fovea](https://en.wikipedia.org/wiki/Fovea)), while rods dominate everywhere else.
+
+<figure><a href="https://commons.wikimedia.org/wiki/File:Human_photoreceptor_distribution.svg#/media/File:Human_photoreceptor_distribution.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Human_photoreceptor_distribution.svg" width="480" height="480" alt="Human photoreceptor distribution.svg"></a><figcaption>Spatial distribution of rods and cones in the human retina. From <a href="//commons.wikimedia.org/wiki/User:Cmglee" title="User:Cmglee">Cmglee on Wikipedia</a>.</figcaption>
+</figure>
+
+This spatial distribution suggests that, at any moment, the majority of the color information my retina receives only picks out points in the very center of my visual field.[^2]
+
+This better fits part of the second picture proposed above: this is one case in which the brain seems to receive rather **sparse** sensory information. That's puzzling, because it doesn't seem to map onto my experience. I certainly don't think that my color vision is limited to the very center of my visual field.[^3] How is it that I perceive the world as fully colored, if my sensory machinery cannot possibly yield such an image? If that underlying hardware is yielding only a sparse picture of the real world, why does color feel so abundant in my visual experience?
+
+[Balas & Sinha (2007)][2] suggest that the brain fills in this sparse picture, driven by high-level information.
+
+[^1]: Fun fact. There is actually a third type with quite a long name: [intrinsically photosensitive retinal ganglion cells](https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cells). These cells (a ~1% minority in the retina) help regulate circadian rhythms and contribute to melatonin production/suppression. They were first hypothesized after scientists discovered that supposedly blind mice were still able to respond to changes in their visual environment.
+[^2]: This is not exactly correct, of course. It's likely that I rapidly and subconsciously saccade in order to gather information about colors in my periphery. I don't pretend to cover all my bases as a vision scientist here – I only pretend to get the broad strokes of this argument correct.
+[^3]: I also don't think that my peripheral vision is especially acute in low-light conditions.
+
+[1]: http://schwitzsplinters.blogspot.com/2018/02/is-consciousness-sparse-or-abundant.html
+[2]: 
