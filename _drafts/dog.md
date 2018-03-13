@@ -1,7 +1,6 @@
 ---
 title: I saw a dog
 layout: post
-main: false
 date: 13 February 2018
 ---
 
@@ -17,7 +16,7 @@ I felt that *thwang* as I registered the dog's basic features. Black, medium siz
 What was in front of me was not a black labrador, but a commuter bike locked to
 a slightly oblique street sign. The bike had a thin black seat and narrow road
 tires, with a rusty pannier rack framing its back wheel. Its handlebars – drop
-bars, taped black – were angled away from me. No dog in sight.
+bars, taped black – were angled away from me. No recognizable dog-features in sight, let alone an actual dog.
 
 How could my own experience of the world be so *wrong?*
 
@@ -26,15 +25,17 @@ How could my own experience of the world be so *wrong?*
 Am I pathological? I don't think so. I've been noticing more of these
 experiences over the past few months. Sights, sounds, and sensations occasionally reveal themselves to be little fibs: reasonable, but ultimately inaccurate, pictures of what is *actually* out there in the real world.
 
-There are at least two pictures of perception that such fib-experiences might suggest. In one picture, my brain takes in an [**abundant**][1] amount of detail about the visual world at all times. On top of that abundant stream of information, some higher-level system sprinkles on the conceptual details: *that cube is a cardboard box*, *that wiggling object is dangerous*, and so on. Mistakes in those higher-level attributions – like the dog-percept presented above – can temporarily lead me astray and cause me to "see" things that aren't there.
+There are at least two pictures of perception that such fib-experiences might suggest. Both views suggest that sensations and beliefs combine to produce our visual experience—this much is uncontroversial. They differ, though, on how much credit is assigned to each of those sources.
 
-A second picture suggests that the sensory information reaching my brain at any moment is actually quite **sparse**. On top of this sparse stream, most of the work of perception is performed at higher levels, with the brain "filling in" all of the gaps in my sensory data.
+In one picture, my brain takes in an [**abundant**][1] amount of detail about the visual world at all times. On top of that abundant stream of information, some higher-level system sprinkles on the conceptual details: *that cube is a cardboard box*, *that wiggling object is dangerous*, and so on. Serious mistakes in those higher-level attributions – like the dog-percept presented above – can temporarily paint over my sensory inputs and cause me to see things that aren't there.
+
+A second picture suggests that the sensory information reaching my brain at any moment is actually quite **sparse**. On top of this sparse stream, most of the work of perception is performed at higher levels, with the mind "filling in" all of the gaps in my sensory data on the basis of beliefs and expectations. In this view, it's not that the mind overwrites sensory data that is already there — rather, the mind is continuously tasked with *filling in* perceptual information not present in the original sensory data.
 
 To further develop these two pictures, I'll turn to some details on the human eye.
 
 ---
 
-The human retina contains two major types of [light-sensitive cells](https://en.wikipedia.org/wiki/Photoreceptor_cell):[^1] rods and cones. Rods are responsible for vision in low light, and are not sensitive to color. Cones respond only in high light, and uniquely support color vision.
+The human retina contains two major types of [light-sensitive cells](https://en.wikipedia.org/wiki/Photoreceptor_cell):[^1] rods and cones. Rods are responsible for vision in low light, and are not sensitive to color. Cones function well only in high-light situations, and uniquely support color vision.
 
 It turns out that these two types of cells are distributed unequally in the retina. Cones cluster around the area of the retina which maps to the center of our visual field (the [fovea](https://en.wikipedia.org/wiki/Fovea)), while rods dominate everywhere else.
 
@@ -43,13 +44,33 @@ It turns out that these two types of cells are distributed unequally in the reti
 
 This spatial distribution suggests that, at any moment, the majority of the color information my retina receives only picks out points in the very center of my visual field.[^2]
 
-This better fits part of the second picture proposed above: this is one case in which the brain seems to receive rather **sparse** sensory information. That's puzzling, because it doesn't seem to map onto my experience. I certainly don't think that my color vision is limited to the very center of my visual field.[^3] How is it that I perceive the world as fully colored, if my sensory machinery cannot possibly yield such an image? If that underlying hardware is yielding only a sparse picture of the real world, why does color feel so abundant in my visual experience?
+This is one case, then, in which the brain seems to receive rather **sparse** sensory information. That's puzzling, because it doesn't seem to map onto my experience.  I certainly don't think that my color vision is limited to the very center of my visual field—I really hope yours isn't, either.[^3]
 
-[Balas & Sinha (2007)][2] suggest that the brain fills in this sparse picture, driven by high-level information.
+How is it that I perceive the world as fully colored, if my sensory machinery cannot possibly yield such an image? If that underlying hardware is yielding only a sparse picture of the real world, why does color feel so abundant in my visual experience?
+
+---
+
+[Balas & Sinha (2007)][2] present a simple experiment which will help us better draw out this sparse view. Their results offer behavioral evidence that some higher-level mental module actively fills in color information, turning what is originally a rather sparse sensory representation into an abundant visual experience.
+
+The authors prepared modified images of natural scenes like the one in the figure below. They took full-color images and imposed a randomly sized color mask, such that a circle in the center of the image remained in color while the rest of the image appeared in grayscale.
+
+<figure><a href="/uploads/2018/chimera.jpg"><img src="/uploads/2018/chimera.jpg" alt="Partially-colored chimera like those used in Balas &amp; Sinha (2007)."></a><figcaption>Partially-colored chimera image like those used in Balas & Sinha (2007).</figcaption>
+</figure>
+
+These "chimera" images were rapidly presented to adult subjects, and the subjects  were asked after each presentation to report whether the image they had just seen was in grayscale, full color, or a mix of the two.
+
+The crucial metric of interest here is the rate of "false alarms" — that is, how often a subject would report that an image was in full color when it was actually only colored in the very center of the image. The authors measured this false alarm rate as a function of the width of the color mask. Based just on the distribution of color-sensitive cells in the retina, we would expect to find that this false alarm would climb as the color mask begins to fill the center of the visual field.
+
+<!--<figure><a href="/uploads/2018/balas_sinha_2007-results.simple.png"><img src="/uploads/2018/balas_sinha_2007-results.simple.png" alt="False alarm rates from Balas &amp; Sinha (2007)."></a><figcaption>False alarm rates from Balas & Sinha (2007): false alarms increase as the color mask covers more of the center of the subjects' visual fields. Reproduced from Figure 2.</figcaption>
+</figure>-->
+
+Their first result shows us that some sort of "filling in" is certainly happening: **even when nontrivial portions of the image are presented in grayscale, people are likely to report that the entire image is in color.** (For example, when the color mask covers 17.5 degrees of the visual field, subjects report that the entire image is colored almost 40% of the time.)
+
+This result lends some strength to the sparse view presented above: it seems like people really aren't processing the color information (or lack thereof) very far outside of their visual field. This suggests that the original sensory data is just too sparse to support such processing.
 
 [^1]: Fun fact. There is actually a third type with quite a long name: [intrinsically photosensitive retinal ganglion cells](https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cells). These cells (a ~1% minority in the retina) help regulate circadian rhythms and contribute to melatonin production/suppression. They were first hypothesized after scientists discovered that supposedly blind mice were still able to respond to changes in their visual environment.
-[^2]: This is not exactly correct, of course. It's likely that I rapidly and subconsciously saccade in order to gather information about colors in my periphery. I don't pretend to cover all my bases as a vision scientist here – I only pretend to get the broad strokes of this argument correct.
+[^2]: This is not exactly correct, of course. We rapidly and subconsciously [microsaccade][2], even when we feel we are fixating our eyes on one position in our visual field. It's possible that these microsaccades function in part to gather information about colors and forms in our periphery. I don't pretend to cover all my bases as a vision scientist here – I only hope to get the broad strokes of this argument correct.
 [^3]: I also don't think that my peripheral vision is especially acute in low-light conditions.
 
 [1]: http://schwitzsplinters.blogspot.com/2018/02/is-consciousness-sparse-or-abundant.html
-[2]: 
+[2]: https://www.tandfonline.com/doi/abs/10.1080/13506280701295453
