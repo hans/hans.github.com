@@ -38,7 +38,7 @@ academia. Please [get in touch](/contact/)!
 
 - I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
   September 2017.
-- [Lucy Li][19] and presented our work on assessing distributional
+- [Lucy Li][19] and I presented our work on assessing distributional
   representations at [ACL 2017][20] in August 2017.
 - I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
   language learning][15] at the [Machine Intelligence Workshop][16].
