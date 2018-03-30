@@ -17,7 +17,7 @@ I was sitting earlier tonight at [Cambridge Zen Center][1] in a weekly community
 
 Each meeting begins with a five-minute meditation. We had an unusually large crowd tonight, and the room was packed as we settled in for our sit. A clap from the leader signaled the start of the five minutes, and the room fell silent.
 
-But that silence tonight was [by no means the absence of sound][2]. I've been going to these meetings for about 9 months, but somehow never noticed all this noise.
+But that silence tonight was [by no means the absence of sound][2]. I've been going to these meetings for about 9 months, but somehow never noticed within the stillness all this *noise*.
 
 A man behind me pushed air back and forth slowly over tensed vocal cords, singing a high-frequency static like that of a distant sea. A girl to my breathed quickly, occasionally voicing little falsetto squeaks. In front of me, a man exhaled in quick bursts, like a horse just after a gallop. Beneath these solos swayed a textured chorus of *in*s and *out*s, *in*s and *out*s.
 
