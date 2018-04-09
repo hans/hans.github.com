@@ -55,13 +55,11 @@ That notion of representation captures the relevant relation in the paper. But i
 - My car's engine temperature (\\( B(A) \\)) and the position of the key in my car's ignition (\\( A \\))
 - The volume of a crowd in a restaurant (\\( B(A) \\)) and the number of eggs broken in the last hour of that restaurant's kitchen (\\( A \\))
 
-In none of the above cases would we say that the atom/molecule/photon-bumps \\( B(A) \\) *represent* an aspect of \\( A \\). So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking.
+In none of the above cases would we say that the atom/molecule/photon-bumps \\( B(A) \\) *represent* an aspect of \\( A \\). So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking.[^6]
 
 ## The quest
 
-We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region \\( X \\) of the brain exhibiting a pattern \\( B(A) \\) represents some aspect \\( A \\) of the outside world – ought to be true whether or not any scientist cares to investigate it.
-
-We need to find some way to assert that the brain *represents* aspects of the outside world – as is claimed in the Nature paper – without including these other silly examples. Developing an answer to this problem is the mission of a theory of **naturalistic representation.**
+We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region \\( X \\) of the brain exhibiting a pattern \\( B(A) \\) represents some aspect \\( A \\) of the outside world – ought to be true whether or not any scientist cares to investigate it. Our desired notion of representation should emerge *naturally* from a description how \\B(A)\\) and \\(A\\) relate, without selecting the silly cases from above. For this reason, people generally think of this theoretical program as a quest for **naturalistic** representation.
 
 {%include img.html alt="M.C. Escher &mdash; Hand with Reflecting Sphere." url="/uploads/2018/escher.jpg" %}
 
@@ -71,7 +69,7 @@ We need to find some way to assert that the brain *represents* aspects of the ou
 
 **A counter:** I don't see a principled difference between your "mechanistic relationships" and your "chance correlations." There are certainly [mechanistic explanations which link the length of a tree's shadow and the time of day][5], or any of the other pairs given above. Why privilege the neural relationship with the label of "mechanism?"
 
-Our answer to that question can't fall back on claims about the brain being a more "interesting" or "relevant" system of study in any respect. We need to find a naturalistic, *non-normative* account of why the brain as a data-processor is any different than those (admittedly silly) examples above.
+Our answer to that question can't fall back on claims about the brain being a more "interesting" or "relevant" system of study in any respect. We need to find a naturalistic account of why the brain as a data-processor is any different than those (admittedly silly) examples above.
 
 ---
 
@@ -80,7 +78,9 @@ This, then, is the critical problem of representation in the brain: we need to f
 Future posts on this blog will characterize some of the most popular responses to this conceptual issue. For now, I'll link to some relevant writing:
 
 - **From neuroscientists:** [deCharms & Zador (2000)][7], [Parker & Newsome (1998)][8] – more sophisticated operational definitions of neural representation.
-- **From philosophers:** [Ramsey (2003)][6] – difficult, but very exciting, attack on the idea of neural representation.
+- **From philosophers:**
+  - [Ramsey (2003)][6] – difficult, but very exciting, attack on the idea of neural representation.
+  - [Egan (2013)][9], see also [video here][10] – argues that talk of representational content is simply a useful "gloss" on actual theories. (Directed at mental representation, but applies just as well to neural representation.)
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -92,9 +92,12 @@ Future posts on this blog will characterize some of the most popular responses t
 [6]: https://doi.org/10.1080/0952813021000055630
 [7]: https://doi.org/10.1146/annurev.neuro.23.1.613
 [8]: https://doi.org/10.1146/annurev.neuro.21.1.227
+[9]: https://doi.org/10.1007/s11098-013-0172-0
+[10]: https://vimeo.com/groups/neuphi/videos/60800468
 
 [^1]: Here "area" means a particular region of the cortex of the human brain.
 [^2]: This is absolutely not the first paper on how words are represented neurally – see e.g. [Martin (2007)][3]. It may be unique as of 2016, though, in its breadth and its spread into the AI community. The first author of the paper presented this work, for example, at the NIPS conference in the winter of 2016.
 [^3]: In this particular case, those traces consist of changes in blood flow to different regions of the brain, detected by a machine with an enormous magnet surrounding the person's head. For more, check out the [Wikipedia article on functional magnetic resonance imaging (fMRI)][1].
 [^4]: Technical note: "at that moment" is not exactly correct, since fMRI data only tracks the pooled responses of samples of neurons over the span of several seconds.
 [^5]: Another hedge: what we *actually* observe is the flow of oxygenated and deoxygenated blood around the brain. I'll stop making these technical hedges now; the neuroscientists can grant me a bit of loose language, and the non-neuroscientists nerdy enough to read these footnotes are hopefully motivated by this point to go [read about the details of fMRI][1].
+[^6]: M.H. points out that this naïve notion of neural representation also fails to pick out cases we would call proper representation. Consider entertaining an arbitrary thought, which (presumably) activates neural populations in such a way that we'd say those activations *represent* the thought. It's not possible in this case to point out any stimulus or action correlated with that neural activity, since the actual represented content of the thought is unobservable to the scientist.
