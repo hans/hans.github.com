@@ -82,6 +82,8 @@ Future posts on this blog will characterize some of the most popular responses t
 - **From neuroscientists:** [deCharms & Zador (2000)][7], [Parker & Newsome (1998)][8] – more sophisticated operational definitions of neural representation.
 - **From philosophers:** [Ramsey (2003)][6] – difficult, but very exciting, attack on the idea of neural representation.
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 [1]: https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging
 [2]: http://gallantlab.org/huth2016/
 [3]: https://doi.org/10.1146/annurev.psych.57.102904.190143
