@@ -39,27 +39,27 @@ What we *actually* observe in this experiment are two different types of physica
 
 Let's make an even higher-level gloss of the core logic in this spirit:
 
-1. We make some atoms bump around in pattern $A$ near the subject's ears.
-2. We watch how some atoms bump around at the same time in a nearby area (the subject's brain). Call this pattern $B(A)$. Note that $B$ is a function of $A$ – we group the atom-bumps in the brain according to the particular patterns $A$ presented to the subject.
-3. We build a mathematical model relating how the ear-atom-bumping $A$ relates to the brain-atom-bumping $B(A)$.
-4. When our model accurately predicts the bumping $B(A)$ given the bumping $A$, we say that $B(A)$ *represents* some aspect of $A$.
-5. The brain activity pattern $B(A)$ represents the ear-bumping pattern $A$.
+1. We make some atoms bump around in pattern \\( A \\) near the subject's ears.
+2. We watch how some atoms bump around at the same time in a nearby area (the subject's brain). Call this pattern \\( B(A) \\). Note that \\( B \\) is a function of \\( A \\) – we group the atom-bumps in the brain according to the particular patterns \\( A \\) presented to the subject.
+3. We build a mathematical model relating how the ear-atom-bumping \\( A \\) relates to the brain-atom-bumping \\( B(A) \\)_.
+4. When our model accurately predicts the bumping \\( B(A) \\) given the bumping \\( A \\), we say that \\( B(A) \\) *represents* some aspect of \\( A \\).
+5. The brain activity pattern \\( B(A) \\) represents the ear-bumping pattern \\( A \\).
 
-At this level of abstraction—a level which might sound a little silly, but which preserves the essential moves of the argument—we might be able to draw out a strange logical leap. Point #4 takes a correlation between different bumping-patterns $A$ and $B(A)$ and concludes that $B(A)$ *represents* $A$.
+At this level of abstraction—a level which might sound a little silly, but which preserves the essential moves of the argument—we might be able to draw out a strange logical leap. Point #4 takes a correlation between different bumping-patterns \\( A \\) and \\( B(A) \\) and concludes that \\( B(A) \\) *represents* \\( A \\).
 
 ## Correlation as representation
 
-That notion of representation captures the relevant relation in the paper. But it also captures quite a bit more – namely, any pair of physical events $A$, $B(A)$ for which some aspect of $B(A)$ correlates with some aspect of $A$. Here's a random list of pairs of physical events or states which satisfy this requirement:
+That notion of representation captures the relevant relation in the paper. But it also captures quite a bit more – namely, any pair of physical events \\( A \\), \\( B(A) \\) for which some aspect of \\( B(A) \\) correlates with some aspect of \\( A \\). Here's a random list of pairs of physical events or states which satisfy this requirement:
 
-- The length of a tree's shadow ($B(A)$) and the time of day ($A$)
-- My car's engine temperature ($B(A)$) and the position of the key in my car's ignition ($A$)
-- The volume of a crowd in a restaurant ($B(A)$) and the number of eggs broken in the last hour of that restaurant's kitchen ($A$)
+- The length of a tree's shadow (\\( B(A) \\)) and the time of day (\\( A \\))
+- My car's engine temperature (\\( B(A) \\)) and the position of the key in my car's ignition (\\( A \\))
+- The volume of a crowd in a restaurant (\\( B(A) \\)) and the number of eggs broken in the last hour of that restaurant's kitchen (\\( A \\))
 
-In none of the above cases would we say that the atom/molecule/photon-bumps $B(A)$ *represent* an aspect of $A$. So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking.
+In none of the above cases would we say that the atom/molecule/photon-bumps \\( B(A) \\) *represent* an aspect of \\( A \\). So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking.
 
 ## The quest
 
-We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region $X$ of the brain exhibiting a pattern $B(A)$ represents some aspect $A$ of the outside world – ought to be true whether or not any scientist cares to investigate it.
+We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region \\( X \\) of the brain exhibiting a pattern \\( B(A) \\) represents some aspect \\( A \\) of the outside world – ought to be true whether or not any scientist cares to investigate it.
 
 We need to find some way to assert that the brain *represents* aspects of the outside world – as is claimed in the Nature paper – without including these other silly examples. Developing an answer to this problem is the mission of a theory of **naturalistic representation.**
 
@@ -67,7 +67,7 @@ We need to find some way to assert that the brain *represents* aspects of the ou
 
 ---
 
-**A first response:** Sure, the details of $B(A)$ can be used to infer the details of $A$ in all of these cases, including the case of the Nature paper. The difference between the Nature paper and the silly examples given above is that the correlation between $B(A)$ and $A$ is *relevant* or important in some sense. We're capturing some actual mechanistic relationship in the case of the brain, whereas the other examples simply pick on chance correlations.
+**A first response:** Sure, the details of \\( B(A) \\) can be used to infer the details of \\( A \\) in all of these cases, including the case of the Nature paper. The difference between the Nature paper and the silly examples given above is that the correlation between \\( B(A) \\) and \\( A \\) is *relevant* or important in some sense. We're capturing some actual mechanistic relationship in the case of the brain, whereas the other examples simply pick on chance correlations.
 
 **A counter:** I don't see a principled difference between your "mechanistic relationships" and your "chance correlations." There are certainly [mechanistic explanations which link the length of a tree's shadow and the time of day][5], or any of the other pairs given above. Why privilege the neural relationship with the label of "mechanism?"
 
