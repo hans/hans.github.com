@@ -15,9 +15,11 @@ In extremely abbreviated form, here's what happened: the authors of the paper pu
 
 They combined this dataset with several fancy computational models to produce maps of *semantic selectivity*, charting which parts of the brain respond especially strongly to which sorts of words. You can see the video for examples, or try out their online [3D brain viewer][2] yourself.
 
-This paper managed to reach people in the AI community, as it seemed to promise a comprehensive account of actual neural word representations.[^2] There has since been plenty of criticism of the paper on multiple levels – in experimental design, in modeling choices, in scientific value, and so forth. In this post, I'll raise a simple philosophical issue with the claims of the paper. That issue has to do with the central concept of "representation." This paper's claims to representation bring us to what I think is one of the most important open questions in the philosophy of cognitive science in neuroscience.
+This systems neuroscience paper managed to reach people all the way out in the AI community, as it seemed to promise a comprehensive account of actual neural word representations.[^2] There has since been plenty of criticism of the paper on multiple levels – in experimental design, in modeling choices, in scientific value, and so forth. In this post, I'll raise a simple philosophical issue with the claims of the paper. That issue has to do with the central concept of "representation." This paper's claims to representation bring us to what I think is one of the most important open questions in the philosophy of cognitive science and neuroscience.
 
-Unfortunately, while representation is such an important topic, it's also one of the most difficult to communicate. I'll do my best, grounding the discussion in the claims of this particular paper.
+<small>This post is intended to serve as a non-philosopher-friendly introduction to the problem of neural representation. Rather than advancing any new theory in this post, I'll just chart out the problem and end with some links to further reading.</small>
+
+<!--Unfortunately, while representation is such an important topic, it's also one of the most difficult to communicate. I'll do my best, grounding the discussion in the claims of this particular paper.-->
 
 ## The essential argument
 
@@ -27,7 +29,7 @@ The authors repeatedly allude to "(functional) representations" of words in the 
 2. At the same time, we record physical traces of their brain activity.[^3]
 3. After we have collected our dataset matching words spoken in the podcasts to brain activity, we build a mathematical model relating the two. We find that we can predict the brain activity of a subject (in particular regions) based on the words that they heard at that moment.[^4]
 4. When we can predict the brain activity of a region with reasonable accuracy based on the identity of the word being heard alone, we can say that the region serves to *represent* that word.
-5. Our derived semantic map shows how the brain represents different semantic domains in different areas.
+5. Our derived semantic map shows how the brain represents words from different semantic domains in different areas.
 
 Let's step back and put on our philosopher-hats here.
 
@@ -38,12 +40,14 @@ What we *actually* observe in this experiment are two different types of physica
 Let's make an even higher-level gloss of the core logic in this spirit:
 
 1. We make some atoms bump around in pattern $A$ near the subject's ears.
-2. We watch how some atoms (and electrons) bump around at the same time in a nearby area (the subject's brain). Call this pattern $B(A)$. Note that $B$ is a function of $A$ – we group the electron-bumps in the brain by the particular patterns $A$ presented to the subject.
-3. We build a mathematical model relating how the ear-atom-bumping $A$ relates to the brain-electron-bumping $B(A)$.
+2. We watch how some atoms bump around at the same time in a nearby area (the subject's brain). Call this pattern $B(A)$. Note that $B$ is a function of $A$ – we group the atom-bumps in the brain according to the particular patterns $A$ presented to the subject.
+3. We build a mathematical model relating how the ear-atom-bumping $A$ relates to the brain-atom-bumping $B(A)$.
 4. When our model accurately predicts the bumping $B(A)$ given the bumping $A$, we say that $B(A)$ *represents* some aspect of $A$.
 5. The brain activity pattern $B(A)$ represents the ear-bumping pattern $A$.
 
 At this level of abstraction—a level which might sound a little silly, but which preserves the essential moves of the argument—we might be able to draw out a strange logical leap. Point #4 takes a correlation between different bumping-patterns $A$ and $B(A)$ and concludes that $B(A)$ *represents* $A$.
+
+## Correlation as representation
 
 That notion of representation captures the relevant relation in the paper. But it also captures quite a bit more – namely, any pair of physical events $A$, $B(A)$ for which some aspect of $B(A)$ correlates with some aspect of $A$. Here's a random list of pairs of physical events or states which satisfy this requirement:
 
@@ -51,25 +55,41 @@ That notion of representation captures the relevant relation in the paper. But i
 - My car's engine temperature ($B(A)$) and the position of the key in my car's ignition ($A$)
 - The volume of a crowd in a restaurant ($B(A)$) and the number of eggs broken in the last hour of that restaurant's kitchen ($A$)
 
-In none of the above cases would we say that the atom/molecule/photon-bumps $B(A)$ *represent* an aspect of $A$. So why do we make the claim so confidently when it comes to brains?
+In none of the above cases would we say that the atom/molecule/photon-bumps $B(A)$ *represent* an aspect of $A$. So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking. 
 
-**A first response:** Sure, the details of $B(A)$ can be used to infer the details of $A$ in all of these cases, including the case of the Nature paper. The difference between the Nature paper and the silly examples given above is that the correlation between $B(A)$ and $A$ is *relevant* or important in some sense. We're capturing some actual mechanistic relationship in the brain case, whereas the other examples simply pick on chance correlations.
+## The quest
 
-**A counter:** I don't see a principled difference between your "mechanistic relationships" and your "chance correlations." There are certainly [mechanistic explanations which link the length of a tree's shadow and the time of day][5], or any of the other pairs given above. Why privilege the neural relationship with the label of "mechanism?"
+We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region $X$ of the brain exhibiting a pattern $B(A)$ represents some aspect $A$ of the outside world – ought to be true whether or not any scientist cares to investigate it.
+
+We need to find some way to assert that the brain *represents* aspects of the outside world – as is claimed in the Nature paper – without including these other silly examples. Developing an answer to this problem is the mission of a theory of **naturalistic representation.**
+
+{%include img.html alt="M.C. Escher &mdash; Hand with Reflecting Sphere." url="/uploads/2018/escher.jpg" %}
 
 ---
 
-Here's the critical issue, then. We can certainly look at any pair of correlated physical events $A$, $B(A)$ and *assert* that $B(A)$ represents $A$. But our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking. 
+**A first response:** Sure, the details of $B(A)$ can be used to infer the details of $A$ in all of these cases, including the case of the Nature paper. The difference between the Nature paper and the silly examples given above is that the correlation between $B(A)$ and $A$ is *relevant* or important in some sense. We're capturing some actual mechanistic relationship in the case of the brain, whereas the other examples simply pick on chance correlations.
 
-We could just declare by fiat, of course, that the relationships between the brain and the outside world are the ones we are interested in explaining. But as scientists we are interested in developing explanations that are maximally *observer-independent*. The facts we discover – that region $X$ of the brain represents aspect $A$ of the outside world – ought to be true whether or not any scientist cares to investigate it.
+**A counter:** I don't see a principled difference between your "mechanistic relationships" and your "chance correlations." There are certainly [mechanistic explanations which link the length of a tree's shadow and the time of day][5], or any of the other pairs given above. Why privilege the neural relationship with the label of "mechanism?"
 
-We need to find some way to assert that the brain *represents* aspects of the outside world – as is claimed in the Nature paper – without including these other silly examples. Developing an answer to this problem is the mission of a theory of **naturalistic representation.**
+Our answer to that question can't fall back on claims about the brain being a more "interesting" or "relevant" system of study in any respect. We need to find a naturalistic, *non-normative* account of why the brain as a data-processor is any different than those (admittedly silly) examples above.
+
+---
+
+This, then, is the critical problem of representation in the brain: we need to find some way to assert that the brain is doing something substantial in responding to its inputs, over and above the way a tree or a car engine "respond" to their "inputs." (Why do we need scare-quotes in the second case, but not in the first?)
+
+Future posts on this blog will characterize some of the most popular responses to this conceptual issue. For now, I'll link to some relevant writing:
+
+- **From neuroscientists:** [deCharms & Zador (2000)][7], [Parker & Newsome (1998)][8] – more sophisticated operational definitions of neural representation.
+- **From philosophers:** [Ramsey (2003)][6] – difficult, but very exciting, attack on the idea of neural representation.
 
 [1]: https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging
 [2]: http://gallantlab.org/huth2016/
 [3]: https://doi.org/10.1146/annurev.psych.57.102904.190143
 [4]: http://doi.org/10.1038/nature17637
 [5]: https://en.wikipedia.org/wiki/Trigonometry
+[6]: https://doi.org/10.1080/0952813021000055630
+[7]: https://doi.org/10.1146/annurev.neuro.23.1.613
+[8]: https://doi.org/10.1146/annurev.neuro.21.1.227
 
 [^1]: Here "area" means a particular region of the cortex of the human brain.
 [^2]: This is absolutely not the first paper on how words are represented neurally – see e.g. [Martin (2007)][3]. It may be unique as of 2016, though, in its breadth and its spread into the AI community. The first author of the paper presented this work, for example, at the NIPS conference in the winter of 2016.
