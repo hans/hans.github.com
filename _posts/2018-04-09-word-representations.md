@@ -9,7 +9,7 @@ Jack Gallant's group published [a Nature paper][4] several years back which caus
 
 The paper is worth a read, but is unfortunately behind a paywall. The group also produced the video below, which gives a brief introduction to the methods and results.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k61nJkx5aDQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k61nJkx5aDQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
 In extremely abbreviated form, here's what happened: the authors of the paper put people in a [functional magnetic resonance imaging][1] machine and took snapshots of their brain activity while they listened to podcasts. They tracked the exact moments at which each subject heard each word in a podcast recording, yielding a large dataset mapping individual words to the brain responses of subjects who heard those words.
 
@@ -55,7 +55,7 @@ That notion of representation captures the relevant relation in the paper. But i
 - My car's engine temperature ($B(A)$) and the position of the key in my car's ignition ($A$)
 - The volume of a crowd in a restaurant ($B(A)$) and the number of eggs broken in the last hour of that restaurant's kitchen ($A$)
 
-In none of the above cases would we say that the atom/molecule/photon-bumps $B(A)$ *represent* an aspect of $A$. So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking. 
+In none of the above cases would we say that the atom/molecule/photon-bumps $B(A)$ *represent* an aspect of $A$. So why do we make the claim so confidently when it comes to brains? Our model of the brain as an information-processor needs this notion of representation to be rather strong – to not also include random physical relationships between shadows and time, or volumes and egg-cracking.
 
 ## The quest
 
