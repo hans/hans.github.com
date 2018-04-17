@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Do brains represent words?
+excerpt: An introduction to the problem of neural representation.
+date: 16 April 2018
+main: true
 ---
 
 Jack Gallant's group published [a Nature paper][4] several years back which caused quite a buzz. It presented interactive "semantic maps" spanning the human cortex, mapping out how words of different semantic categories were represented in different places. From the abstract:
