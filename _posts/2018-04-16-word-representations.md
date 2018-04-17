@@ -78,7 +78,10 @@ Our answer to that question can't fall back on claims about the brain being a mo
 
 This, then, is the critical problem of representation in the brain: we need to find some way to assert that the brain is doing something substantial in responding to its inputs, over and above the way a tree or a car engine "respond" to their "inputs." (Why do we need scare-quotes in the second case, but not in the first?)
 
-Future posts on this blog will characterize some of the most popular responses to this conceptual issue. For now, I'll link to some relevant writing:
+Future posts on this blog will characterize some of the most popular responses
+to this conceptual issue. In particular, I'll explore notions of representation
+which require an account of how content is *used* or *consumed*. For now, though, I'll
+link to some relevant writing:
 
 - **From neuroscientists:** [deCharms & Zador (2000)][7], [Parker & Newsome (1998)][8] – more sophisticated operational definitions of neural representation.
 - **From philosophers:**
