@@ -7,6 +7,11 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: cogsci2018
+      title: Word learning and the acquisition of syntactic–semantic overhypotheses
+      authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
+      date: February 2018
+      venue: Cognitive Science 2018
     - id: acl-robonlp2017
       title: Are distributional representations ready for the real world? Evaluating word vectors for grounded perceptual meaning
       authors: Li Lucy and Jon Gauthier
