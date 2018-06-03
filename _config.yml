@@ -17,6 +17,7 @@ papers:
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
       date: February 2018
       venue: Cognitive Science 2018
+      url: https://arxiv.org/pdf/1805.04988.pdf
     - id: acl-robonlp2017
       title: Are distributional representations ready for the real world? Evaluating word vectors for grounded perceptual meaning
       authors: Li Lucy and Jon Gauthier
