@@ -7,6 +7,11 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: ccn2018
+      title: Does the brain represent words? An evaluation of brain decoding studies of language understanding
+      authors: "{Jon Gauthier and Anna Ivanova}"
+      date: 2018
+      venue: Submitted to CCN 2018
     - id: cogsci2018
       title: Word learning and the acquisition of syntactic–semantic overhypotheses
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum

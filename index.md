@@ -10,9 +10,11 @@ Hi, I'm **Jon Gauthier**. I'm a Ph.D. student in the [Department of Brain and
 Cognitive Sciences][17] at the [Massachusetts Institute of Technology][18].
 I build computational models of how people learn, understand, and produce
 language. I collaborate with members of the [Computational Psycholinguistics
-Laboratory][21] and the [Computational Cognitive Science Group][22].
+Laboratory][21] and the [Computational Cognitive Science Group][22], combining
+methods from [artificial intelligence][9], [linguistics][26],
+[neuroscience][27], and [philosophy][30].
 
-In a past life, I did research in natural language processing and machine
+Before joining MIT, I did research in natural language processing and machine
 learning at [Stanford University][1] in the [Natural Language Processing
 Group][3], where I was advised by [Christopher Manning][5]. I also spent time
 as a researcher at [OpenAI][10] and [Google Brain][23], where I mainly
@@ -36,6 +38,9 @@ academia. Please [get in touch](/contact/)!
 
 ### Recent personal news
 
+- The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
+  be collaborating to support the development of more interpretable, robust
+  systems for language understanding.
 - I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
   September 2017.
 - [Lucy Li][19] and I presented our work on assessing distributional
@@ -61,6 +66,11 @@ academia. Please [get in touch](/contact/)!
 [18]: http://web.mit.edu/
 [19]: http://stanford.edu/~lucy3/
 [20]: http://acl2017.org/
+[26]: {{site.url}}/uploads/papers/cogsci2018.pdf
+[27]: {{site.url}}/uploads/papers/ccn2018.pdf
+[28]: https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/announcing-2018-ai-fellows
+[29]: https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence
+[30]: {{site.url}}/2018/word-representations/
 
 ### Research
 
