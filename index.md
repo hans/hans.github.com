@@ -39,8 +39,8 @@ academia. Please [get in touch](/contact/)!
 ### Recent personal news
 
 - The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
-  be collaborating to support the development of more interpretable, robust
-  systems for language understanding.
+  We'll be collaborating to support the development of more interpretable,
+  robust systems for language understanding.
 - I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
   September 2017.
 - [Lucy Li][19] and I presented our work on assessing distributional
