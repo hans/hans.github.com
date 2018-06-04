@@ -40,7 +40,8 @@ academia. Please [get in touch](/contact/)!
 
 - The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
   We'll be collaborating to support the development of more interpretable,
-  robust systems for language understanding.
+  robust systems for language understanding, and the discussion of both short-
+  and long-term potential risks of artificial intelligence.
 - I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
   September 2017.
 - [Lucy Li][19] and I presented our work on assessing distributional
