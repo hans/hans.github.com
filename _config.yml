@@ -12,6 +12,7 @@ papers:
       authors: "{Jon Gauthier and Anna Ivanova}"
       date: 2018
       venue: Submitted to CCN 2018
+      code: https://github.com/hans/nn-decoding
     - id: cogsci2018
       title: Word learning and the acquisition of syntactic–semantic overhypotheses
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
@@ -25,6 +26,7 @@ papers:
       venue: ACL 2017 Workshop on Language Grounding for Robotics
       url: https://arxiv.org/pdf/1705.11168.pdf
       bibtex: true
+      code: https://github.com/lucy3/graphs-embeddings
     - id: nips-main2016
       title: A paradigm for situated and goal-driven language learning
       authors: Jon Gauthier and Igor Mordatch
