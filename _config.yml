@@ -13,6 +13,7 @@ papers:
       date: 2018
       venue: Submitted to CCN 2018
       code: https://github.com/hans/nn-decoding
+      url: https://arxiv.org/pdf/1806.00591.pdf
     - id: cogsci2018
       title: Word learning and the acquisition of syntactic–semantic overhypotheses
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
