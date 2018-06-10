@@ -10,7 +10,7 @@ Some of the most well-known recent work in AI safety has a flavor which I'll lab
 
 > While these [proposed grid-world safety environments] are highly abstract and not always intuitive, their simplicity has two advantages: it makes the learning problem very simple and it limits confounding factors in experiments. Such simple environments could also be considered as minimal safety checks: an algorithm that fails to behave safely in such simple environments is also unlikely to behave safely in real-world, safety-critical environments where it is much more complicated to test. Despite the simplicity of the environments, **we have selected these challenges with the safety of very powerful artificial agents (such as artificial general intelligence) in mind.**
 
-This post questions this assumption that technical solutions developed now will be relevant solutions to the long-horizon problems of AI safety. I'll make an argument by allegory, and circle back to AI safety at the end of this post.
+This post questions this assumption that technical solutions developed now will be relevant solutions to the long-horizon problems of AI safety. I'll make an argument by analogy, and circle back to AI safety at the end of this post.
 
 ---
 
@@ -37,16 +37,33 @@ I certainly would have voted for #2 as a technologist in the 1890s. But neither 
 
 Urban horses were replaced somewhat slowly, only as market pressures forced service providers to abandon them. By the final decade of the 19th century, most major cities switched from horse-pulled streetcars to electrified trolleys. Over the following decades, increasingly economical internal combustion engines replaced horses in buses, cabs, and personal vehicles.
 
-Automobiles [produced their own issues in cities][11], no doubt. Importantly for our purposes, though, they destroyed the looming logistical and public health crises created by the previous transportation paradigm.
+The introduction of the automobile dealt a final blow to the previous transportation paradigm, and *rendered irrelevant* the safety issues it had imposed on modern cities. Automobiles introduced entirely new safety issues, no doubt: car exhaust pollutes our atmosphere, and drunk car drivers do far more damage to pedestrians than a drunk hansom driver ever could. It's critical to note for our purposes that technologists of the horse-era *could not have foreseen* such safety problems, let alone develop solutions to them.
 
 ---
 
-Speaking of "our purposes": why am I writing about this? What do horses have to do with the mind?
+The argument I am suggesting here is different from the standard "technical gap" argument.[^5] I am instead pointing out a **paradigmatic gap:** the technical solutions we develop now to long-term safety problems may be completely irrelevant in the future, given that the paradigm supporting AGI may look vastly different from that of the present.
+
+What sort of paradigmatic changes might we expect? Any answer is bound to look silly in a decade, but here are a few potential concepts currently central to machine learning and safety research, all of which I have heard questioned in personal communication. I don't think any of these concepts are set in stone — in fact, different papers have questioned or subverted most of these ideas in some way.
+
+1. the train/test regime — the notion that a system is "trained" offline and then "deployed" to the real world
+2. gradient-based learning / local parameter search
+3. parametric models
+4. the notion of discrete "tasks" or "objectives" which systems optimize
+5. (heresy!) probabilistic inference as a framework for thinking about learning
+
+You may not agree that all of the above concepts are about to leave any time soon. If you do agree that any foundational axiom $A$ has the chance of disappearing, though, it is imperative that your safety solutions apply both in a world where $A$ holds and $\neg A$ holds.
+
+---
+
+Urban planners in the 1890s saw a looming public health problem in the transportation industry — one which was certainly not going to get any better — and hoped for technical solutions designed within the "horse paradigm" to save them. We hear similar calls today for technical frameworks which align the values of artificial superintelligences with our own. It is likewise difficult for us to see how this alignment problem is going to go away, and it seems critical that we begin designing technical solutions *now* rather than later.
+
+There's room to disagree on this question of a **paradigmatic gap**. But it certainly needs to be part of the AI safety discussion: our bets on the importance of present-day technical safety work ought to incorporate our beliefs over the strength of the current paradigm.
 
 [^1]: For example: [data poisoning](https://arxiv.org/abs/1706.03691) and [training set inference](https://arxiv.org/abs/1802.08232). I prefer to separate these practical issues under the name "machine learning security," which has a more down-to-earth ring compared to "AI safety."
 [^2]: For example: [value alignment](https://intelligence.org/stanford-talk/) and [safe amplification](https://ai-alignment.com/iterated-distillation-and-amplification-157debfd1616?gi=cfd4dacacaad).
 [^3]: Cited in [this Quora answer][7].
 [^4]: I couldn't find reliable sources measuring the actual health impact of all this open-air horse waste. Let's just say that there's little debate on whether we'd want a city with or without this "horse waste" feature.
+[^5]: AI safety skeptic: "We're decades or centuries away from developing superintelligent machines. Why work on safety now?" AI safety non-skeptic: "We have no idea how to solve this issue, and it's likely to take decades before we arrive at anything near robust. Thus we need to start now."
 
 
 
