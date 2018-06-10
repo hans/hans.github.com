@@ -2,7 +2,7 @@
 
 I'm back from a brief workshop on technical issues in AI safety, organized by the [Open Philanthropy Project][13]. The workshop brought together the [new class of AI Fellows][12] with researchers from industry labs, nonprofits, and academia to discuss actionable issues in AI safety.
 
-Discussions at the workshop have changed and augmented my views on AI safety in fundamental ways. Most importantly, thye have revealed to me several critical conceptual issues at the foundation of safety research, involving work with both medium time horizons (e.g. adversarial attacks, interpretability) and much longer horizons (e.g. value alignment). I believe that these are blocking issues for safety research: I don't know how to value the various sorts of safety work until I arrive at satisfying answers to these questions.
+Discussions at the workshop have changed and augmented my views on AI safety in fundamental ways. Most importantly, they have revealed to me several critical conceptual issues at the foundation of safety research, involving work with both medium time horizons (e.g. adversarial attacks, interpretability) and much longer horizons (e.g. value alignment). I believe that these are blocking issues for safety research: I don't know how to value the various sorts of safety work until I arrive at satisfying answers to these questions.
 
 This post addresses the first critical of these critical conceptual issues. This issue is the least technical – and possibly the least deep-cutting – of those which I want to raise. Because it touches on one of the most common safety topics, though, I thought it'd be best to publish this one first.
 
