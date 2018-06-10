@@ -1,4 +1,4 @@
-# Conceptual confusions in AI safety: Implicit roadmaps
+# Conceptual confusions in AI safety: Our blindness to paradigmatic gaps
 
 I'm back from a brief workshop on technical issues in AI safety, organized by the [Open Philanthropy Project][13]. The workshop brought together the [new class of AI Fellows][12] with researchers from industry labs, nonprofits, and academia to discuss actionable issues in AI safety.
 
