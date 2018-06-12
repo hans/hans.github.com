@@ -6,7 +6,7 @@ Discussions at the workshop have changed and augmented my views on AI safety in 
 
 This post addresses the first critical of these critical conceptual issues. This issue is the least technical – and possibly the least deep-cutting – of those which I want to raise. Because it touches on one of the most common safety topics, though, I thought it'd be best to publish this one first.
 
-Some of the most well-known recent work in AI safety has a flavor which I'll label *mid-term*. Problems addressed by such work include [scalably specifying][16] and [supervising reward-based learning][14], [preventing unwanted side effects][15], [safely generalizing][14] [out-of-domain][15], and [ensuring that systems remain under our control][17]. Such problems are more general than the most immediately practical safety issues[^1] but more actionable than the longer-term issues.[^2] In contrast with shorter-term issues, much mid-term research is carried out with an eye to the long term. [Leike et al. (2017)][18] state, for example:
+Some of the most well-known recent work in AI safety has a flavor which I'll label *mid-term*. Problems addressed by such work include scalably specifying and supervising reward-based learning, preventing unwanted side effects, safely generalizing out-of-domain, and ensuring that systems remain under our control.[^1] Such problems are more general than the most immediately practical safety issues[^2] but more actionable than the longer-term issues.[^3] In contrast with shorter-term issues, much mid-term research is carried out with an eye to the long term. [Leike et al. (2017)][18] state, for example:
 
 > While these [proposed grid-world safety environments] are highly abstract and not always intuitive, their simplicity has two advantages: it makes the learning problem very simple and it limits confounding factors in experiments. Such simple environments could also be considered as minimal safety checks: an algorithm that fails to behave safely in such simple environments is also unlikely to behave safely in real-world, safety-critical environments where it is much more complicated to test. Despite the simplicity of the environments, **we have selected these challenges with the safety of very powerful artificial agents (such as artificial general intelligence) in mind.**
 
@@ -18,11 +18,11 @@ At the end of the 19th century, some of the largest cities in the world relied o
 
 ![A double-decker horsebus in Sydney, 1895.](https://c2.staticflickr.com/8/7362/9472641326_2ef9976ccc_z.jpg)
 
-New York City, for example, housed about a million people and over a hundred thousand horses for transporting freight and humans. While this massive transportation industry helped to continue an era of explosive city growth, it also posed some serious novel logistical problems. Many of those horses were housed directly in urban stables (including, for example, the [Washington Mews][5] in Greenwich Village), taking up valuable city space. Granaries established to support these stables quickly attracted rats and other city rodents. But New York and similar cities faced a more threatening problem posed by this transportation industry: [**horse waste**][1]. The massive horse population produced a similarly massive daily output of excrement and urine. Because the average city horse survived [fewer than three years of work][4], the streets were also littered with carcasses. Ann Norton Greene explains the issue of horse waste in [*Horses at Work: Harnessing Power in Industrial America:*][6][^3]
+New York City, for example, housed about a million people and over a hundred thousand horses for transporting freight and humans. While this massive transportation industry helped to continue an era of explosive city growth, it also posed some serious novel logistical problems. Many of those horses were housed directly in urban stables (including, for example, the [Washington Mews][5] in Greenwich Village), taking up valuable city space. Granaries established to support these stables quickly attracted rats and other city rodents. But New York and similar cities faced a more threatening problem posed by this transportation industry: [**horse waste**][1]. The massive horse population produced a similarly massive daily output of excrement and urine. Because the average city horse survived [fewer than three years of work][4], the streets were also littered with carcasses. Ann Norton Greene explains the issue of horse waste in [*Horses at Work: Harnessing Power in Industrial America:*][6][^4]
 
 > With 131,000 horses in New York City by 1900, the result was 1,300-3,300 tons of horse manure daily in the city as a whole, or 5-12 tons per square mile given a horse density of 486. The carcasses of horses that died in the streets often lay for several days before being removed by street or sanitation departments or by jobbers contracted to the city. New York had 15,000 carcasses per year in the 1880s.
 
-Such waste was bound to cause a health crisis. On dry days, horse poop left in the streets would turn to dust and pollute the air. Rainstorms and melting snow precipitated floods of horse poop, flowing into the especially unlucky residents of ground-floor apartments. In all climates, flies sought out the waste and helped to spread typhoid fever.[^4]
+Such waste was bound to cause a health crisis. On dry days, horse poop left in the streets would turn to dust and pollute the air. Rainstorms and melting snow precipitated floods of horse poop, flowing into the especially unlucky residents of ground-floor apartments. In all climates, flies sought out the waste and helped to spread typhoid fever.[^5]
 
 Enterprising Americans were quick to respond to the problem—or, rather, to the business opportunities posed by the problem. ["Crossing sweepers"][8] paved the way through the muck for the classiest of street-crossers. Urban factories cropped up to [process horse carcasses][9], producing glue, gelatin, and fertilizer. Services carted as much horse poop as possible away to designated "manure blocks," keeping at least part of the city presentable.
 
@@ -41,7 +41,7 @@ The introduction of the automobile dealt a final blow to the previous transporta
 
 ---
 
-The argument I am suggesting here is different from the standard "technical gap" argument.[^5] I am instead pointing out a **paradigmatic gap:** the technical solutions we develop now to long-term safety problems may be completely irrelevant in the future, given that the paradigm supporting AGI may look vastly different from that of the present.
+The argument I am suggesting here is different from the standard "technical gap" argument.[^6] I am instead pointing out a **paradigmatic gap:** the technical solutions we develop now to long-term safety problems may be completely irrelevant in the future, given that the paradigm supporting AGI may look vastly different from that of the present.
 
 What sort of paradigmatic changes might we expect? Any answer is bound to look silly in a decade, but here are a few potential concepts currently central to machine learning and safety research, all of which I have heard questioned in personal communication. I don't think any of these concepts are set in stone — in fact, different papers have questioned or subverted most of these ideas in some way.
 
@@ -59,11 +59,12 @@ Urban planners in the 1890s saw a looming public health problem in the transport
 
 There's room to disagree on this question of a **paradigmatic gap**. But it certainly needs to be part of the AI safety discussion: our bets on the importance of present-day technical safety work ought to incorporate our beliefs over the strength of the current paradigm.
 
-[^1]: For example: [data poisoning](https://arxiv.org/abs/1706.03691) and [training set inference](https://arxiv.org/abs/1802.08232). I prefer to separate these practical issues under the name "machine learning security," which has a more down-to-earth ring compared to "AI safety."
-[^2]: For example: [value alignment](https://intelligence.org/stanford-talk/) and [safe amplification](https://ai-alignment.com/iterated-distillation-and-amplification-157debfd1616?gi=cfd4dacacaad).
-[^3]: Cited in [this Quora answer][7].
-[^4]: I couldn't find reliable sources measuring the actual health impact of all this open-air horse waste. Let's just say that there's little debate on whether we'd want a city with or without this "horse waste" feature.
-[^5]: AI safety skeptic: "We're decades or centuries away from developing superintelligent machines. Why work on safety now?" AI safety non-skeptic: "We have no idea how to solve this issue, and it's likely to take decades before we arrive at anything near robust. Thus we need to start now."
+[^1]: See e.g. [Amodei et al. (2016)][14], [Christiano et al. (2016)][16], [Hadfield-Menell et al. (2017)][17], [Leike et al. (2017)][15].
+[^2]: For example: [data poisoning](https://arxiv.org/abs/1706.03691) and [training set inference](https://arxiv.org/abs/1802.08232). I prefer to separate these practical issues under the name "machine learning security," which has a more down-to-earth ring compared to "AI safety."
+[^3]: For example: [value alignment](https://intelligence.org/stanford-talk/) and [safe amplification](https://ai-alignment.com/iterated-distillation-and-amplification-157debfd1616?gi=cfd4dacacaad).
+[^4]: Cited in [this Quora answer][7].
+[^5]: I couldn't find reliable sources measuring the actual health impact of all this open-air horse waste. Let's just say that there's little debate on whether we'd want a city with or without this "horse waste" feature.
+[^6]: AI safety skeptic: "We're decades or centuries away from developing superintelligent machines. Why work on safety now?" AI safety non-skeptic: "We have no idea how to solve this issue, and it's likely to take decades before we arrive at anything near robust. Thus we need to start now."
 
 
 
