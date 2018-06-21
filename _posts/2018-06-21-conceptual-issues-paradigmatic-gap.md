@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conceptual issues in AI safety: the paradigmatic gap
+title: Conceptual issues in AI safety&#53; the paradigmatic gap
 excerpt: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a potential paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.
 date: 21 June 2018
 ---
