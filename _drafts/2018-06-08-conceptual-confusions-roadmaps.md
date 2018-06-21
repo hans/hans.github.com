@@ -99,7 +99,7 @@ There's room to disagree on this question of a **paradigmatic gap**. But it cert
 - How much are different risks and research directions actually tied to the current paradigm?[^10] (How can we get  more specific about this "fatal attachment?")
 - Do our current paradigm-bets look good, or should we be looking to diversify across possible paradigm changes or weaken the connection to the current paradigm?
   + What does "diversify" mean here? Would it entail doing more or less work under the framing of AI safety?
-  + We need to arrive at a consensus on the pessimistic meta-induction argument here (see fn. TODO). Are we justified in assuming the current paradigm (or *any candidate future paradigm*) is the right one in which to do mid-term safety work? Can empirical evidence help here? How can we get more concrete, in any case, about our uncertainty about the strength of a technological paradigm?
+  + We need to arrive at a consensus on the pessimistic meta-induction argument here (see footnote #8). Are we justified in assuming the current paradigm (or *any candidate future paradigm*) is the right one in which to do mid-term safety work? Can empirical evidence help here? How can we get more concrete, in any case, about our uncertainty about the strength of a technological paradigm?
 - Are there ways to do research that’s likely to survive a paradigm shift?[^11] (What are the safety problems which are likely to survive a paradigm shift?)
 
 Future posts will address some of the above questions in detail. For now, I look forward to the community’s response!
