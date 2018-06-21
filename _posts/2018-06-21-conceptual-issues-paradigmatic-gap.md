@@ -3,7 +3,6 @@ layout: post
 title: Conceptual issues in AI safety: the paradigmatic gap
 excerpt: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a high-probability paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.
 date: 21 June 2018
-main: true
 ---
 
 <small>*tl;dr*: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a high-probability paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.</small>
@@ -28,7 +27,7 @@ This post is mainly concerned with the value of mid-term work.
 
 Many mid-term researchers assume that their work is well aligned with solving longer-horizon safety risks — that is, that technical solutions to mid-term problems will also help us make progress on the most concerning long-horizon risk scenarios. [Paul Christiano][10] has made statements about the likely alignment of mid-term and long-term issues — see, for example, [his 2016 article on prosaic AI][christiano2016prosaic]:
 
-> It now seems possible that we could build "prosaic" AGI, which can replicate human behavior but doesn’t involve qualitatively new ideas about "how intelligence works" … 
+> It now seems possible that we could build "prosaic" AGI, which can replicate human behavior but doesn’t involve qualitatively new ideas about "how intelligence works" …
 > If we build prosaic superhuman AGI, **it seems most likely that it will be trained by reinforcement learning** … But **we don’t have any shovel-ready approach to training an RL system to autonomously pursue our values.**
 >
 > To illustrate how this can go wrong, imagine using RL to implement a decentralized autonomous organization (DAO) which maximizes its profit. If we had very powerful RL systems, such a DAO might be able to outcompete human organizations at a wide range of tasks — producing and selling cheaper widgets, but also influencing government policy, extorting/manipulating other actors, and so on.
@@ -66,7 +65,7 @@ I certainly would have voted for #2 as an 1890s technologist or urban planner. B
 
 ![An ad for the Ford Model A, the first car produced by the Ford Motor Company.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ford1903.jpg/640px-Ford1903.jpg)
 
-**The automobile**, of course. The internal combustion engine offered a fast, efficient, and increasingly cheap alternative to the horse. Urban horses were replaced somewhat slowly, only as market pressures forced horse owners to close up shop. By the final decade of the 19th century, most major cities had switched from horse-pulled streetcars to electrified trolleys. Over the following decades, increasingly economical engines replaced horses in buses, cabs, and personal vehicles. Automobiles introduced a novel technological paradigm, leading to entirely new [manufacturing methods][18], service jobs, and — most importantly — safety issues. 
+**The automobile**, of course. The internal combustion engine offered a fast, efficient, and increasingly cheap alternative to the horse. Urban horses were replaced somewhat slowly, only as market pressures forced horse owners to close up shop. By the final decade of the 19th century, most major cities had switched from horse-pulled streetcars to electrified trolleys. Over the following decades, increasingly economical engines replaced horses in buses, cabs, and personal vehicles. Automobiles introduced a novel technological paradigm, leading to entirely new [manufacturing methods][18], service jobs, and — most importantly — safety issues.
 
 The introduction of the automobile dealt a final blow to the previous transportation paradigm, and *rendered irrelevant* the safety issues it had imposed on modern cities: automobiles did not leave excrement, urine, or horse carcasses in the streets. Automobiles introduced entirely new safety issues, no doubt, which still trouble us today: car exhaust pollutes our atmosphere, and drunk car drivers do far more damage to pedestrians than a drunk hansom driver ever could. But it's critical to note for our purposes that technologists of the horse-era *could not have foreseen* such safety problems, let alone develop solutions to them.
 
