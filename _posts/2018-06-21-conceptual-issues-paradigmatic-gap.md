@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Conceptual issues in AI safety: the paradigmatic gap
-excerpt: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a high-probability paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.
+excerpt: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a potential paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.
 date: 21 June 2018
 ---
 
-<small>*tl;dr*: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a high-probability paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.</small>
+<small>*tl;dr*: I question the assumption that technical solutions to mid-term safety problems will be relevant to the long-horizon problems of AI safety. This assumption fails to account for a potential paradigmatic change in technology between now and the date at which these long-horizon problems will become pressing. I present a historical example of paradigmatic change and suggest that the same is possible for AI, and argue that our bets on the importance of present-day safety work ought to incorporate our beliefs over the strength of the current paradigm.</small>
 
 I'm back from a brief workshop on technical issues in AI safety, organized by the [Open Philanthropy Project][1]. The workshop brought together the [new class of AI Fellows][2] with researchers from industry labs, nonprofits, and academia to discuss actionable issues in AI safety.
 
