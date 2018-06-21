@@ -41,7 +41,7 @@ I'll make the argument by historical analogy, and circle back to the issue of AI
 
 At the end of the 19th century, some of the largest cities in the world relied on horses as a central mode of transportation. A city horse was tasked with driving everything from the private [hansom cab][12] (a Sherlock Holmes favorite) to the [double-decker horsebus][13], which could tow dozens of passengers.
 
-TODO IMAGE
+![A double-decker horsebus in Sydney, 1895.](https://c2.staticflickr.com/8/7362/9472641326_2ef9976ccc_z.jpg)
 
 1890s New York City, for example, housed over a hundred thousand horses for transporting freight and humans. While this massive transportation industry helped to continue an era of explosive city growth, it also posed some serious novel logistical problems. Many of those horses were housed directly in urban stables, taking up valuable city space. Rats and other city rodents flocked to the urban granaries established to support these stables.
 
@@ -58,9 +58,9 @@ Horse waste posed a major looming public health risk for the 19th-century city. 
 
 I certainly would have voted for #2 as an 1890s technologist or urban planner. But neither of these solutions ended up saving New York City, London, and friends from their smelly 19th-century fates. What saved them?
 
-**The automobile**, of course. The internal combustion engine offered a fast, efficient, and increasingly cheap alternative to the horse. Urban horses were replaced somewhat slowly, only as market pressures forced horse owners to close up shop. By the final decade of the 19th century, most major cities had switched from horse-pulled streetcars to electrified trolleys. Over the following decades, increasingly economical engines replaced horses in buses, cabs, and personal vehicles. Automobiles introduced a novel technological paradigm, leading to entirely new [manufacturing methods][18], service jobs, and — most importantly — safety issues. 
+![An ad for the Ford Model A, the first car produced by the Ford Motor Company.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ford1903.jpg/640px-Ford1903.jpg)
 
-TODO IMAGE
+**The automobile**, of course. The internal combustion engine offered a fast, efficient, and increasingly cheap alternative to the horse. Urban horses were replaced somewhat slowly, only as market pressures forced horse owners to close up shop. By the final decade of the 19th century, most major cities had switched from horse-pulled streetcars to electrified trolleys. Over the following decades, increasingly economical engines replaced horses in buses, cabs, and personal vehicles. Automobiles introduced a novel technological paradigm, leading to entirely new [manufacturing methods][18], service jobs, and — most importantly — safety issues. 
 
 The introduction of the automobile dealt a final blow to the previous transportation paradigm, and *rendered irrelevant* the safety issues it had imposed on modern cities: automobiles did not leave excrement, urine, or horse carcasses in the streets. Automobiles introduced entirely new safety issues, no doubt, which still trouble us today: car exhaust pollutes our atmosphere, and drunk car drivers do far more damage to pedestrians than a drunk hansom driver ever could. But it's critical to note for our purposes that technologists of the horse-era *could not have foreseen* such safety problems, let alone develop solutions to them.
 
