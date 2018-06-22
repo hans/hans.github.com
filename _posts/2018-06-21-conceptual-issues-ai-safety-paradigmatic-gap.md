@@ -95,9 +95,12 @@ You may not agree that *all* or *most* of the above concepts are about to be sub
 The argument I am suggesting here is different from the standard "technical gap" argument.[^9] I am instead pointing out a **paradigmatic gap**: the technical solutions we develop now may be fatally attached to the current technological paradigm. Let $T_S$ be the future time at which long-horizon AI safety risks – say, prosaic AGI or superintelligence – become a reality. Here are two consequences of granting this as a possibility:
 
 1. Our current technological paradigm may **mislead us to consider safety problems that won't be at all relevant** at $T_S$, due to paradigmatic change.
+
    Excrement evacuation seemed like a pressing issue in the late 19th century; the problem is entirely irrelevant in the present-day automobile paradigm. We instead deal with an entirely different set of modern automobile safety issues.
+
    The task of [scalable reward specification][hadfield2017inverse] likewise appears critically important to the mid-term and long-term AI safety crowds. Such a problem is only relevant, however, if many of the paradigmatic axioms from the previous section hold (at least #2–5).
 2. **Technical solutions developed now may be irrelevant** at $T_S$. Even if the pressing safety issues overlap with the pressing safety issues at $T_S$ (i.e., #1 above doesn't hold), it's possible that our technical solutions will still be fatally tied to elements of the current paradigm.
+
    Pedestrians and riders alike faced collision risks in the horse era — [runaway horses][25] might kick and run over people in their way. But the technical solutions to horse collision look nothing like those which save lives today (for example, airbags and stop lights).
 
 There's room to disagree on this question of a **paradigmatic gap**. But it certainly needs to be part of the AI safety discussion: our bets on the importance of present-day technical safety work ought to incorporate our beliefs over the strength of the current paradigm. Here are some concrete questions worth debating once we’ve granted the possibility of paradigmatic change:
@@ -162,7 +165,7 @@ This post benefited from many discussions at the Open Philanthropy AI safety wor
 [27]: http://alexlew.net/
 [29]: https://cs.brown.edu/people/mlittman/
 [30]: https://cs.stanford.edu/~jsteinhardt/
-[31]: https://scholar.google.com/citations?user=o1qFlsgAAAAJ&hl=en
+[31]: https://scholar.google.com/citations?user=o1qFlsgAAAAJ&amp;hl=en
 [32]: http://www.mit.edu/~tomeru/
 [33]: http://www.danieldewey.net/
 
