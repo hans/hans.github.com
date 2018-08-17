@@ -11,15 +11,17 @@ papers:
       title: Does the brain represent words? An evaluation of brain decoding studies of language understanding
       authors: "{Jon Gauthier and Anna Ivanova}"
       date: 2018
-      venue: Submitted to CCN 2018
+      venue: Conference on Cognitive Computational Neuroscience
       code: https://github.com/hans/nn-decoding
       url: https://arxiv.org/pdf/1806.00591.pdf
+      bibtex: true
     - id: cogsci2018
       title: Word learning and the acquisition of syntactic–semantic overhypotheses
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
       date: February 2018
       venue: Cognitive Science 2018
       url: https://arxiv.org/pdf/1805.04988.pdf
+      bibtex: true
     - id: acl-robonlp2017
       title: Are distributional representations ready for the real world? Evaluating word vectors for grounded perceptual meaning
       authors: Li Lucy and Jon Gauthier
