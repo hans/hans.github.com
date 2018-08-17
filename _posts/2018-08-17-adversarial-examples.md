@@ -3,6 +3,7 @@ layout: post
 title: Motivating the rules of the game for adversarial example research
 excerpt:
 date: 17 August 2018
+mathjax: true
 main: true
 ---
 
