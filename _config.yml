@@ -10,8 +10,8 @@ papers:
     - id: ccn2018
       title: Does the brain represent words? An evaluation of brain decoding studies of language understanding
       authors: "{Jon Gauthier and Anna Ivanova}"
-      date: 2018
-      venue: Conference on Cognitive Computational Neuroscience
+      date: September 2018
+      venue: 2018 Conference on Cognitive Computational Neuroscience
       code: https://github.com/hans/nn-decoding
       url: https://arxiv.org/pdf/1806.00591.pdf
       bibtex: true
