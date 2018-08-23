@@ -68,3 +68,36 @@ Interesting examples (#26) of nonagentive subjects. Also interesting, note that 
 Basic idea: posit a small set of categories which allow us to capture grammatically relevant distinctions (i.e., allow us to predict how a verb's argument structure is realized from such semantic role assignments). For a particular verb, then, a semantic role acts as a grammatical equivalence class over its constituent legal members. (Such theories require us to develop a transformation between semantic role and syntactic structure, of course.)
 
 > The current dominant approach to semantic roles takes them to be defined by recurring sets of lexical entailments ... imposed by verbs on their arguments. ... Every ver specifies certain entailments that hold if its arguments (e.g., *murder* entails that its subject acts volitionally) (38).
+
+> Natural classes of arguments result when argument sof a number of verbs share certain lexical entailments. The commonly cited semantic roles can be viewed as labels for certain good-sized natural classes of entailments that are relevant to linguistic generalizations (39).
+
+Immediate issues:
+
+- **role fragmentation**: as we look closer and closer at verb syntax, we have to keep subdividing semantic roles in order to make accurate linguistic generalizations.
+- **cross-role generalizations**: some generalizations cross-cut semantic role categories (e.g. in English *with* can accept both comitatives and instruments, whereas other languages separately mark these roles)
+
+> The root of these problems is the assumption that semantic roles are taken to be *discrete and unanalyzable* ... given this, it is not possible to impose any structure over the set of semantic roles that can account for similarities in patterning or dependencies in cooccurrence. The small set of unanalyzed roles that characterizes an ideal semantic role approach, then, is incompatible with linguistic reality (42).
+
+# Current approaches to lexical semantic representation
+
+## Generalized semantic roles
+
+### Dowty
+
+Semantic roles are cluster concepts, with semantic features defining those clusters. No one feature is necessary or sufficient — compare with atomic semantic role representations of the previous chapter. Dowty introduces this theory to describe how semantic arguments get mapped onto subject and object positions.
+
+> The basic idea is that there is no invariant entailment or set of entailments which determines access to subjecthood or objecthood (54).
+
+> Although we have referred to subject and object selection rules, it is important to stress that for Dowty, these rules represent not a step in a derivation, but rather constraints "on what kind of lexical predicates may exist in natural language, out of many imaginable ones." A particular verb may "lexicalize," or determine, a particular pairing of semantic argument types and grammatical relations, but these pairings must conform to the "constraints" defined by the subject and object selection rules. In some sense, then, these rules define a set of possible verbs (56).
+
+These rules are not part of the grammar, then, but constraints on the syntax–semantics interface. [Not clear what this is supposed to amount to — a claim about cognitive representation, maybe?]
+
+### RRG
+
+Similar semantic setup to Dowty's theory, but roles are directly integrated into grammatical reasoning. "Actor" and "Undergoer" roles act like syntactic "underlying subject" and "underlying object" sort of entities.
+
+## Predicate decomposition approaches
+
+Verb meanings consist of a complex structure of shared predicates, combined with a small amount of "idiosyncratic" *root meaning*. (*open*, *dry*, and *close* all share the structure that they cause some object to reach a new state; the particular resulting state is the idiosyncratic property of each verb.)
+
+How to relate to semantic roles? Lots of verbs might contain a predicate `CAUSE(X,Y)`; the "agent" role in some event is simply the first argument to the predicate `CAUSE` — in this case `X`.
