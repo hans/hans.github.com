@@ -38,6 +38,8 @@ academia. Please [get in touch](/contact/)!
 
 ### Recent personal news
 
+- [Anna Ivanova][31] and I are presenting [our paper on brain decoding for
+  language][27] at CCN in September 2018.
 - The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
   We'll be collaborating to support the development of more interpretable,
   robust systems for language understanding, and the discussion of both short-
@@ -72,6 +74,7 @@ academia. Please [get in touch](/contact/)!
 [28]: https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/announcing-2018-ai-fellows
 [29]: https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence
 [30]: {{site.url}}/2018/word-representations/
+[31]: https://neuranna.wordpress.com/
 
 ### Research
 
