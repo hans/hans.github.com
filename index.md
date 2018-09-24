@@ -12,7 +12,8 @@ I build computational models of how people learn, understand, and produce
 language. I collaborate with members of the [Computational Psycholinguistics
 Laboratory][21] and the [Computational Cognitive Science Group][22], combining
 methods from [artificial intelligence][9], [linguistics][26],
-[neuroscience][27], and [philosophy][30].
+[neuroscience][27], and [philosophy][30]. I also co-run the [Brain and
+Cognitive Sciences Philosophy Circle][32].
 
 Before joining MIT, I did research in natural language processing and machine
 learning at [Stanford University][1] in the [Natural Language Processing
@@ -35,6 +36,7 @@ academia. Please [get in touch](/contact/)!
 [23]: https://research.google.com/teams/brain/
 [24]: http://www.cs.toronto.edu/~ilya/
 [25]: https://research.google.com/pubs/OriolVinyals.html
+[32]: https://sites.google.com/view/mit-bcs-philosophy/
 
 ### Recent personal news
 
