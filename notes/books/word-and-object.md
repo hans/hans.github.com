@@ -8,9 +8,10 @@ date: May 2017
 
 <small>I am taking these notes mainly from an interest in philosophy of language. I am focused most clearly on questions of meaning and, of course, the analytic–synthetic divide. I will freely omit sections of chapters from these notes which are not relevant to these interests — for example, asides on epistemology that don't seem to affect the main points.</small>
 
-1. [Language and Truth](#language-and-truth)
+1. [Language and truth](#language-and-truth)
+2. [Translation and meaning](#translation-and-meaning)
 
-## Language and Truth
+## Language and truth
 
 (last edited 14 May 2017)
 
@@ -64,3 +65,40 @@ Quine suggests that we acquire the meaning of entirely conceptual words such as 
 p. 13:
 
 > What makes insensible things intelligibly describable is analogy … consider molecules, which are described as smaller than anything seen. This term "smaller" is initially meaningful to us through some manner of association with such observable contrasts as that of a bee to a bird, a gnat to a bee, or a mote of dust to a gnat. The extrapolation that leads to talk of wholly invisible particles, microbes for example, can be represented as an analogy of relation: microbes are supposed to compare in size to the motes of dust as these do to the bees. …
+
+# Translation and meaning
+
+(last edited 25 September 2018)
+
+Here the story of the previous chapter falls apart. Stated formally in the beginning of the chapter:
+
+> the infinite totality of sentences of any given speaker’ s language can be so permuted, or mapped onto itself, that (a) the totality of the speaker’s dispositions to verbal behavior remains invariant, and yet (b) the mapping is no mere correlation of sentences with equivalent sentences, in any plausible sense of equivalence however loose. Sentences without number can diverge drastically from their respective correlates, yet the divergences can systematically so offset one another that the overall pattern of associations of sentences with one another and with non-verbal stimulation is preserved. The firmer the direct links of a sentence with non-verbal stimulation, of course, the less that sentence can diverge from its correlate under any such mapping (23–24).
+
+[I won't recount the radical translation story here.]
+
+The **stimulus meaning** of a sentence $S$ is a pair $(\Sigma, \sigma)$ joining
+
+- **affirmative stimulus meanings** $\Sigma$ — conditions (e.g. "ocular irradiation patterns") under which a listener would be disposed to assent to $S$ holding, and
+- **negative stimulus meanings** $\sigma$  — conditions under which a listener would be disposed dissent to $S$ holding.
+
+$\Sigma$ and $\sigma$ must be exclusive, but are by no means exhaustive.
+
+No problem here with imaginary concepts with no extension, given a sufficiently loose interpretation of "conditions":
+
+> Stimulus meaning has [this] virtue, since there are stimulation patterns that would prompt assent to 'Unicorn?' and not to 'Goblin?'.
+
+## A typology of sentences
+
+- **Occasion sentences** have truth conditions determined by the immediate stimulus conditions: "Gavagai," "Red," "His face is dirty."
+- **Standing sentences** have truth conditions determined by distal stimulus conditions: "The crocuses are out."
+
+The meanings of occasion sentences are (maybe??) fully identified by their stimulus meanings. But we have to grant that even the most stereotyped occasion sentence may also have truth conditions for a listener which depend on distal stimuli:
+
+> Even for such favored occasion sentences as ‘Gavagai’ and ‘Rabbit’, actu-
+> ally, sameness of stimulus meaning has its shortcomings as a synonymy
+> relation. The difficulty is that an informant’ s assent to or dissent from
+> ‘Gavagai?’ can depend excessively on prior collateral information as a
+> supplement to the present prompting stimulus. He may assent on the
+> occasion of nothing better than an ill-glimpsed movement in the grass,
+> because of his earlier observation, unknown to the linguist, of rabbits near
+> the spot (33).
