@@ -17,6 +17,11 @@ papers:
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
       date: February 2019
       venue: Cognitive Science 2019
+    - id: cogsci2019-jchu
+      title: Query-guided visual search
+      authors: Junyi Chu, Jon Gauthier, Joshua B. Tenenbaum, Roger Levy, and Laura Schulz
+      date: February 2019
+      venue: Cognitive Science 2019
     - id: ccn2018
       title: Does the brain represent words? An evaluation of brain decoding studies of language understanding
       authors: "{Jon Gauthier and Anna Ivanova}"
