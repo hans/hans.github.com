@@ -7,6 +7,16 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: xpragadj2019
+      title: Reasoning about exceptions in a multidimensional space: A probabilistic account of multidimensional adjectives
+      authors: Helena Aparicio, Jon Gauthier, and Roger Levy
+      date: May 2019
+      venue: XPRAG workshop on the semantics and pragmatics of gradable adjectives
+    - id: cogsci2019
+      title: A rational model of syntactic bootstrapping
+      authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
+      date: February 2019
+      venue: Cognitive Science 2019
     - id: ccn2018
       title: Does the brain represent words? An evaluation of brain decoding studies of language understanding
       authors: "{Jon Gauthier and Anna Ivanova}"
