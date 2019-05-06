@@ -305,7 +305,7 @@ relevant parameters \\(\vec w_i\\), \\(\vec w_j\\), \\(b_i\\), and \\(b_j\\).
 parameters, the derivations are quite simple.) Below we use the operator
 \\(\odot\\) to denote elementwise vector multiplication.
 
-{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \\ \nabla_{\vec{w}_i} J &= f\left(X_{ij}\right) \vec{w}_j \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \nabla_{\vec{w}_j} J &= f\left(X_{ij}\right) \vec{w}_i \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_j} &= f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \end{align*} \]{:/}
+{::nomarkdown}\[\begin{align*}J &= \sum_{i=1}^V \sum_{j=1}^V \; f\left(X_{ij}\right) \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij} \right)^2 \\ \nabla_{\vec{w}_i} J &= \sum_{j=1}^V f\left(X_{ij}\right) \vec{w}_j \odot \left( \vec{w}_i^T \vec{w}_j + b_i + b_j - \log X_{ij}\right) \\ \frac{\partial J}{\partial b_i} &= \sum_{j=1}^V f\left(X_{ij}\right) \left(\vec w_i^T \vec w_j + b_i + b_j - \log X_{ij}\right) \end{align*} \]{:/}
 
 Now let's put that in code! We use the earlier-calculated intermediate
 value `cost_inner`, which stores the value being squared and weighted in
