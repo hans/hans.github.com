@@ -21,6 +21,9 @@ papers:
       date: February 2019
       venue: Cognitive Science 2019
       bibtex: cogsci2019.bib
+      links:
+          - href: /uploads/2019/cogsci2019-poster.pdf
+            title: poster
     - id: cogsci2019-jchu
       title: Query-guided visual search
       authors: Junyi Chu, Jon Gauthier, Joshua B. Tenenbaum, Roger Levy, and Laura Schulz
