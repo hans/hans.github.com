@@ -3,8 +3,10 @@ kramdown:
     entity_output: symbolic
     smart_quotes: lsquo,rsquo,ldquo,rdquo
 highlighter: rouge
-lsi: true
+# lsi: true
 url: http://www.foldl.me
+exclude:
+        - _includes/papers
 
 papers:
     - id: emnlp2019
@@ -20,6 +22,7 @@ papers:
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
       date: February 2019
       venue: Cognitive Science 2019
+      bibtex: papers/cogsci2019.bib
     - id: cogsci2019-jchu
       title: Query-guided visual search
       authors: Junyi Chu, Jon Gauthier, Joshua B. Tenenbaum, Roger Levy, and Laura Schulz

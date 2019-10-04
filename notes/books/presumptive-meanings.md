@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Book notes&#58; Presumptive meanings
+date: March 2018
 ---
 
 *Presumptive meanings.* Stephen Levinson. MIT Press, 2000.
