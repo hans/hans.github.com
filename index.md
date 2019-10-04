@@ -98,10 +98,15 @@ academia. Please [get in touch](/contact/)!
 [<a href="{{link.href}}">{{link.title}}</a>]
 {% endif %}
 {% endfor %}
-{% if paper.bibtex %}[<a href="{{site.url}}/uploads/papers/{{paper.id}}.bib">bibtex</a>]{% endif %}
+{% if paper.bibtex %}[<a class="bibtex-link" href="{{site.url}}/uploads/papers/{{paper.id}}.bib">bibtex</a>]{% endif %}
 {% if paper.code %}[<a href="{{paper.code}}">code</a>]{% endif %}
 {% if paper.url %}[<a href="{{local_url}}">local mirror</a>]{% endif %}
 </div>
+{% if paper.bibtex %}
+<div class="paper-bibtex">
+{% include {{paper.bibtex}} %}
+</div>
+{% endif %}
 </div>
 {% endfor %}
 

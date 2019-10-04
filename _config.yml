@@ -14,7 +14,7 @@ papers:
       venue: EMNLP 2019
       code: https://github.com/hans/nn-decoding/tree/emnlp2019-final
       url: https://arxiv.org/abs/1910.01244
-      bibtex: true
+      bibtex: papers/emnlp2019.bib
     - id: cogsci2019
       title: A rational model of syntactic bootstrapping
       authors: Jon Gauthier, Roger Levy, and Joshua B. Tenenbaum
@@ -32,7 +32,7 @@ papers:
       venue: 2018 Conference on Cognitive Computational Neuroscience
       code: https://github.com/hans/nn-decoding/tree/ccn2018
       url: https://arxiv.org/abs/1806.00591
-      bibtex: true
+      bibtex: papers/ccn2018.bib
       links:
           - href: /uploads/2018/ccn2018-poster.pdf
             title: poster
@@ -42,14 +42,14 @@ papers:
       date: February 2018
       venue: Cognitive Science 2018
       url: https://arxiv.org/pdf/1805.04988.pdf
-      bibtex: true
+      bibtex: papers/cogsci2018.bib
     - id: acl-robonlp2017
       title: Are distributional representations ready for the real world? Evaluating word vectors for grounded perceptual meaning
       authors: Li Lucy and Jon Gauthier
       date: May 2016
       venue: ACL 2017 Workshop on Language Grounding for Robotics
       url: https://arxiv.org/pdf/1705.11168.pdf
-      bibtex: true
+      bibtex: papers/acl-robonlp2017.bib
       code: https://github.com/lucy3/graphs-embeddings
     - id: nips-main2016
       title: A paradigm for situated and goal-driven language learning
@@ -57,7 +57,7 @@ papers:
       date: October 2016
       venue: NIPS 2016 Machine Intelligence Workshop
       url: https://arxiv.org/pdf/1610.03585v1.pdf
-      bibtex: true
+      bibtex: papers/nips-main2016.bib
       links:
           - href: /2016/situated-language-learning
             title: related blog post
@@ -70,14 +70,14 @@ papers:
       venue: ACL 2016
       url: http://arxiv.org/pdf/1603.06021.pdf
       code: https://github.com/stanfordnlp/spinn
-      bibtex: true
+      bibtex: papers/acl2016.bib
     - id: tr-cgans
       title: Conditional generative adversarial networks for convolutional face generation
       authors: Jon Gauthier
       date: March 2015
       venue: Technical report, March 2015
       code: https://github.com/hans/adversarial
-      bibtex: true
+      bibtex: papers/tr-cgans.bib
     - id: iclr2015_draft
       title: Exploiting long-distance context in transition-based dependency parsing with recurrent neural networks
       authors: Jon Gauthier, Danqi Chen, and Christopher D. Manning

@@ -334,6 +334,18 @@ div.paper .paper-links {
   font-size: 80%;
 }
 
+div.paper .paper-bibtex {
+  border-left: 1px solid #ccc;
+  margin: 0 0 20px 10px;
+  padding-left: 20px;
+  overflow: auto;
+  font-family: monospace;
+  white-space: pre;
+  font-size: 14px;
+  line-height: 15px;
+  display: none;
+}
+
 @media all and (max-width: 500px) {
   .inner, article p, article h1, article h2, article h3, article h4 {
     padding: 5px 10px;

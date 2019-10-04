@@ -14,3 +14,9 @@ $('a.footnote').each(function() {
     }
   });
 });
+
+$(".paper a.bibtex-link").click(function(e) {
+  //e.preventDefault();
+  $(this).closest(".paper").find(".paper-bibtex").toggle();
+  return false;
+})
