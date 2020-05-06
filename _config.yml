@@ -7,6 +7,13 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: acl2020_long
+      title: A systematic assessment of syntactic generalization in neural language models
+      authors: Jennifer Hu, Jon Gauthier, Peng Qian, Ethan Wilcox, and Roger Levy
+      date: Spring 2019
+      venue: ACL 2020
+      code: https://github.com/cpllab/syntactic-generalization
+      bibtex: acl2020_long.bib
     - id: bbs2019
       title: From mental representations to neural codes: A multilevel approach
       authors: Jon Gauthier, João Loula, Eli Pollock, Tyler Brooke Wilson, and Catherine Wong
