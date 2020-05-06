@@ -40,23 +40,14 @@ academia. Please [get in touch](/contact/)!
 
 ### Recent personal news
 
-- [Anna Ivanova][31] and I are presenting [our paper on brain decoding for
-  language][27] at CCN in September 2018.
+- We've just launched [LM Zoo][33], an open source repository of
+state-of-the-art neural network language models.
 - The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
   We'll be collaborating to support the development of more interpretable,
   robust systems for language understanding, and the discussion of both short-
   and long-term potential risks of artificial intelligence.
 - I joined the [MIT][18] [Department of Brain and Cognitive Sciences][17] in
   September 2017.
-- [Lucy Li][19] and I presented our work on assessing distributional
-  representations at [ACL 2017][20] in August 2017.
-- I visited [NIPS 2016][14] in December 2016 and gave a talk on [situated
-  language learning][15] at the [Machine Intelligence Workshop][16].
-- I gave a talk on the [SPINN project][9] at [Google DeepMind][13] in August
-  2016.
-- Our [paper on SPINN][9], a deep learning model for natural language
-  understanding, has been accepted to [ACL 2016][11]. [Sam Bowman][12] and I
-  presented the work at the conference in Berlin in August 2016.
 <!--- I joined [OpenAI][10] as a research intern in June 2016.-->
 
 [9]: {{site.url}}/uploads/papers/acl2016.pdf
@@ -77,6 +68,7 @@ academia. Please [get in touch](/contact/)!
 [29]: https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence
 [30]: {{site.url}}/2018/word-representations/
 [31]: https://neuranna.wordpress.com/
+[33]: https://cpllab.github.io/lm-zoo/
 
 ### Research
 
