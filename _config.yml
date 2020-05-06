@@ -15,7 +15,7 @@ papers:
       code: https://github.com/cpllab/syntactic-generalization
       bibtex: acl2020_long.bib
     - id: bbs2019
-      title: From mental representations to neural codes: A multilevel approach
+      title: From mental representations to neural codes&#58; A multilevel approach
       authors: Jon Gauthier, João Loula, Eli Pollock, Tyler Brooke Wilson, and Catherine Wong
       date: November 2019
       venue: Behavioral and Brain Sciences
