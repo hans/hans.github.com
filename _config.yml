@@ -7,6 +7,13 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: bbs2019
+      title: From mental representations to neural codes: A multilevel approach
+      authors: Jon Gauthier, João Loula, Eli Pollock, Tyler Brooke Wilson, and Catherine Wong
+      date: November 2019
+      venue: Behavioral and Brain Sciences
+      url: https://www-cambridge-org.libproxy.mit.edu/core/journals/behavioral-and-brain-sciences/article/from-mental-representations-to-neural-codes-a-multilevel-approach/484046589CE54F9DF872D602A70683F2
+      bibtex: bbs2019.bib
     - id: emnlp2019
       title: "Linking human and artificial neural representations of language"
       authors: Jon Gauthier and Roger Levy
