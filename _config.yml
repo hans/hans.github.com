@@ -7,11 +7,11 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
-    - id: sinha2022
+    - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
       authors: Koustuv Sinha, Jon Gauthier, Aaron Mueller, Kanishka Misra, Keren Fuentes, Roger Levy, and Adina Williams
       date: December 2022
-      venue: arXiv
+      venue: ACL 2023
       url: https://arxiv.org/abs/2212.08979
     - id: acl2020_long
       title: A systematic assessment of syntactic generalization in neural language models
