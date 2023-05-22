@@ -7,6 +7,16 @@ lsi: true
 url: http://www.foldl.me
 
 papers:
+    - id: rec2023
+      title: The neural dynamics of auditory word recognition and integration
+      authors: Jon Gauthier, Roger Levy
+      date: May 2023
+      url: https://lingbuzz.net/lingbuzz/007314
+    - id: martin2023
+      title: Probing self-supervised speech models for phonetic and phonemic information&#58; a case study in aspiration
+      authors: Kinan Martin, Jon Gauthier, Canaan Breiss, Roger Levy
+      date: March 2023
+      venue: INTERSPEECH 2023
     - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
       authors: Koustuv Sinha, Jon Gauthier, Aaron Mueller, Kanishka Misra, Keren Fuentes, Roger Levy, and Adina Williams
