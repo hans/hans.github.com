@@ -5,6 +5,8 @@ kramdown:
 highlighter: rouge
 lsi: true
 url: http://www.foldl.me
+plugins:
+    - jekyll-redirect-from
 
 papers:
     - id: rec2023
