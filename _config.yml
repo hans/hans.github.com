@@ -26,6 +26,10 @@ papers:
       date: December 2022
       venue: ACL 2023
       url: https://arxiv.org/abs/2212.08979
+      bibtex: sinha2023.bib
+      links:
+          - href: https://aclanthology.org/2023.acl-long.333
+            title: anthology
     - id: acl2020_long
       title: A systematic assessment of syntactic generalization in neural language models
       authors: Jennifer Hu, Jon Gauthier, Peng Qian, Ethan Wilcox, and Roger Levy
