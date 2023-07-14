@@ -82,6 +82,9 @@ state-of-the-art neural network language models.
 <span class="paper-authors">{{paper.authors | replace: "Jon Gauthier", "<strong>Jon Gauthier</strong>"}}.</span>
 <span class="paper-venue">{{paper.venue}}.</span>
 </div>
+{% if paper.brags %}
+<div class="paper-brags">{{paper.brags}}</div>
+{% endif %}
 <div class="paper-links">
 {% for link in paper.links %}
 {% if (link.href | slice: 0) == "/" %}
