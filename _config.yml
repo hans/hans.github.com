@@ -27,6 +27,7 @@ papers:
       venue: ACL 2023
       url: https://arxiv.org/abs/2212.08979
       bibtex: sinha2023.bib
+      brags: Outstanding Paper award (top ~2% of accepted papers)
       links:
           - href: https://aclanthology.org/2023.acl-long.333
             title: anthology
