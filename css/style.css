@@ -346,6 +346,11 @@ div.paper .paper-bibtex {
   display: none;
 }
 
+div.paper .paper-brags {
+  font-style: italic;
+  font-size: 80%;
+}
+
 @media all and (max-width: 500px) {
   .inner, article p, article h1, article h2, article h3, article h4 {
     padding: 5px 10px;
