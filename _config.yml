@@ -12,9 +12,14 @@ papers:
     - id: rec2023
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
-      date: May 2023
-      url: https://lingbuzz.net/lingbuzz/007314
-      venue: Lingbuzz
+      date: August 2023
+      url: https://2023.ccneuro.org/proceedings/0001354.pdf
+      venue: CCN 2023
+      links:
+          - href: https://arxiv.org/abs/2305.13388
+            title: longer preprint
+          - href: /uploads/rec2023-poster.pdf
+            title: poster
     - id: martin2023
       title: Probing self-supervised speech models for phonetic and phonemic information&#58; a case study in aspiration
       authors: Kinan Martin, Jon Gauthier, Canaan Breiss, Roger Levy
