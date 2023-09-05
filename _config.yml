@@ -15,6 +15,7 @@ papers:
       date: August 2023
       url: https://2023.ccneuro.org/proceedings/0001354.pdf
       venue: CCN 2023
+      bibtex: rec2023.bib
       links:
           - href: https://arxiv.org/abs/2305.13388
             title: longer preprint
@@ -25,6 +26,11 @@ papers:
       authors: Kinan Martin, Jon Gauthier, Canaan Breiss, Roger Levy
       date: March 2023
       venue: INTERSPEECH 2023
+      url: https://www.isca-speech.org/archive/pdfs/interspeech_2023/martin23_interspeech.pdf
+      bibtex: interspeech2023.bib
+      links:
+          - href: https://arxiv.org/abs/2306.06232
+            title: arXiv
     - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
       authors: Koustuv Sinha, Jon Gauthier, Aaron Mueller, Kanishka Misra, Keren Fuentes, Roger Levy, and Adina Williams
