@@ -6,20 +6,16 @@ layout: default
 <img alt="Me in Montreal in December 2015." src="/uploads/me-dec-2015.jpg"
 style="float:right; width: 38.2%; margin:10px 0 10px 20px;" />
 
-Hi, I'm **Jon Gauthier**. I'm a Ph.D. student in the [Department of Brain and
-Cognitive Sciences][17] at the [Massachusetts Institute of Technology][18].
-I build computational models of how people learn, understand, and produce
-language. I collaborate with members of the [Computational Psycholinguistics
-Laboratory][21] and the [Computational Cognitive Science Group][22], combining
-methods from [artificial intelligence][9], [linguistics][26],
-[neuroscience][27], and [philosophy][30]. I also co-run the [Brain and
-Cognitive Sciences Philosophy Circle][32].
+Hi, I'm **Jon Gauthier**. I'm a postdoctoral scholar working in the
+[Chang Lab][34] at the [University of California, San Francisco][35]. I build
+computational models of how people understand and produce language, and use
+them to explain human behavior and brain activity, combining methods
+from [artificial intelligence][9], [linguistics][26], [neuroscience][27],
+and [philosophy][30].
 
-Before joining MIT, I did research in natural language processing and machine
-learning at [Stanford University][1] in the [Natural Language Processing
-Group][3], where I was advised by [Christopher Manning][5]. I also spent time
-as a researcher at [OpenAI][10] and [Google Brain][23], where I mainly
-collaborated with [Ilya Sutskever][24] and [Oriol Vinyals][25].
+I completed my Ph.D. in cognitive science at the [MIT][18]
+[Department of Brain and Cognitive Sciences][17] in the [Computational
+Psycholinguistics Laboratory][21]. You can find my full CV [here][36].
 
 I had the good fortune to begin research at a young age, thanks to the
 generosity and support of my advisors and academic community. I'm interested
@@ -37,9 +33,14 @@ academia. Please [get in touch](/contact/)!
 [24]: http://www.cs.toronto.edu/~ilya/
 [25]: https://research.google.com/pubs/OriolVinyals.html
 [32]: https://sites.google.com/view/mit-bcs-philosophy/
+[34]: https://changlab.ucsf.edu/
+[35]: https://www.ucsf.edu/
+[36]: {{site.url}}/uploads/resume.pdf
 
 ### Recent personal news
 
+- I joined the [Chang Lab][34] in September 2023. Excited to develop new methods
+  and designs for studying the neural representation of linguistic structure!
 - We've just launched [LM Zoo][33], an open source repository of
 state-of-the-art neural network language models.
 - The [Open Philanthropy Project][29] has named me an [AI Fellow][28].
