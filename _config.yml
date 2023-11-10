@@ -46,6 +46,12 @@ papers:
       venue: ACL 2020
       code: https://github.com/cpllab/syntactic-generalization
       bibtex: acl2020_long.bib
+    - id: cogsci2020
+      title: On the predictive power of neural language models for human real-time comprehension behavior
+      authors: Ethan Gotlieb Wilcox, Jon Gauthier, Jennifer Hu, Peng Qian, and Roger Levy
+      date: Spring 2020
+      venue: ACL 2020
+      bibtex: cogsci2020.bib
     - id: bbs2019
       title: From mental representations to neural codes&#58; A multilevel approach
       authors: Jon Gauthier, João Loula, Eli Pollock, Tyler Brooke Wilson, and Catherine Wong
