@@ -17,7 +17,7 @@ papers:
       venue: CCN 2023
       bibtex: rec2023.bib
       links:
-          - href: https://arxiv.org/abs/2305.13388
+          - href: "https://arxiv.org/abs/2305.13388"
             title: longer preprint
           - href: /uploads/rec2023-poster.pdf
             title: poster
@@ -29,7 +29,7 @@ papers:
       url: https://www.isca-speech.org/archive/pdfs/interspeech_2023/martin23_interspeech.pdf
       bibtex: interspeech2023.bib
       links:
-          - href: https://arxiv.org/abs/2306.06232
+          - href: "https://arxiv.org/abs/2306.06232"
             title: arXiv
     - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
