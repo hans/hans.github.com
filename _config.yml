@@ -9,6 +9,12 @@ plugins:
     - jekyll-redirect-from
 
 papers:
+    - id: emnlp2023
+      title: The neural dynamics of auditory word recognition and integration
+      authors: Jon Gauthier and Roger Levy
+      date: December 2023
+      url: https://arxiv.org/abs/2305.13388
+      venue: EMNLP 2023
     - id: rec2023
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
@@ -17,8 +23,6 @@ papers:
       venue: CCN 2023
       bibtex: rec2023.bib
       links:
-          - href: "https&#58;//arxiv.org/abs/2305.13388"
-            title: longer preprint
           - href: /uploads/rec2023-poster.pdf
             title: poster
     - id: martin2023
@@ -28,9 +32,6 @@ papers:
       venue: INTERSPEECH 2023
       url: https://www.isca-speech.org/archive/pdfs/interspeech_2023/martin23_interspeech.pdf
       bibtex: interspeech2023.bib
-      links:
-          - href: "https&#58;//arxiv.org/abs/2306.06232"
-            title: arXiv
     - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
       authors: Koustuv Sinha, Jon Gauthier, Aaron Mueller, Kanishka Misra, Keren Fuentes, Roger Levy, and Adina Williams
