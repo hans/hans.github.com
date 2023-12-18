@@ -13,8 +13,13 @@ papers:
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
       date: December 2023
-      url: https://arxiv.org/abs/2305.13388
+      url: https://aclanthology.org/2023.emnlp-main.62/
       venue: EMNLP 2023
+      bibtex: emnlp2023.bib
+      doi: 10.18653/v1/2023.emnlp-main.62
+      links:
+        - href: https://youtu.be/I0AWJFAbhRQ
+          title: short video
     - id: rec2023
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
@@ -58,8 +63,9 @@ papers:
       authors: Jon Gauthier, João Loula, Eli Pollock, Tyler Brooke Wilson, and Catherine Wong
       date: November 2019
       venue: Behavioral and Brain Sciences
-      url: https://www-cambridge-org.libproxy.mit.edu/core/journals/behavioral-and-brain-sciences/article/from-mental-representations-to-neural-codes-a-multilevel-approach/484046589CE54F9DF872D602A70683F2
+      url: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/from-mental-representations-to-neural-codes-a-multilevel-approach/484046589CE54F9DF872D602A70683F2
       bibtex: bbs2019.bib
+      doi: 10.1017/S0140525X19001390
     - id: emnlp2019
       title: "Linking human and artificial neural representations of language"
       authors: Jon Gauthier and Roger Levy
