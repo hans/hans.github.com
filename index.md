@@ -88,7 +88,8 @@ state-of-the-art neural network language models.
 {% endif %}
 <div class="paper-links">
 {% for link in paper.links %}
-{% if (link.href | slice: 0) == "/" %}
+{% assign linkFirst = link.href | slice: 0 %}
+{% if linkFirst == "/" %}
 [<a href="{{site.url}}{{link.href}}">{{link.title}}</a>]
 {% else %}
 [<a href="{{link.href}}">{{link.title}}</a>]
