@@ -80,7 +80,7 @@ papers:
       date: October 2019
       venue: EMNLP 2019
       code: https://github.com/hans/nn-decoding/tree/emnlp2019-final
-      url: https://arxiv.org/abs/1910.01244
+      url: https://aclanthology.org/D19-1050/
       bibtex: emnlp2019.bib
     - id: cogsci2019
       title: A rational model of syntactic bootstrapping
