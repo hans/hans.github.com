@@ -35,7 +35,7 @@ papers:
       authors: Kinan Martin, Jon Gauthier, Canaan Breiss, Roger Levy
       date: March 2023
       venue: INTERSPEECH 2023
-      url: https://www.isca-speech.org/archive/pdfs/interspeech_2023/martin23_interspeech.pdf
+      url: https://www.isca-archive.org/interspeech_2023/martin23_interspeech.pdf
       bibtex: interspeech2023.bib
     - id: sinha2023
       title: Language model acceptability judgements are not always robust to context
