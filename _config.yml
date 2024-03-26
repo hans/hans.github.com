@@ -45,11 +45,19 @@ papers:
       url: https://aclanthology.org/2023.acl-long.333
       bibtex: sinha2023.bib
       brags: Outstanding Paper award (top ~2% of accepted papers)
+    - id: acl2020_demo
+      title: SyntaxGym&#58; An online platform for targeted syntactic evaluation of language models
+      authors: Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian, and Roger Levy
+      date: Spring 2020
+      venue: ACL 2020 System Demonstrations
+      url: https://aclanthology.org/2020.acl-demos.10/
+      bibtex: acl2020_demo.bib
     - id: acl2020_long
       title: A systematic assessment of syntactic generalization in neural language models
       authors: Jennifer Hu, Jon Gauthier, Peng Qian, Ethan Wilcox, and Roger Levy
       date: Spring 2019
       venue: ACL 2020
+      url: https://aclanthology.org/2020.acl-main.158/
       code: https://github.com/cpllab/syntactic-generalization
       bibtex: acl2020_long.bib
     - id: cogsci2020
