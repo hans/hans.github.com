@@ -9,6 +9,21 @@ plugins:
     - jekyll-redirect-from
 
 papers:
+    - id: amp2025a
+      title: Emergent morpho-phonological patterning in a model of spoken word recognition
+      authors: Jon Gauthier and Canaan Breiss
+      date: September 2025
+      venue: Annual Meeting on Phonology 2025
+    - id: amp2025b
+      title: Emergent feature structure in self-supervised speech models' phone representations
+      authors: Canaan Breiss and Jon Gauthier
+      date: September 2025
+      venue: Annual Meeting on Phonology 2025
+    - id: snl2024
+      title: The pSTG is associated with prolonged language impairment following neurosurgical resection
+      authors: Catherine Wang, Deborah Levy, John Andrews, Jon Gauthier, and Edward F. Chang
+      date: October 2024
+      venue: Society for the Neurobiology of Language 2024
     - id: emnlp2023
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
