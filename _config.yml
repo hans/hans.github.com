@@ -19,6 +19,15 @@ papers:
       authors: Canaan Breiss and Jon Gauthier
       date: September 2025
       venue: Annual Meeting on Phonology 2025
+    - id: cogsci2025
+      title: Emergent feature structure in self-supervised speech models' phone representations
+      authors: Canaan Breiss and Jon Gauthier
+      date: July 2025
+      venue: Cognitive Science 2025
+      bibtex: cogsci2025.bib
+      links:
+        - href: /uploads/2025/cogsci2025-poster.pdf
+          title: poster
     - id: snl2024
       title: The pSTG is associated with prolonged language impairment following neurosurgical resection
       authors: Catherine Wang, Deborah Levy, John Andrews, Jon Gauthier, and Edward F. Chang
