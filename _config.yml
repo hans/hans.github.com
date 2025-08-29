@@ -9,6 +9,12 @@ plugins:
     - jekyll-redirect-from
 
 papers:
+    - id: emnlp2025
+      title: Emergent morpho-phonological representations in self-supervised speech models
+      authors: Jon Gauthier, Canaan Breiss, Matthew K. Leonard, and Edward F. Chang
+      date: November 2025
+      venue: EMNLP 2025
+      bibtex: emnlp2025.bib
     - id: amp2025a
       title: Emergent morpho-phonological patterning in a model of spoken word recognition
       authors: Jon Gauthier and Canaan Breiss
