@@ -39,6 +39,7 @@ academia. Please [get in touch](/contact/)!
 
 ### Recent personal news
 
+- [Canaan Breiss](https://www.cbreiss.com/) and I will be presenting two papers at the [Annual Meeting on Phonology](https://sites.google.com/berkeley.edu/amp2025/home?authuser=0) in the special *Deep Phonology* session. Say hi and check out our work bridging speech foundation models with central questions in phonology!
 - I joined the [Chang Lab][34] in September 2023. Excited to develop new methods
   and designs for studying the neural representation of linguistic structure!
 - We've just launched [LM Zoo][33], an open source repository of

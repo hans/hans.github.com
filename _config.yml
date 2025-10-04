@@ -20,11 +20,17 @@ papers:
       authors: Jon Gauthier and Canaan Breiss
       date: September 2025
       venue: Annual Meeting on Phonology 2025
+      links:
+        - href: /uploads/2025/amp2025-morphophon-talk.pdf
+          title: slides
     - id: amp2025b
       title: Emergent feature structure in self-supervised speech models' phone representations
       authors: Canaan Breiss and Jon Gauthier
       date: September 2025
       venue: Annual Meeting on Phonology 2025
+      links:
+        - href: /uploads/2025/amp2025-features-poster.pdf
+          title: poster
     - id: cogsci2025
       title: Emergent feature structure in self-supervised speech models' phone representations
       authors: Canaan Breiss and Jon Gauthier
