@@ -83,8 +83,7 @@ state-of-the-art neural network language models.
 {% else %}
 <a class="paper-title" href="{% if paper.url %}{{paper.url}}{% else %}{{local_url}}{% endif %}">
 {% endif %}
-{{paper.title}}
-{% unless paper.nopaper %}</a>{% endunless %}.
+{{paper.title}}{% unless paper.nopaper %}</a>{% endunless %}.
 <div class="paper-byline">
 <span class="paper-authors">{{paper.authors | replace: "Jon Gauthier", "<strong>Jon Gauthier</strong>"}}.</span>
 <span class="paper-venue">{{paper.venue}}.</span>

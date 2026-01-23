@@ -330,6 +330,10 @@ div.paper {
   margin: 1em 2em;
 }
 
+div.paper .paper-byline {
+  font-size: 90%;
+}
+
 div.paper .paper-links {
   font-size: 80%;
 }
