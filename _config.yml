@@ -25,6 +25,7 @@ papers:
       authors: Jon Gauthier and Canaan Breiss
       date: September 2025
       venue: Annual Meeting on Phonology 2025
+      bibtex: amp2025a.bib
       links:
         - href: /uploads/2025/amp2025-morphophon-talk.pdf
           title: slides
@@ -33,6 +34,7 @@ papers:
       authors: Canaan Breiss and Jon Gauthier
       date: September 2025
       venue: Annual Meeting on Phonology 2025
+      bibtex: amp2025b.bib
       links:
         - href: /uploads/2025/amp2025-features-poster.pdf
           title: poster
@@ -50,6 +52,7 @@ papers:
       authors: Catherine Wang, Deborah Levy, John Andrews, Jon Gauthier, and Edward F. Chang
       date: October 2024
       venue: Society for the Neurobiology of Language 2024
+      bibtex: snl2024.bib
     - id: emnlp2023
       title: The neural dynamics of auditory word recognition and integration
       authors: Jon Gauthier and Roger Levy
