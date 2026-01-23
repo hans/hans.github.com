@@ -26,6 +26,7 @@ papers:
       date: September 2025
       venue: Annual Meeting on Phonology 2025
       bibtex: amp2025a.bib
+      nopaper: true
       links:
         - href: /uploads/2025/amp2025-morphophon-talk.pdf
           title: slides
@@ -35,6 +36,7 @@ papers:
       date: September 2025
       venue: Annual Meeting on Phonology 2025
       bibtex: amp2025b.bib
+      nopaper: true
       links:
         - href: /uploads/2025/amp2025-features-poster.pdf
           title: poster
@@ -44,6 +46,7 @@ papers:
       date: July 2025
       venue: Cognitive Science 2025
       bibtex: cogsci2025.bib
+      nopaper: true
       links:
         - href: /uploads/2025/cogsci2025-poster.pdf
           title: poster

@@ -79,7 +79,12 @@ state-of-the-art neural network language models.
 {% for paper in site.papers %}
 {% capture local_url %}{{site.url}}/uploads/papers/{{paper.id}}.pdf{% endcapture %}
 <div class="paper" id="paper-{{paper.id}}">
-<a class="paper-title" href="{% if paper.url %}{{paper.url}}{% else %}{{local_url}}{% endif %}">{{paper.title}}</a>.
+{% if paper.nopaper %}
+{% else %}
+<a class="paper-title" href="{% if paper.url %}{{paper.url}}{% else %}{{local_url}}{% endif %}">
+{% endif %}
+{{paper.title}}
+{% if not paper.nopaper %}</a>{% endif %}.
 <div class="paper-byline">
 <span class="paper-authors">{{paper.authors | replace: "Jon Gauthier", "<strong>Jon Gauthier</strong>"}}.</span>
 <span class="paper-venue">{{paper.venue}}.</span>
