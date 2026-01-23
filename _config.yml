@@ -15,6 +15,7 @@ papers:
       date: November 2025
       venue: EMNLP 2025
       bibtex: emnlp2025.bib
+      code: https://github.com/hans/nnvb-public
       links:
         - href: /uploads/2025/emnlp2025-talk.pdf
           title: slides
