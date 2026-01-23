@@ -15,6 +15,11 @@ papers:
       date: November 2025
       venue: EMNLP 2025
       bibtex: emnlp2025.bib
+      links:
+        - href: /uploads/2025/emnlp2025-talk.pdf
+          title: slides
+        - href: /uploads/2025/emnlp2025-poster.pdf
+          title: poster
     - id: amp2025a
       title: Emergent morpho-phonological patterning in a model of spoken word recognition
       authors: Jon Gauthier and Canaan Breiss
