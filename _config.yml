@@ -9,6 +9,13 @@ plugins:
     - jekyll-redirect-from
 
 papers:
+    - id: cogsci2026
+      title: Word recognition selects for morphologically structured representations: The case of English -er
+      authors: Jon Gauthier and Canaan Breiss
+      date: July 2026
+      venue: Cognitive Science 2026
+      bibtex: cogsci2026.bib
+      nopaper: true
     - id: emnlp2025
       title: Emergent morpho-phonological representations in self-supervised speech models
       authors: Jon Gauthier, Canaan Breiss, Matthew K. Leonard, and Edward F. Chang
