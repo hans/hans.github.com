@@ -9,8 +9,18 @@ plugins:
     - jekyll-redirect-from
 
 papers:
+    - id: ccn2026
+      title: Neural footprints&#58; Variance-based methods systematically miss high-level representations
+      authors: Jon Gauthier and Tyler Brooke-Wilson
+      date: August 2026
+      venue: 2026 Conference on Cognitive Computational Neuroscience
+      url: https://2026.ccneuro.org/poster/?id=bUD1ChZ2FS
+      bibtex: ccn2026.bib
+      links:
+        - href: /uploads/2026/ccn2026-poster.pdf
+          title: poster
     - id: cogsci2026
-      title: Word recognition selects for morphologically structured representations: The case of English -er
+      title: Word recognition selects for morphologically structured representations&#58; The case of English -er
       authors: Jon Gauthier and Canaan Breiss
       date: July 2026
       venue: Cognitive Science 2026
