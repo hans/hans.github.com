@@ -16,6 +16,7 @@ papers:
       venue: 2026 Conference on Cognitive Computational Neuroscience
       url: https://2026.ccneuro.org/poster/?id=bUD1ChZ2FS
       bibtex: ccn2026.bib
+      brags: Spotlight Poster
       links:
         - href: /uploads/2026/ccn2026-poster.pdf
           title: poster
@@ -90,7 +91,7 @@ papers:
       authors: Jon Gauthier and Roger Levy
       date: August 2023
       url: https://2023.ccneuro.org/proceedings/0001354.pdf
-      venue: CCN 2023
+      venue: Conference on Cognitive Computational Neuroscience 2023
       bibtex: rec2023.bib
       links:
           - href: /uploads/rec2023-poster.pdf
